@@ -149,8 +149,16 @@ Mexico as the top buyer of Kansas wheat and corn.
 - `[ ] marketing-plan-framework.md` — incremental sales targets, triggers.
 
 ### 1.9 Geopolitics and policy (`knowledge/geopolitics/`)
+- `[~] monitoring-framework.md` — exposure channels, event categories, watch regions,
+  scoring, and the signal-to-action process.
+- `[~] watchlist.md` — live table of situations with probability, channels, impact,
+  indicators and responses.
 - `[ ] geopolitical-risk-register.md` — living register mapping events to this farm's
   input, export, currency and freight exposure.
+- `[~] case-studies/2026-iran-war-lessons-learned.md` — timeline, transmission
+  channels, who was protected, lessons, future indicators. Template for future shocks.
+- `[ ] case-studies/<event>.md` — one per major shock (2022 Russia–Ukraine, 2018 China
+  tariffs, 2008 fertilizer spike are candidates for back-fill).
 - `[ ] wheat-geopolitics.md` — Black Sea exports, Russian quotas and taxes, global crops.
 - `[ ] china-trade-exposure.md` — sorghum and soybean demand, retaliatory tariffs.
 - `[ ] mexico-trade-relations.md` — USMCA, top buyer of Kansas wheat and corn.
@@ -160,7 +168,7 @@ Mexico as the top buyer of Kansas wheat and corn.
 - `[ ] currency-and-macro.md` — USD, interest rates, competitor currencies.
 - `[ ] conflict-and-chokepoints.md` — Black Sea, Red Sea, Hormuz, Panama, Taiwan Strait.
 - `[ ] domestic-farm-policy.md` — Farm Bill, ARC/PLC, disaster aid, conservation.
-- `[ ] scenario-playbook.md` — China sorghum ban, Black Sea wheat surge, Hormuz closure,
+- `[~] scenario-playbook.md` — China sorghum ban, Black Sea wheat surge, Hormuz closure,
   Mexico tariff dispute, fertilizer sanctions; triggers and responses.
 
 ### 1.10 Finance (`knowledge/finance/`)
@@ -199,7 +207,7 @@ Mexico as the top buyer of Kansas wheat and corn.
 ## 2. Agent definitions (`.claude/agents/`)
 - `[ ] orchestrator-planner.md` — runs the seasonal loop, assembles the plan.
 - `[ ] agronomist.md`, `[ ] weather-forecaster.md`, `[ ] input-cost-analyst.md`
-- `[ ] geopolitical-analyst.md`, `[ ] market-analyst.md`
+- `[~] geopolitical-analyst.md`, `[ ] market-analyst.md`
 - `[ ] water-rights-and-irrigation.md` — allocation as a hard planning constraint.
 - `[ ] machinery-and-logistics.md`, `[ ] finance-controller.md`
 - `[ ] insurance-and-risk.md`, `[ ] compliance-officer.md`, `[ ] sustainability-analyst.md`
@@ -208,7 +216,7 @@ Mexico as the top buyer of Kansas wheat and corn.
 
 ## 3. Skills / workflows (`.claude/skills/`)
 - `[ ] build-seasonal-plan/`, `[ ] forecast-input-costs/`, `[ ] weather-scenario-build/`
-- `[ ] market-outlook-refresh/`, `[ ] geopolitical-scan/` (weekly)
+- `[ ] market-outlook-refresh/`, `[~] geopolitical-scan/` (weekly)
 - `[ ] enterprise-budget/`, `[ ] field-level-recommendation/`
 - `[ ] in-season-replan/`, `[ ] hail-and-storm-response/` — damage assessment, claims,
   replant or double-crop decision.
@@ -223,6 +231,9 @@ Mexico as the top buyer of Kansas wheat and corn.
 - `[~] reference/input-price-schema.md` — schema for `input_prices.csv` and `input_purchases.csv`.
 - `[ ] reference/units-and-conversions.md`
 - `scripts/fetch_eia_prices.py` — pulls EIA diesel, WTI and Henry Hub weekly series.
+- `scripts/fetch_gdelt_events.py` — news volume and headlines per watch topic (GDELT, no key).
+- `[~] reference/geopolitical-event-schema.md` and `processed/geopolitical_events.csv`.
+- `[~] reference/free-apis.md` — survey of free data feeds and where free data is weak.
 - `raw/` immutable dated downloads · `processed/` cleaned tables with schema.
 
 ## 5. Models (`models/`)
