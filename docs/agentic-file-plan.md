@@ -255,6 +255,14 @@ Mexico as the top buyer of Kansas wheat and corn.
 - `[x] agentic-file-plan.md`, `[~] knowledge-file-template.md`
 - `[ ] glossary.md`, `[ ] decision-records/`
 
+## 8. Verticals (`knowledge/verticals/`)
+Soil-to-product business lines, each with `business-plan.md`, `assumptions.csv` and a
+generated Excel model (`scripts/build_vertical_model.py`).
+- `[~] wheat-flour/` — stone-ground flour, later bakery.
+- `[~] sorghum-flour-and-popped/` — gluten-free sorghum flour and popped sorghum.
+- `[~] sunflower-oil-and-birdseed/` — cold-pressed high-oleic oil; `birdseed-only/` stage 1.
+- `[ ] popcorn/`, `[ ] heritage-wheat/` — candidates from `knowledge/finance/vertical-integration-options.md`.
+
 ---
 
 ## Build order
