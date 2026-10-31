@@ -4,7 +4,8 @@ domain: operations
 last_reviewed: 2026-10-31
 review_cadence: annual
 confidence: low
-sources: []
+sources:
+  - Operator input, 2026-10-31
 used_by_agents:
   - orchestrator-planner
   - agronomist
@@ -18,20 +19,25 @@ used_by_agents:
 > `confidence` is raised. Ask the operator.
 
 ## Location and climate zone
-- Country / state / county:
-- Latitude / longitude:
-- Elevation:
-- Hardiness and growing zone:
+- Region: Wichita, Kansas and surrounding farmland (Sedgwick and neighboring counties)
+- Specific fields / counties: TBD
+- Hardiness zone: approximately 6b–7a (confirm per field)
+- Annual precipitation: roughly 30–33 in, highly variable; drought and hail prone
 
 ## Land base
 | Field ID | Acres | Owned/Rented | Soil series | Productivity index | Drainage | Irrigation |
 |---|---|---|---|---|---|---|
 | | | | | | | |
 
-Total acres: owned ____ rented ____ irrigated ____
+Total acres: approximately 1,000 owned across multiple fields. Rented: none.
+Irrigated: undetermined. Water-right status per field must be looked up before planning.
 
 ## Current enterprise mix
-Crops grown in the last 3 years and acres of each.
+Crops grown in the last 3 years and acres of each: TBD.
+
+Crops in scope for planning: hard red winter wheat, grain sorghum, corn, soybeans
+(full-season and double-crop), alfalfa/forage, sunflower, wheat grazing.
+Excluded by operator decision: cotton, canola.
 
 ## Storage and handling
 - On-farm bin capacity (bu):

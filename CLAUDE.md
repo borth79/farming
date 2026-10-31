@@ -1,7 +1,7 @@
 # Farming Operations Intelligence Project
 
 ## Purpose
-An agentic system for a commercial row-crop / mixed farming operation. The goal is to
+An agentic system for a commercial dryland/irrigated grain operation in south-central Kansas. The goal is to
 produce the most profitable, risk-adjusted crop plan each season by combining:
 agronomic knowledge, weather projection, input cost forecasting (including
 geopolitical drivers), market/export outlook, machinery and labor constraints,
@@ -26,6 +26,11 @@ financing, and regulatory requirements.
 - Plans are scenario-based: produce base / adverse / favorable cases, never a single point.
 - Record every planning assumption in the plan file so it can be audited after harvest.
 
-## Operation profile (to be filled in)
-See `knowledge/operations/farm-profile.md`. Until it is complete, agents must ask
-rather than assume: location, acreage, soils, equipment, storage, and crop history.
+## Operation profile
+South-central Kansas (Wichita area), approximately 1,000 owned acres across multiple
+fields. Irrigation status is undetermined; plans carry dryland and irrigated branches
+until water rights are confirmed per field. Crops in scope: hard red winter wheat, grain
+sorghum, corn, soybeans (full-season and double-crop), alfalfa/forage, sunflower, wheat
+grazing. Cotton and canola are excluded. Details and open items live in
+`knowledge/operations/farm-profile.md`; agents must ask rather than assume anything
+not recorded there.

@@ -1,287 +1,232 @@
-# Agentic File Plan
+# Agentic File Plan — South-Central Kansas Operation
 
-This is the master list of files that will guide the agents in this project. Each entry
-names the file, what it holds, and which agents depend on it. Files are grouped by the
-layer they belong to: knowledge, agents, skills, data, models, and plans.
+Master list of the files that guide the agents in this project. Each entry names the
+file, what it holds, and why it matters for this operation. Grouped by layer:
+knowledge, agents, skills, data, models, plans, governance.
 
 Status key: `[ ]` not started · `[~]` stub exists · `[x]` populated and reviewed.
+
+## Operation context
+
+- Region: Wichita, Kansas and surrounding farmland (Sedgwick and neighboring counties).
+- Land: approximately 1,000 owned acres across multiple fields.
+- Irrigation: undetermined. First task is to establish water-right status per field
+  (see `knowledge/water/`). Plans carry dryland and irrigated branches until resolved.
+- Crops in scope: hard red winter wheat, grain sorghum, corn, soybeans (full season and
+  double-crop after wheat), alfalfa/forage, sunflower, wheat grazing. Cotton and canola
+  are excluded.
+
+Regional drivers that shape every file: hard red winter wheat as the anchor crop, hail
+and severe-storm exposure, recurring drought tied to ENSO state, the Equus Beds aquifer
+and Groundwater Management District 2, Koch Fertilizer nitrogen production in Wichita,
+Kansas City wheat futures, Gulf export by rail, China as the dominant sorghum buyer, and
+Mexico as the top buyer of Kansas wheat and corn.
 
 ---
 
 ## 1. Knowledge layer (`knowledge/`)
 
-Curated, cited, dated domain knowledge. These are what the agents read first.
-
 ### 1.1 Operations (`knowledge/operations/`)
-- `[~] farm-profile.md` — location, fields, acreage, soil series, drainage, irrigation,
-  storage capacity, elevators/buyers within reach, labor pool. Everything else keys off this.
-- `[ ] field-history.md` — per-field crop rotation history, yields, problem weeds,
-  disease history, tile, pH/fertility trends.
-- `[ ] equipment-inventory.md` — tractors, planters, sprayers, combines, trucks, grain
-  handling; widths, capacities, hours, ownership vs lease, replacement schedule.
-- `[ ] labor-and-custom-work.md` — seasonal labor availability, wage rates, custom
-  operator rates (planting, spraying, harvest, trucking) as a fallback for capacity.
-- `[ ] storage-and-logistics.md` — on-farm bins, drying capacity, commercial storage,
-  trucking distances, rail/barge/port access, basis implications.
-- `[ ] seasonal-calendar.md` — planting windows, spray windows, harvest windows by
-  crop for this latitude, with workable-day assumptions.
+- `[~] farm-profile.md` — location, fields, acreage, soils, drainage, water rights,
+  storage, buyers in reach, labor.
+- `[ ] field-history.md` — per-field rotation, yields, weed and disease pressure,
+  fertility trends, tile, water right if any.
+- `[ ] equipment-inventory.md` — machines, widths, capacities, hours, replacement plan.
+- `[ ] labor-and-custom-work.md` — labor availability, custom rates (harvest, spraying,
+  trucking) as capacity fallback.
+- `[ ] storage-and-logistics.md` — bins, drying, commercial storage, hauling distances
+  to Wichita, Hutchinson, Newton, Wellington elevators; rail access.
+- `[ ] seasonal-calendar.md` — wheat planting (fly-free date), sorghum and corn windows,
+  double-crop soybean cutoff, harvest windows, workable days.
 
 ### 1.2 Agronomy (`knowledge/agronomy/`)
-- `[ ] soils-and-fertility.md` — soil testing, CEC, pH management, nutrient removal
-  rates per crop, build/maintain/drawdown strategies.
-- `[ ] rotation-principles.md` — rotation effects on yield, pests, nitrogen credits,
-  herbicide carryover constraints.
-- `[ ] planting-agronomy.md` — populations, depth, row spacing, soil temperature
-  thresholds, replant decision rules.
-- `[ ] integrated-pest-management.md` — scouting thresholds, resistance management,
-  mode-of-action rotation.
-- `[ ] weed-management.md` — key weeds by region, resistance status, pre/post programs.
-- `[ ] disease-management.md` — key diseases, fungicide timing, weather-driven risk models.
-- `[ ] insect-management.md` — key insects, economic thresholds, trait considerations.
-- `[ ] irrigation-and-water.md` — crop water use curves, scheduling, water rights.
-- `[ ] cover-crops-and-soil-health.md` — species, costs, benefits, termination.
+- `[ ] soils-of-south-central-kansas.md` — sandy Arkansas River corridor soils versus
+  heavier soils east and north; productivity by series.
+- `[ ] soils-and-fertility.md` — soil testing, pH, nutrient removal per crop, build and
+  maintain strategies.
+- `[ ] rotation-principles.md` — wheat/sorghum/soybean/corn sequences, fallow, nitrogen
+  credits, herbicide carryover (atrazine, sulfonylureas).
+- `[ ] wheat-stubble-and-no-till-systems.md` — moisture conservation in dryland systems.
+- `[ ] planting-agronomy.md` — populations, depth, soil temperature, replant rules.
+- `[ ] integrated-pest-management.md` — scouting thresholds, mode-of-action rotation.
+- `[ ] herbicide-resistant-weeds-kansas.md` — Palmer amaranth, kochia, waterhemp,
+  marestail; resistance status and programs.
+- `[ ] weed-management.md` — pre/post programs by crop.
+- `[ ] disease-management.md` — wheat rusts, Fusarium head blight, sorghum diseases,
+  fungicide timing.
+- `[ ] wheat-streak-mosaic-and-volunteer-control.md` — regional disease driven by
+  volunteer wheat and wheat curl mite.
+- `[ ] insect-management.md` — sugarcane aphid, Hessian fly, army cutworm, greenbug,
+  corn earworm; thresholds.
+- `[ ] cover-crops-and-soil-health.md` — species that fit a moisture-limited system.
 
-### 1.3 Crops (`knowledge/crops/`) — one file per candidate crop
-Each crop file follows the same template: agronomic requirements, yield potential by
-soil class, input program, cost per acre, marketing channels, storage/drying needs,
-rotation fit, risk profile, and relevant trait/seed options.
-- `[ ] corn.md`
-- `[ ] soybeans.md`
-- `[ ] wheat-winter.md`
-- `[ ] wheat-spring.md`
-- `[ ] canola.md`
-- `[ ] sorghum.md`
-- `[ ] barley.md`
-- `[ ] oats.md`
+### 1.3 Crops (`knowledge/crops/`)
+- `[~] crop-template.md` — template every crop file follows.
+- `[ ] wheat-hard-red-winter.md` — anchor crop: varieties, protein, fly-free planting,
+  freeze and heat risk, graze-out option.
+- `[ ] wheat-grazing-and-dual-purpose.md` — graze-out economics and cattle linkage.
+- `[ ] grain-sorghum.md` — drought tolerance, China export dependence, sugarcane aphid.
+- `[ ] corn-dryland.md`
+- `[ ] corn-irrigated.md` — only if water rights confirmed.
+- `[ ] soybeans-full-season.md`
+- `[ ] soybeans-double-crop.md` — after wheat; separate economics and risk.
 - `[ ] sunflower.md`
-- `[ ] cotton.md`
-- `[ ] alfalfa-and-hay.md`
-- `[ ] pulses.md` (peas, lentils, chickpeas, dry beans)
-- `[ ] specialty-and-contract-crops.md` — seed production, food-grade, organic premiums,
-  identity-preserved contracts.
-- `[ ] crop-template.md` — the template every crop file follows.
+- `[ ] alfalfa-and-forage.md` — including forage sorghum and hay markets.
+- `[ ] specialty-and-contract-crops.md` — seed wheat, food-grade, identity-preserved.
 
-### 1.4 Inputs (`knowledge/inputs/`)
-- `[ ] seed.md` — seed costs by trait package, discounts, early-pay programs, treatments.
-- `[ ] fertilizer-nitrogen.md` — anhydrous, urea, UAN; natural-gas linkage; import
-  dependence; seasonal price patterns; application timing/loss.
-- `[ ] fertilizer-phosphorus-potassium.md` — DAP/MAP, potash; mine concentration
-  (Morocco, Russia, Belarus, Canada); tariffs and sanctions exposure.
+### 1.4 Water (`knowledge/water/`)
+- `[ ] groundwater-and-water-rights.md` — Equus Beds, GMD2, Ogallala to the west,
+  water-right lookup, allocation, Kansas Chief Engineer and Kansas Water Office.
+- `[ ] irrigation-economics.md` — pumping cost, allocation, yield response, when
+  irrigation pays versus dryland.
+- `[ ] irrigation-scheduling.md` — crop water use curves, evapotranspiration data from
+  Kansas Mesonet.
+
+### 1.5 Inputs (`knowledge/inputs/`)
+- `[ ] seed.md` — wheat variety selection, sorghum and corn hybrids, trait packages,
+  seed treatments, discounts.
+- `[ ] fertilizer-nitrogen.md` — Wichita Koch plant, anhydrous and UAN availability,
+  Kansas and Oklahoma natural gas, Gulf imports, seasonal pricing.
+- `[ ] fertilizer-phosphorus-potassium.md` — mine concentration, tariffs, sanctions.
 - `[ ] micronutrients-and-lime.md`
-- `[ ] herbicides.md` — active ingredients, generic vs branded pricing, supply chain
-  (China/India intermediates), label constraints, resistance.
-- `[ ] fungicides.md`
-- `[ ] insecticides.md`
-- `[ ] adjuvants-and-application.md`
-- `[ ] diesel-and-fuel.md` — fuel use per operation per acre, price linkage to crude
-  and refinery margins, hedging options, storage.
-- `[ ] propane-and-drying.md` — drying cost per point of moisture, propane/natural gas
-  price drivers.
-- `[ ] electricity-and-irrigation-energy.md`
-- `[ ] crop-insurance.md` — RP/YP/ARP products, coverage levels, premium costs,
-  SCO/ECO, key dates, projected/harvest price mechanics.
-- `[ ] input-procurement-strategy.md` — prepay, forward contracting, volume discounts,
-  supplier diversification, timing rules.
+- `[ ] herbicides.md` — actives by crop, generic versus branded, China/India intermediates,
+  dicamba restrictions.
+- `[ ] fungicides.md`, `[ ] insecticides.md`, `[ ] adjuvants-and-application.md`
+- `[ ] diesel-and-fuel.md` — fuel per operation per acre, Mid-Continent refinery pricing,
+  hedging, on-farm storage.
+- `[ ] propane-and-drying.md` — corn drying only; wheat and sorghum rarely dried.
+- `[ ] electricity-and-irrigation-energy.md` — if irrigated.
+- `[ ] crop-insurance-kansas.md` — RP/YP products, county yields, wheat and sorghum
+  price discovery periods, hail coverage, key dates.
+- `[ ] input-procurement-strategy.md` — prepay, forward contracts, supplier diversity.
 
-### 1.5 Machinery (`knowledge/machinery/`)
-- `[ ] machinery-costs.md` — ownership (depreciation, interest, insurance, housing) and
-  operating (fuel, labor, repairs) cost per hour and per acre by operation.
-- `[ ] field-capacity.md` — acres/hour by implement, workable days, timeliness penalties.
-- `[ ] precision-ag-and-automation.md` — autosteer, VRT, section control, autonomy,
-  data platforms; payback assumptions.
-- `[ ] parts-and-service-supply.md` — lead times, tariff exposure on steel/components.
+### 1.6 Machinery (`knowledge/machinery/`)
+- `[ ] machinery-costs.md` — ownership and operating cost per hour and per acre.
+- `[ ] field-capacity.md` — acres/hour, workable days, timeliness penalties, especially
+  wheat harvest versus double-crop planting.
+- `[ ] precision-ag-and-automation.md` — payback assumptions at 1,000 acres.
+- `[ ] parts-and-service-supply.md`
 
-### 1.6 Weather and climate (`knowledge/weather/`)
-- `[ ] climate-normals.md` — GDD, frost dates, precipitation distribution, drought
-  frequency for the farm's location.
-- `[ ] seasonal-forecast-sources.md` — ENSO state, NOAA/CPC outlooks, ECMWF seasonal,
-  private services; skill and limitations of each.
-- `[ ] weather-to-yield-relationships.md` — critical periods (pollination, grain fill),
-  heat/drought stress response curves per crop.
-- `[ ] extreme-event-risk.md` — hail, flooding, derecho, early frost; frequencies and
-  mitigation.
-- `[ ] long-term-climate-trends.md` — shifting zones, changing growing season, water.
+### 1.7 Weather and climate (`knowledge/weather/`)
+- `[ ] climate-normals-south-central-kansas.md` — Wichita and Hutchinson records, GDD,
+  frost dates, rainfall distribution.
+- `[ ] hail-and-severe-storm-risk.md` — frequency, seasonality, mitigation, insurance.
+- `[ ] drought-and-enso-patterns.md` — La Niña drought linkage, seasonal forecast skill.
+- `[ ] wheat-freeze-and-heat-stress.md` — spring freeze at jointing, grain-fill heat.
+- `[ ] seasonal-forecast-sources.md` — NOAA/CPC, ECMWF, Kansas Mesonet, private services.
+- `[ ] weather-to-yield-relationships.md` — critical periods per crop.
+- `[ ] long-term-climate-trends.md`
 
-### 1.7 Markets (`knowledge/markets/`)
-- `[ ] commodity-price-fundamentals.md` — supply/demand balance sheets, stocks-to-use,
-  WASDE reading guide.
-- `[ ] basis-and-local-markets.md` — local basis history, buyer list, delivery terms.
-- `[ ] futures-and-hedging.md` — contracts, margin, options strategies, HTA, basis
-  contracts, when to use each.
-- `[ ] export-markets.md` — top importers per crop, trade flows, port logistics,
-  freight (Panama Canal, Mississippi, Black Sea, Brazil ports).
-- `[ ] competitor-producers.md` — Brazil, Argentina, Ukraine, Russia, Australia, EU;
-  planting progress, currency effects, their cost structures.
-- `[ ] biofuels-and-demand-policy.md` — RFS, SAF, 45Z, ethanol/crush margins, renewable
-  diesel soybean-oil demand.
-- `[ ] livestock-and-feed-demand.md` — herd sizes, feed ratios, domestic demand drivers.
-- `[ ] marketing-plan-framework.md` — incremental sales targets, decision triggers.
+### 1.8 Markets (`knowledge/markets/`)
+- `[ ] hard-red-winter-wheat-markets.md` — KC futures, protein premiums, Gulf export
+  competition with Russia, Ukraine, Australia; Mexico and Nigeria as top buyers.
+- `[ ] sorghum-export-markets.md` — China demand and tariff swings as the key driver.
+- `[ ] corn-and-soybean-markets.md` — Kansas basis, ethanol, crush, Mexico export.
+- `[ ] kansas-ethanol-and-feed-demand.md` — local ethanol plants, feedlot belt demand.
+- `[ ] local-elevators-and-basis.md` — buyers within hauling distance, basis history.
+- `[ ] futures-and-hedging.md` — contracts, options, HTA, basis contracts.
+- `[ ] hay-and-forage-markets.md`
+- `[ ] marketing-plan-framework.md` — incremental sales targets, triggers.
 
-### 1.8 Geopolitics and policy (`knowledge/geopolitics/`)
-- `[ ] geopolitical-risk-register.md` — living register of events and their exposure
-  pathways to this farm (inputs, exports, currency, freight).
-- `[ ] fertilizer-geopolitics.md` — Russia/Belarus potash, Chinese phosphate export
-  controls, Middle East urea, natural gas shocks, sanctions.
-- `[ ] energy-geopolitics.md` — OPEC+, sanctions, shipping chokepoints, refinery
-  outages; mapping to diesel and propane.
-- `[ ] trade-policy-and-tariffs.md` — US-China, retaliatory tariffs, USMCA, EU
-  deforestation rules, phytosanitary barriers.
-- `[ ] agrochemical-supply-chain.md` — China/India concentration in actives and
-  intermediates, export licensing, shipping disruption.
-- `[ ] currency-and-macro.md` — USD strength, BRL/ARS/UAH, interest rates, inflation;
-  effects on competitiveness and input costs.
-- `[ ] conflict-and-chokepoints.md` — Black Sea, Red Sea/Suez, Strait of Hormuz, Taiwan
-  Strait, Panama; scenario probabilities and impact matrices.
-- `[ ] domestic-farm-policy.md` — Farm Bill, ARC/PLC, disaster programs, conservation
-  payments, ad-hoc aid patterns.
-- `[ ] scenario-playbook.md` — pre-written scenarios (e.g. potash sanction escalation,
-  Chinese soybean tariff, Gulf closure) with trigger indicators and response actions.
+### 1.9 Geopolitics and policy (`knowledge/geopolitics/`)
+- `[ ] geopolitical-risk-register.md` — living register mapping events to this farm's
+  input, export, currency and freight exposure.
+- `[ ] wheat-geopolitics.md` — Black Sea exports, Russian quotas and taxes, global crops.
+- `[ ] china-trade-exposure.md` — sorghum and soybean demand, retaliatory tariffs.
+- `[ ] mexico-trade-relations.md` — USMCA, top buyer of Kansas wheat and corn.
+- `[ ] fertilizer-geopolitics.md` — potash and phosphate concentration, urea, gas shocks.
+- `[ ] energy-geopolitics.md` — OPEC+, sanctions, chokepoints, diesel and gas linkage.
+- `[ ] agrochemical-supply-chain.md` — China/India concentration in actives.
+- `[ ] currency-and-macro.md` — USD, interest rates, competitor currencies.
+- `[ ] conflict-and-chokepoints.md` — Black Sea, Red Sea, Hormuz, Panama, Taiwan Strait.
+- `[ ] domestic-farm-policy.md` — Farm Bill, ARC/PLC, disaster aid, conservation.
+- `[ ] scenario-playbook.md` — China sorghum ban, Black Sea wheat surge, Hormuz closure,
+  Mexico tariff dispute, fertilizer sanctions; triggers and responses.
 
-### 1.9 Finance (`knowledge/finance/`)
-- `[ ] enterprise-budget-template.md` — per-crop revenue, direct costs, overhead,
-  breakeven; the planner's cost model.
-- `[ ] cash-flow-and-credit.md` — operating line, interest rates, payment timing,
-  covenant constraints.
-- `[ ] land-costs.md` — cash rent, flex leases, crop share, ownership costs, rent
-  negotiation benchmarks.
-- `[ ] tax-planning.md` — depreciation, prepaid inputs, deferred sales, entity structure.
-- `[ ] capital-investment.md` — equipment, bins, tile, irrigation; NPV/payback rules.
-- `[ ] risk-management-framework.md` — how insurance, hedging, diversification, and
-  cash reserves combine; risk tolerance statement.
+### 1.10 Finance (`knowledge/finance/`)
+- `[ ] enterprise-budget-template.md` — per-crop budget using K-State Farm Management
+  Guide structure.
+- `[ ] cash-flow-and-credit.md`, `[ ] tax-planning.md`, `[ ] capital-investment.md`
+- `[ ] land-values-and-opportunity-cost.md` — owned land carrying cost, Kansas land
+  values, cash-rent benchmarks for expansion decisions.
+- `[ ] risk-management-framework.md` — how insurance, hedging, diversification and cash
+  reserves combine; risk tolerance statement.
 
-### 1.10 Land (`knowledge/land/`)
-- `[ ] soil-map-and-productivity.md` — soil survey, productivity indices per field.
-- `[ ] drainage-and-tile.md`
-- `[ ] lease-portfolio.md` — leases, expiry, terms, landlord relationships.
-- `[ ] expansion-and-acquisition.md` — land market, valuation, criteria.
+### 1.11 Land (`knowledge/land/`)
+- `[ ] soil-map-and-productivity.md`, `[ ] drainage-and-terraces.md`
+- `[ ] expansion-and-acquisition.md` — land market, rental opportunities, criteria.
 
-### 1.11 Regulatory and compliance (`knowledge/regulatory/`)
-- `[ ] pesticide-regulations.md` — licensing, restricted-use products, recordkeeping,
-  drift rules, buffer zones, label-is-law.
-- `[ ] nutrient-and-water-regulations.md` — nutrient management plans, watershed rules.
-- `[ ] environmental-and-conservation.md` — wetlands, highly erodible land, CRP, EQIP.
-- `[ ] labor-and-safety.md` — H-2A, OSHA, worker protection standard.
-- `[ ] traceability-and-certification.md` — organic, non-GMO, sustainability
-  certifications, Scope 3 reporting from buyers.
-- `[ ] grain-grading-and-contracts.md` — grades, discounts, contract law basics.
+### 1.12 Regulatory and compliance (`knowledge/regulatory/`)
+- `[ ] kansas-pesticide-licensing.md` — KDA applicator rules, restricted use, dicamba,
+  recordkeeping, drift.
+- `[ ] kansas-water-law-compliance.md` — water right reporting, meters, penalties.
+- `[ ] nrcs-and-conservation-programs.md` — CRP, EQIP, HEL and wetland compliance.
+- `[ ] noxious-weed-law.md` — Kansas statutory noxious weed list.
+- `[ ] labor-and-safety.md`, `[ ] grain-grading-and-contracts.md`
+- `[ ] traceability-and-certification.md`
 
-### 1.12 Sustainability and carbon (`knowledge/sustainability/`)
-- `[ ] carbon-markets.md` — programs, payments per practice, verification costs.
-- `[ ] regenerative-practices-economics.md` — no-till, cover crops, reduced inputs;
-  realistic payback.
-- `[ ] low-carbon-intensity-premiums.md` — 45Z/CI scoring, low-CI corn premiums.
+### 1.13 Sustainability and carbon (`knowledge/sustainability/`)
+- `[ ] carbon-markets.md`, `[ ] regenerative-practices-economics.md`
+- `[ ] low-carbon-intensity-premiums.md` — 45Z and low-CI grain premiums at ethanol plants.
 
-### 1.13 Risk (`knowledge/risk/`)
-- `[ ] risk-register.md` — all identified risks with likelihood, impact, mitigation,
-  owner. Cross-references geopolitics, weather, markets, operations.
-- `[ ] decision-rules.md` — pre-committed rules: when to switch crops, when to
-  prepay, when to hedge, when to replant, when to abandon.
+### 1.14 Risk (`knowledge/risk/`)
+- `[ ] risk-register.md` — all risks with likelihood, impact, mitigation, owner.
+- `[ ] decision-rules.md` — pre-committed rules: switch crops, prepay, hedge, replant,
+  graze out, abandon, double-crop go/no-go.
 
 ---
 
 ## 2. Agent definitions (`.claude/agents/`)
-
-Specialist subagents. Each reads its knowledge files, has a narrow mandate, and
-returns structured output the orchestrator can combine.
-
-- `[ ] orchestrator-planner.md` — runs the seasonal planning loop; calls specialists;
-  builds the final crop plan with scenarios.
-- `[ ] agronomist.md` — crop suitability, rotation, input programs, yield expectations.
-- `[ ] weather-forecaster.md` — pulls forecasts, builds seasonal weather scenarios,
-  maps them to yield risk.
-- `[ ] input-cost-analyst.md` — forecasts seed, fertilizer, chemical, fuel costs;
-  flags procurement timing.
-- `[ ] geopolitical-analyst.md` — monitors the risk register, assigns probabilities,
-  translates events into input/export price shocks.
-- `[ ] market-analyst.md` — price outlook, basis, export demand, hedging recommendations.
-- `[ ] machinery-and-logistics.md` — capacity checks, timeliness, custom-hire needs,
-  fuel use.
-- `[ ] finance-controller.md` — enterprise budgets, cash flow, breakeven, lender view.
-- `[ ] insurance-and-risk.md` — insurance product selection, coverage, program dates.
-- `[ ] compliance-officer.md` — checks plans against regulations and label constraints.
-- `[ ] sustainability-analyst.md` — carbon/CI revenue opportunities and costs.
-- `[ ] data-ingestion.md` — fetches, validates, and files external data into `data/`.
-- `[ ] red-team-reviewer.md` — adversarially challenges each plan: hidden assumptions,
-  correlated risks, over-optimism.
-
----
+- `[ ] orchestrator-planner.md` — runs the seasonal loop, assembles the plan.
+- `[ ] agronomist.md`, `[ ] weather-forecaster.md`, `[ ] input-cost-analyst.md`
+- `[ ] geopolitical-analyst.md`, `[ ] market-analyst.md`
+- `[ ] water-rights-and-irrigation.md` — allocation as a hard planning constraint.
+- `[ ] machinery-and-logistics.md`, `[ ] finance-controller.md`
+- `[ ] insurance-and-risk.md`, `[ ] compliance-officer.md`, `[ ] sustainability-analyst.md`
+- `[ ] data-ingestion.md` — fetches, validates, files external data.
+- `[ ] red-team-reviewer.md` — challenges hidden assumptions and correlated risks.
 
 ## 3. Skills / workflows (`.claude/skills/`)
-
-Repeatable, step-by-step procedures the agents follow.
-
-- `[ ] build-seasonal-plan/` — end-to-end: profile → scenarios → budgets → optimization
-  → plan file in `plans/`.
-- `[ ] forecast-input-costs/` — refresh input price forecasts with geopolitical overlays.
-- `[ ] weather-scenario-build/` — produce base/adverse/favorable weather scenarios.
-- `[ ] market-outlook-refresh/` — update price, basis, export outlook after WASDE etc.
-- `[ ] geopolitical-scan/` — weekly scan; update risk register and scenario probabilities.
-- `[ ] enterprise-budget/` — produce or refresh a per-crop budget.
-- `[ ] field-level-recommendation/` — assign crops and programs field by field.
-- `[ ] in-season-replan/` — re-optimize after planting delays, weather shocks, price moves.
-- `[ ] procurement-timing/` — decide when and how much input to lock in.
-- `[ ] hedging-decision/` — propose marketing actions against targets and risk limits.
-- `[ ] insurance-selection/` — compare products and coverage levels for the plan.
-- `[ ] post-harvest-review/` — compare plan vs actual; update knowledge files.
-- `[ ] knowledge-file-update/` — standard procedure for revising a knowledge file with
-  sources and review date.
-
----
+- `[ ] build-seasonal-plan/`, `[ ] forecast-input-costs/`, `[ ] weather-scenario-build/`
+- `[ ] market-outlook-refresh/`, `[ ] geopolitical-scan/` (weekly)
+- `[ ] enterprise-budget/`, `[ ] field-level-recommendation/`
+- `[ ] in-season-replan/`, `[ ] hail-and-storm-response/` — damage assessment, claims,
+  replant or double-crop decision.
+- `[ ] double-crop-decision/` — go/no-go after wheat harvest based on moisture and date.
+- `[ ] procurement-timing/`, `[ ] hedging-decision/`, `[ ] insurance-selection/`
+- `[ ] post-harvest-review/`, `[ ] knowledge-file-update/`
 
 ## 4. Data layer (`data/`)
-
-- `[ ] data/reference/units-and-conversions.md` — bushels, tonnes, lbs N, etc.
-- `[ ] data/reference/data-sources.md` — catalog of feeds: USDA NASS/AMS/WASDE/ERS,
-  NOAA/CPC, DTN, CME, EIA, FAO/AMIS, IGC, World Bank commodity, Baltic freight, fertilizer
-  price indices, state extension budgets; cadence and access method for each.
-- `[ ] data/raw/` — immutable downloads, dated subfolders.
-- `[ ] data/processed/` — cleaned tables with a schema file beside each.
-
----
+- `[ ] reference/data-sources.md` — USDA NASS/AMS/WASDE/ERS, RMA, NOAA/CPC, Kansas
+  Mesonet, K-State Extension, Kansas Farm Management Association, KDA, Kansas Water
+  Office / WIMAS water rights, CME/KC futures, EIA, FAO/AMIS, IGC, fertilizer indices.
+- `[ ] reference/units-and-conversions.md`
+- `raw/` immutable dated downloads · `processed/` cleaned tables with schema.
 
 ## 5. Models (`models/`)
+- `[ ] yield-response-model.md` — by crop, dryland and irrigated branches.
+- `[ ] input-price-forecast-model.md`, `[ ] commodity-price-scenario-model.md`
+- `[ ] weather-scenario-model.md` — keyed to ENSO state and Mesonet history.
+- `[ ] crop-mix-optimizer.md` — LP/MIP over fields: rotation, water allocation,
+  wheat/double-crop sequencing, graze-out, machinery and labor capacity, cash.
+- `[ ] monte-carlo-risk-model.md`, `[ ] cash-flow-model.md`
 
-- `[ ] yield-response-model.md` — yield as function of weather, soil, inputs, planting
-  date; by crop.
-- `[ ] input-price-forecast-model.md` — fertilizer/fuel/chem price models with
-  macro and geopolitical shock variables.
-- `[ ] commodity-price-scenario-model.md` — price distributions per crop for the
-  marketing year.
-- `[ ] weather-scenario-model.md` — seasonal scenario generation and probabilities.
-- `[ ] crop-mix-optimizer.md` — LP/MIP: maximize expected risk-adjusted profit subject
-  to rotation, machinery capacity, labor, cash, storage, agronomic constraints.
-- `[ ] monte-carlo-risk-model.md` — simulate combined weather/price/cost uncertainty;
-  report downside metrics.
-- `[ ] cash-flow-model.md` — monthly cash flow under each scenario.
-
----
-
-## 6. Plans and outputs (`plans/`)
-
-- `[ ] plan-template.md` — fixed structure: assumptions, scenarios, crop mix by field,
-  input program, procurement plan, marketing plan, insurance, cash flow, risks, triggers.
-- `[ ] YYYY-season-plan.md` — one per season, generated by the orchestrator.
-- `[ ] YYYY-post-harvest-review.md` — actuals vs plan, lessons, knowledge updates.
-
----
+## 6. Plans (`plans/`)
+- `[ ] plan-template.md`, `[ ] YYYY-season-plan.md`, `[ ] YYYY-post-harvest-review.md`
 
 ## 7. Governance (`docs/`)
-
-- `[x] agentic-file-plan.md` — this file.
-- `[ ] decision-records/` — ADR-style records for major planning and system decisions.
-- `[ ] glossary.md` — terms and acronyms used across files.
-- `[ ] knowledge-file-template.md` — front-matter and section standard.
+- `[x] agentic-file-plan.md`, `[~] knowledge-file-template.md`
+- `[ ] glossary.md`, `[ ] decision-records/`
 
 ---
 
-## Suggested build order
-
-1. `operations/farm-profile.md` and `field-history.md` — nothing else is meaningful
-   without them.
-2. Crop template and the 3–5 crops actually under consideration.
-3. Enterprise budget template and the input files (fertilizer, chemicals, diesel, seed).
-4. Geopolitical risk register and fertilizer/energy geopolitics files.
-5. Weather and market knowledge files, then data-sources catalog.
-6. Agents and the `build-seasonal-plan` skill.
-7. Models, starting with enterprise budgets, then the crop-mix optimizer and Monte Carlo.
-8. First full seasonal plan, red-team review, iterate.
+## Build order
+1. Farm profile, field list, and water-right lookup per field.
+2. Crop template, then wheat, sorghum, soybeans (both), corn (dryland first).
+3. Enterprise budget template and input files (nitrogen, herbicides, diesel, seed,
+   insurance).
+4. Geopolitical risk register, wheat and China trade files, fertilizer and energy files.
+5. Weather files (hail, drought/ENSO, freeze) and the data-source catalog.
+6. Agents and the seasonal-plan skill.
+7. Models: budgets first, then optimizer and Monte Carlo.
+8. First seasonal plan, red-team review, iterate.
