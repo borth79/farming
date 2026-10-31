@@ -4,7 +4,7 @@ Master list of the files that guide the agents in this project. Each entry names
 file, what it holds, and why it matters for this operation. Grouped by layer:
 knowledge, agents, skills, data, models, plans, governance.
 
-Status key: `[ ]` not started · `[~]` stub exists · `[x]` populated and reviewed.
+Status key: `[ ]` not started · `[~]` drafted (populated but contains items marked verify) · `[x]` populated and reviewed.
 
 ## Operation context
 
@@ -62,16 +62,16 @@ Mexico as the top buyer of Kansas wheat and corn.
 
 ### 1.3 Crops (`knowledge/crops/`)
 - `[~] crop-template.md` — template every crop file follows.
-- `[ ] wheat-hard-red-winter.md` — anchor crop: varieties, protein, fly-free planting,
+- `[~] wheat-hard-red-winter.md` — anchor crop: varieties, protein, fly-free planting,
   freeze and heat risk, graze-out option.
-- `[ ] wheat-grazing-and-dual-purpose.md` — graze-out economics and cattle linkage.
-- `[ ] grain-sorghum.md` — drought tolerance, China export dependence, sugarcane aphid.
-- `[ ] corn-dryland.md`
-- `[ ] corn-irrigated.md` — only if water rights confirmed.
-- `[ ] soybeans-full-season.md`
-- `[ ] soybeans-double-crop.md` — after wheat; separate economics and risk.
-- `[ ] sunflower.md`
-- `[ ] alfalfa-and-forage.md` — including forage sorghum and hay markets.
+- `[~] wheat-grazing-and-dual-purpose.md` — graze-out economics and cattle linkage.
+- `[~] grain-sorghum.md` — drought tolerance, China export dependence, sugarcane aphid.
+- `[~] corn-dryland.md`
+- `[~] corn-irrigated.md` — only if water rights confirmed.
+- `[~] soybeans-full-season.md`
+- `[~] soybeans-double-crop.md` — after wheat; separate economics and risk.
+- `[~] sunflower.md`
+- `[~] alfalfa-and-forage.md` — including forage sorghum and hay markets.
 - `[ ] specialty-and-contract-crops.md` — seed wheat, food-grade, identity-preserved.
 
 ### 1.4 Water (`knowledge/water/`)
