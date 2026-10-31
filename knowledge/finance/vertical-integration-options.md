@@ -36,6 +36,26 @@ a farmers-market presence can absorb, so each plan starts with wholesale account
 | 6 | Wheat pasture → stockers → direct-market beef | existing wheat | Cattle, fencing, water 100k+; processor access | Variable, high risk | Low | Processor inspection, meat labeling | Later; lease pasture first |
 | 7 | Certified seed wheat | 100–200 | Cleaner, treater, storage 40k–120k | +20–40% over grain | Medium | KCIA certification | Good, farm-native |
 
+## Additional crops suited to a specialty or online vertical
+Crops not in the main rotation that grow in Sedgwick County with existing equipment and
+yield a shelf-stable product that ships. Ranked by fit.
+
+| Crop | Product | Why it fits | Equipment beyond the farm's | Verdict |
+|---|---|---|---|---|
+| Popcorn | bagged specialty popcorn (heirloom colors, hulless, mushroom) | grows like dryland corn; $3–6/lb retail vs ~$0.20 as grain (verify) | cleaner, moisture control, bagger | strongest direct-to-consumer grain crop |
+| Heritage wheat (Turkey Red, spelt, emmer, einkorn) | heritage flour, berries | Kansas story (Turkey Red, 1874); 2–4× flour price; pairs with flour line | dehuller for hulled types | strong, add to flour vertical |
+| Proso millet | birdseed, gluten-free grain | short-season dryland; fits after wheat; feeds birdseed line | cleaner | strong, low effort |
+| Native grass and wildflower seed | seed for CRP, restoration, landscaping | established Kansas industry; high value/acre; combine-harvested | seed cleaner, patience | strong on a few acres |
+| Cover-crop seed (cereal rye, radish, turnip, cowpea) | seed to neighbors and retailers; rye to distillers and bakers | existing equipment | cleaner, bagger | good |
+| Sweet sorghum | syrup | Kansas heritage product; $15–25/qt (verify) | press, evaporator; labor-heavy | small scale only |
+| Sesame | contract seed; later oil | shatter-resistant varieties now grown in southern KS/OK | none (contract) | possible, contract-first |
+| Confection sunflower | roasted in-shell seeds | extends sunflower line | roaster, seasoning, bagging | possible |
+| Dry beans (pinto, black) | bagged beans | sells well online | cleaner, bagger | risky dryland here; western KS crop |
+| Honey | bottled honey | sunflower and alfalfa forage; farm brand | hives, extractor | easy add, not a crop |
+
+Criteria for an online product: shelf stable, light to ship, a Kansas or farm story, and
+an automatable processing step. Fresh produce, meat and cold-chain products do not fit.
+
 ## Line 1 in detail: wheat to flour to bread
 ### Volumes
 - 50 acres × 45 bu = 2,250 bu = 135,000 lb grain.
