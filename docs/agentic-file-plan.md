@@ -8,7 +8,7 @@ Status key: `[ ]` not started · `[~]` stub exists · `[x]` populated and review
 
 ## Operation context
 
-- Region: Wichita, Kansas and surrounding farmland (Sedgwick and neighboring counties).
+- Region: Sedgwick County, Kansas (Wichita) and surrounding farmland.
 - Land: approximately 1,000 owned acres across multiple fields.
 - Irrigation: undetermined. First task is to establish water-right status per field
   (see `knowledge/water/`). Plans carry dryland and irrigated branches until resolved.
@@ -31,7 +31,7 @@ Mexico as the top buyer of Kansas wheat and corn.
   storage, buyers in reach, labor.
 - `[ ] field-history.md` — per-field rotation, yields, weed and disease pressure,
   fertility trends, tile, water right if any.
-- `[ ] equipment-inventory.md` — machines, widths, capacities, hours, replacement plan.
+- `[ ] equipment-inventory.md` — see section 1.6; the full machinery register lives there.
 - `[ ] labor-and-custom-work.md` — labor availability, custom rates (harvest, spraying,
   trucking) as capacity fallback.
 - `[ ] storage-and-logistics.md` — bins, drying, commercial storage, hauling distances
@@ -100,12 +100,32 @@ Mexico as the top buyer of Kansas wheat and corn.
   price discovery periods, hail coverage, key dates.
 - `[ ] input-procurement-strategy.md` — prepay, forward contracts, supplier diversity.
 
-### 1.6 Machinery (`knowledge/machinery/`)
-- `[ ] machinery-costs.md` — ownership and operating cost per hour and per acre.
-- `[ ] field-capacity.md` — acres/hour, workable days, timeliness penalties, especially
-  wheat harvest versus double-crop planting.
+### 1.6 Machinery and equipment (`knowledge/machinery/`)
+- `[ ] equipment-inventory.md` — register of every machine: combines, headers, tractors,
+  planter/drill, sprayer, tillage, grain cart, trucks and trailers, augers, bins, dryer,
+  pickups, shop tools. Per item: make/model/year, size or capacity, hours or miles,
+  condition, ownership status (owned outright, financed, leased, shared, custom-hired),
+  purchase price and date, current market value, insured value.
+- `[ ] equipment-financing.md` — per financed or leased item: lender, principal
+  outstanding, interest rate, monthly or annual payment, payment dates, term remaining,
+  balloon, collateral, early-payoff terms. Produces the fixed-payment schedule that feeds
+  the cash-flow model regardless of what is planted.
+- `[ ] machinery-costs.md` — ownership costs (depreciation, interest or lease, insurance,
+  housing, property tax) and operating costs (fuel, lubrication, repairs and maintenance,
+  labor) per hour and per acre for each operation, using K-State machinery cost methods
+  and the farm's own records. Separates fixed costs that exist regardless of crop from
+  variable costs that change with the plan.
+- `[ ] maintenance-and-repair-log.md` — service intervals, repair history, known
+  failure risks, pre-season readiness checklist; feeds repair-cost assumptions.
+- `[ ] field-capacity.md` — acres/hour per implement, workable days, timeliness
+  penalties, especially wheat harvest versus double-crop planting.
+- `[ ] own-vs-lease-vs-custom.md` — breakeven acres for owning each machine at 1,000
+  acres, custom-hire rates for harvest, spraying, planting and trucking, and rules for
+  when to custom-hire instead of own.
+- `[ ] replacement-and-capital-plan.md` — age and hours triggers, trade cycle, expected
+  replacement cost, tax (Section 179 / bonus depreciation) timing.
 - `[ ] precision-ag-and-automation.md` — payback assumptions at 1,000 acres.
-- `[ ] parts-and-service-supply.md`
+- `[ ] parts-and-service-supply.md` — dealer access, lead times, tariff exposure.
 
 ### 1.7 Weather and climate (`knowledge/weather/`)
 - `[ ] climate-normals-south-central-kansas.md` — Wichita and Hutchinson records, GDD,
@@ -221,7 +241,8 @@ Mexico as the top buyer of Kansas wheat and corn.
 ---
 
 ## Build order
-1. Farm profile, field list, and water-right lookup per field.
+1. Farm profile, field list, water-right lookup per field, and the equipment inventory
+   with financing schedule (fixed costs exist before any crop is chosen).
 2. Crop template, then wheat, sorghum, soybeans (both), corn (dryland first).
 3. Enterprise budget template and input files (nitrogen, herbicides, diesel, seed,
    insurance).

@@ -19,8 +19,8 @@ used_by_agents:
 > `confidence` is raised. Ask the operator.
 
 ## Location and climate zone
-- Region: Wichita, Kansas and surrounding farmland (Sedgwick and neighboring counties)
-- Specific fields / counties: TBD
+- Region: Sedgwick County, Kansas (Wichita) and surrounding farmland
+- Specific fields and legal descriptions: TBD
 - Hardiness zone: approximately 6b–7a (confirm per field)
 - Annual precipitation: roughly 30–33 in, highly variable; drought and hail prone
 
@@ -45,7 +45,19 @@ Excluded by operator decision: cotton, canola.
 - Nearest elevators / processors / ports and distance:
 
 ## Equipment summary
-See `equipment-inventory.md`.
+See `knowledge/machinery/equipment-inventory.md` and `equipment-financing.md`.
+
+| Machine | Year | Size/capacity | Hours | Ownership | Lender | Payment | Frequency | Payoff date |
+|---|---|---|---|---|---|---|---|---|
+| Combine | | | | | | | | |
+| Header(s) | | | | | | | | |
+| Tractor(s) | | | | | | | | |
+| Planter / drill | | | | | | | | |
+| Sprayer | | | | | | | | |
+| Grain cart | | | | | | | | |
+| Trucks / trailers | | | | | | | | |
+| Tillage | | | | | | | | |
+| Bins / dryer / augers | | | | | | | | |
 
 ## Labor
 - Full-time staff:

@@ -27,7 +27,7 @@ financing, and regulatory requirements.
 - Record every planning assumption in the plan file so it can be audited after harvest.
 
 ## Operation profile
-South-central Kansas (Wichita area), approximately 1,000 owned acres across multiple
+Sedgwick County, Kansas (Wichita area), approximately 1,000 owned acres across multiple
 fields. Irrigation status is undetermined; plans carry dryland and irrigated branches
 until water rights are confirmed per field. Crops in scope: hard red winter wheat, grain
 sorghum, corn, soybeans (full-season and double-crop), alfalfa/forage, sunflower, wheat
