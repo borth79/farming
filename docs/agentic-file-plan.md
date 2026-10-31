@@ -231,7 +231,7 @@ Mexico as the top buyer of Kansas wheat and corn.
   Mesonet, K-State Extension, Kansas Farm Management Association, KDA, Kansas Water
   Office / WIMAS water rights, CME/KC futures, EIA, FAO/AMIS, IGC, fertilizer indices.
 - `[~] reference/input-price-schema.md` — schema for `input_prices.csv` and `input_purchases.csv`.
-- `[ ] reference/units-and-conversions.md`
+- `[~] reference/units-and-conversions.md`
 - `scripts/fetch_eia_prices.py` — pulls EIA diesel, WTI and Henry Hub weekly series.
 - `scripts/fetch_gdelt_events.py` — news volume and headlines per watch topic (GDELT, no key).
 - `[~] reference/geopolitical-event-schema.md` and `processed/geopolitical_events.csv`.
