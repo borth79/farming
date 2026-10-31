@@ -31,7 +31,7 @@ Mexico as the top buyer of Kansas wheat and corn.
   storage, buyers in reach, labor.
 - `[ ] field-history.md` — per-field rotation, yields, weed and disease pressure,
   fertility trends, tile, water right if any.
-- `[ ] equipment-inventory.md` — see section 1.6; the full machinery register lives there.
+- `[~] equipment-inventory.md` — see section 1.6; the full machinery register lives there.
 - `[ ] labor-and-custom-work.md` — labor availability, custom rates (harvest, spraying,
   trucking) as capacity fallback.
 - `[ ] storage-and-logistics.md` — bins, drying, commercial storage, hauling distances
@@ -85,28 +85,28 @@ Mexico as the top buyer of Kansas wheat and corn.
 ### 1.5 Inputs (`knowledge/inputs/`)
 - `[ ] seed.md` — wheat variety selection, sorghum and corn hybrids, trait packages,
   seed treatments, discounts.
-- `[ ] fertilizer-nitrogen.md` — Wichita Koch plant, anhydrous and UAN availability,
+- `[~] fertilizer-nitrogen.md` — Wichita Koch plant, anhydrous and UAN availability,
   Kansas and Oklahoma natural gas, Gulf imports, seasonal pricing.
-- `[ ] fertilizer-phosphorus-potassium.md` — mine concentration, tariffs, sanctions.
+- `[~] fertilizer-phosphorus-potassium.md` — mine concentration, tariffs, sanctions.
 - `[ ] micronutrients-and-lime.md`
 - `[ ] herbicides.md` — actives by crop, generic versus branded, China/India intermediates,
   dicamba restrictions.
 - `[ ] fungicides.md`, `[ ] insecticides.md`, `[ ] adjuvants-and-application.md`
-- `[ ] diesel-and-fuel.md` — fuel per operation per acre, Mid-Continent refinery pricing,
+- `[~] diesel-and-fuel.md` — fuel per operation per acre, Mid-Continent refinery pricing,
   hedging, on-farm storage.
-- `[ ] propane-and-drying.md` — corn drying only; wheat and sorghum rarely dried.
+- `[~] propane-and-drying.md` — corn drying only; wheat and sorghum rarely dried.
 - `[ ] electricity-and-irrigation-energy.md` — if irrigated.
 - `[ ] crop-insurance-kansas.md` — RP/YP products, county yields, wheat and sorghum
   price discovery periods, hail coverage, key dates.
-- `[ ] input-procurement-strategy.md` — prepay, forward contracts, supplier diversity.
+- `[~] input-procurement-strategy.md` — prepay, forward contracts, supplier diversity.
 
 ### 1.6 Machinery and equipment (`knowledge/machinery/`)
-- `[ ] equipment-inventory.md` — register of every machine: combines, headers, tractors,
+- `[~] equipment-inventory.md` — register of every machine: combines, headers, tractors,
   planter/drill, sprayer, tillage, grain cart, trucks and trailers, augers, bins, dryer,
   pickups, shop tools. Per item: make/model/year, size or capacity, hours or miles,
   condition, ownership status (owned outright, financed, leased, shared, custom-hired),
   purchase price and date, current market value, insured value.
-- `[ ] equipment-financing.md` — per financed or leased item: lender, principal
+- `[~] equipment-financing.md` — per financed or leased item: lender, principal
   outstanding, interest rate, monthly or annual payment, payment dates, term remaining,
   balloon, collateral, early-payoff terms. Produces the fixed-payment schedule that feeds
   the cash-flow model regardless of what is planted.
@@ -154,8 +154,8 @@ Mexico as the top buyer of Kansas wheat and corn.
 - `[ ] wheat-geopolitics.md` — Black Sea exports, Russian quotas and taxes, global crops.
 - `[ ] china-trade-exposure.md` — sorghum and soybean demand, retaliatory tariffs.
 - `[ ] mexico-trade-relations.md` — USMCA, top buyer of Kansas wheat and corn.
-- `[ ] fertilizer-geopolitics.md` — potash and phosphate concentration, urea, gas shocks.
-- `[ ] energy-geopolitics.md` — OPEC+, sanctions, chokepoints, diesel and gas linkage.
+- `[~] fertilizer-geopolitics.md` — potash and phosphate concentration, urea, gas shocks.
+- `[~] energy-geopolitics.md` — OPEC+, sanctions, chokepoints, diesel and gas linkage.
 - `[ ] agrochemical-supply-chain.md` — China/India concentration in actives.
 - `[ ] currency-and-macro.md` — USD, interest rates, competitor currencies.
 - `[ ] conflict-and-chokepoints.md` — Black Sea, Red Sea, Hormuz, Panama, Taiwan Strait.
@@ -213,19 +213,23 @@ Mexico as the top buyer of Kansas wheat and corn.
 - `[ ] in-season-replan/`, `[ ] hail-and-storm-response/` — damage assessment, claims,
   replant or double-crop decision.
 - `[ ] double-crop-decision/` — go/no-go after wheat harvest based on moisture and date.
-- `[ ] procurement-timing/`, `[ ] hedging-decision/`, `[ ] insurance-selection/`
+- `[~] procurement-timing/`, `[ ] hedging-decision/`, `[ ] insurance-selection/`
 - `[ ] post-harvest-review/`, `[ ] knowledge-file-update/`
 
 ## 4. Data layer (`data/`)
-- `[ ] reference/data-sources.md` — USDA NASS/AMS/WASDE/ERS, RMA, NOAA/CPC, Kansas
+- `[~] reference/data-sources.md` — USDA NASS/AMS/WASDE/ERS, RMA, NOAA/CPC, Kansas
   Mesonet, K-State Extension, Kansas Farm Management Association, KDA, Kansas Water
   Office / WIMAS water rights, CME/KC futures, EIA, FAO/AMIS, IGC, fertilizer indices.
+- `[~] reference/input-price-schema.md` — schema for `input_prices.csv` and `input_purchases.csv`.
 - `[ ] reference/units-and-conversions.md`
+- `scripts/fetch_eia_prices.py` — pulls EIA diesel, WTI and Henry Hub weekly series.
 - `raw/` immutable dated downloads · `processed/` cleaned tables with schema.
 
 ## 5. Models (`models/`)
 - `[ ] yield-response-model.md` — by crop, dryland and irrigated branches.
-- `[ ] input-price-forecast-model.md`, `[ ] commodity-price-scenario-model.md`
+- `[~] input-price-forecast-model.md` — overview; sub-models `[~] fertilizer-price-model.md`
+  and `[~] fuel-price-model.md`.
+- `[ ] commodity-price-scenario-model.md`
 - `[ ] weather-scenario-model.md` — keyed to ENSO state and Mesonet history.
 - `[ ] crop-mix-optimizer.md` — LP/MIP over fields: rotation, water allocation,
   wheat/double-crop sequencing, graze-out, machinery and labor capacity, cash.
