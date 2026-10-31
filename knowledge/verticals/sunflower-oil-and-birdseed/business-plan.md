@@ -125,8 +125,9 @@ later if a buyer requires it; organic would change the whole agronomy and is out
   retail; stage 3 (~5,000 gal) needs a distributor or broker (Wichita, KC, OKC, Tulsa).
 - **Competitors:** Smude's, Colorado Mills, Hudson Valley, Driftless Organics, Healthy
   Oilseeds, and commodity refined HO sunflower oil from national distributors (the real
-  competitor for restaurants). No Kansas cold-pressed sunflower brand was found in search
-  (**verify**; Colorado Mills is the nearest).
+  competitor for restaurants). A Kansas cold-pressed brand exists: Wright Farms, Bird City KS (3,500-acre
+  farm, pressing since 2015, about 30 Kansas stores; see competitor-analysis.md). Fresh
+  Press Farms (GA, in Costco) is the national grocery threat.
 - **How first accounts are won:** chef samples with a one-page spec (oleic %, smoke test,
   farm story); farmers markets (Old Town, Kansas Grown) for direct sales and feedback;
   specialty grocers (local co-op/natural food stores, **verify names**); online store.

@@ -1,39 +1,39 @@
 section,item,value_base,value_adverse,value_favorable,unit,stage,year_start,source,note
-production,acres,25,25,30,acres,1,1,"Plan section 9; vertical-integration-options.md line 3 (20-50 ac)","Stage 1 pilot alone. 25 ac x 1,500 lb = 37,500 lb seed = ~940 40-lb bags. Favorable adds 5 ac in response to demand."
-production,yield_per_acre,1500,800,2200,lb,1,,"knowledge/crops/sunflower.md yield table (full season, deep silt loam; NASS KS 2025 1,554 lb/ac); verify","Dryland full-season black-oil (conventional/NuSun) hybrid. Same agronomy as oil type."
-production,yield_unit_lb,1,,,lb,1,,"schema","Yield already in lb/ac so 1 lb per yield unit."
+production,acres,25,25,30,acres,1,1,Plan section 9; vertical-integration-options.md line 3 (20-50 ac),"Stage 1 pilot alone. 25 ac x 1,500 lb = 37,500 lb seed = ~940 40-lb bags. Favorable adds 5 ac in response to demand."
+production,yield_per_acre,1500,800,2200,lb,1,,"knowledge/crops/sunflower.md yield table (full season, deep silt loam; NASS KS 2025 1,554 lb/ac); verify",Dryland full-season black-oil (conventional/NuSun) hybrid. Same agronomy as oil type.
+production,yield_unit_lb,1,,,lb,1,,schema,Yield already in lb/ac so 1 lb per yield unit.
 production,conversion_pct,92,90,94,pct,1,,"estimate, verify: field-run black-oil at 2-7% foreign material cleaned to <=2% FM 98% purity spec (Commodity Marketing Co black-oil COA, 2011) plus shrink to 10% moisture","Cleaned, bagged birdseed lb per 100 lb field-run seed. Cleanout = trash, sticks, immature seed, dust."
 production,byproduct_pct,6,7,5,pct,1,,"estimate, verify","Screenings (light seed, fines) sold or fed as livestock/poultry feed; 2% is dust/moisture loss."
-production,stage_year_1,1,,,stage,1,1,"plan","Birdseed-only model never leaves stage 1."
-price,product_price_per_lb,0.50,0.38,0.62,usd_per_lb,1,,"Retail 40-lb black-oil bags $16-28 (Walmart/Chewy/Bomgaars/Farm & Home, Oct 2026 search = $0.40-0.70/lb); 50-lb feed-store bags $25-43 ($0.50-0.86/lb); AMS Jamestown KS conventional bird-food bid ~$19.50/cwt (~Aug 2026). Blend is estimate, verify with store buyers","Weighted channel blend: 50% direct/online/farm-stand at ~$0.62/lb ($25 per 40-lb bag), 35% wholesale to Wichita feed/garden/hardware stores at ~$0.45/lb ($18 per 40 lb; store retails $25-28), 15% bulk to packers at ~$0.22/lb. Adverse = mostly wholesale/bulk; favorable = mostly direct."
-price,byproduct_price_per_lb,0.06,0.04,0.08,usd_per_lb,1,,"estimate, verify (screenings priced at ~half of sorghum feed value, ~$4-5/cwt)","Screenings to local poultry/cattle feeders or own livestock."
-price,grain_price_per_lb,0.195,0.17,0.22,usd_per_lb,1,,"USDA AMS National Daily Sunflower report, Jamestown KS conventional bird-food bid $19.50/cwt delivered (~Aug 2026) per knowledge/crops/sunflower.md; verify buyer and freight","Opportunity cost of selling the same black-oil seed in bulk to a bird-food buyer. Net of ~$1/cwt freight the farm would net ~$0.185; using delivered bid is conservative against the vertical."
+production,stage_year_1,1,,,stage,1,1,plan,Birdseed-only model never leaves stage 1.
+price,product_price_per_lb,0.46,0.38,0.62,usd_per_lb,1,,"Retail 40-lb black-oil bags $16-28 (Walmart/Chewy/Bomgaars/Farm & Home, Oct 2026 search = $0.40-0.70/lb); 50-lb feed-store bags $25-43 ($0.50-0.86/lb); AMS Jamestown KS conventional bird-food bid ~$19.50/cwt (~Aug 2026). Blend is estimate, verify with store buyers","market-checked 2026-10-31 per competitor-analysis.md; Weighted channel blend: 50% direct/online/farm-stand at ~$0.62/lb ($25 per 40-lb bag), 35% wholesale to Wichita feed/garden/hardware stores at ~$0.45/lb ($18 per 40 lb; store retails $25-28), 15% bulk to packers at ~$0.22/lb. Adverse = mostly wholesale/bulk; favorable = mostly direct."
+price,byproduct_price_per_lb,0.06,0.04,0.08,usd_per_lb,1,,"estimate, verify (screenings priced at ~half of sorghum feed value, ~$4-5/cwt)",Screenings to local poultry/cattle feeders or own livestock.
+price,grain_price_per_lb,0.21,0.17,0.22,usd_per_lb,1,,"USDA AMS National Daily Sunflower report, Jamestown KS conventional bird-food bid $19.50/cwt delivered (~Aug 2026) per knowledge/crops/sunflower.md; verify buyer and freight",market-checked 2026-10-31 per competitor-analysis.md; Opportunity cost of selling the same black-oil seed in bulk to a bird-food buyer. Net of ~$1/cwt freight the farm would net ~$0.185; using delivered bid is conservative against the vertical.
 volume,sales_pct_of_output,70,55,85,pct,1,1,"estimate, verify after first season","Year 1: first accounts, winter selling season only (Oct-Mar). Unsold bagged seed is carried into next season (not modeled; conservative)."
-volume,sales_pct_of_output,85,70,95,pct,1,2,"estimate","Year 2: 8-15 store accounts plus repeat direct customers."
-volume,sales_pct_of_output,100,85,100,pct,1,3,"estimate","Year 3 on: full sell-through or acreage trimmed to demand."
-volume,sales_pct_of_output,100,90,100,pct,1,4,"estimate",""
-volume,sales_pct_of_output,100,90,100,pct,1,5,"estimate",""
+volume,sales_pct_of_output,85,70,95,pct,1,2,estimate,Year 2: 8-15 store accounts plus repeat direct customers.
+volume,sales_pct_of_output,100,85,100,pct,1,3,estimate,Year 3 on: full sell-through or acreage trimmed to demand.
+volume,sales_pct_of_output,100,90,100,pct,1,4,estimate,
+volume,sales_pct_of_output,100,90,100,pct,1,5,estimate,
 capital,seed_cleaner_air_screen_used,5000,7000,4000,usd,1,,"Used Clipper M2B refurbished $4,000 (Kansas Nex-Tech listing, 2025); used Eclipse 324 $2,500 (EquipNet); new Eclipse 324 $11,900-16,258 (Hoffman, Seedburo, 2026)","Used Clipper M2B/27 class, 3 screens, ~1,000-2,000 lb/hr on sunflower. Adverse = pay more or add screens/motor."
-capital,gross_weigh_bagger,3600,4500,3600,usd,1,,"Tracey Packaging GB-25 mechanical gross-weigh bagger $3,600 (2026 listing)","4-6 bags/min on free-flowing product; 20-115 lb bags; +/- 4 oz."
-capital,bag_closer_sewing_head,1500,2500,1200,usd,1,,"estimate, verify (portable bag-closing sewing machine listings $600-2,500)","Sewn or heat-sealed poly-woven bags."
+capital,gross_weigh_bagger,3600,4500,3600,usd,1,,"Tracey Packaging GB-25 mechanical gross-weigh bagger $3,600 (2026 listing)",4-6 bags/min on free-flowing product; 20-115 lb bags; +/- 4 oz.
+capital,bag_closer_sewing_head,1500,2500,1200,usd,1,,"estimate, verify (portable bag-closing sewing machine listings $600-2,500)",Sewn or heat-sealed poly-woven bags.
 capital,surge_hopper_conveyor_platform_scale,4000,5500,3000,usd,1,,"estimate, verify","Hopper over bagger, short belt or auger conveyor, legal-for-trade platform scale (~$500)."
 capital,storage_and_pest_control_upfit,3000,5000,2000,usd,1,,"estimate, verify","Bin aeration tune-up, sealed clean-seed storage tote/box, pheromone traps, rodent exclusion for bagged inventory."
-capital,pallets_pallet_jack_misc,1500,2000,1200,usd,1,,"estimate","Pallet jack, pallets, stretch wrap, signage."
-operating_fixed,ks_commercial_feed_license,10,10,10,usd_per_year,1,,"K.S.A. 2-1014 annual commercial feed license $10; KDA Dairy and Feed Safety page (2026)","Required per manufacturing facility if KDA treats wild bird feed as commercial feed (not confirmed exempt); verify with KDA 785-564-6700."
-operating_fixed,ks_feed_tonnage_fee_minimum,30,30,30,usd_per_year,1,,"KDA: $0.09/ton or $15 semiannual minimum, whichever greater (2026)","~19 tons/yr x $0.09 = $2; minimum $15 x 2 = $30."
-operating_fixed,product_liability_insurance,1500,2500,1200,usd_per_year,1,,"estimate, verify with farm insurer","Rider to farm policy for packaged feed sales."
-operating_fixed,marketing_and_website,1500,2000,1500,usd_per_year,1,,"estimate","Labels design, website/online listing, samples to stores, bird-club sponsorship."
-operating_fixed,maintenance_screens_belts,800,1200,600,usd_per_year,1,,"estimate (used Clipper screens ~$50-100 each on eBay, 2026)",""
-operating_fixed,pest_control_and_lab_tests,500,800,400,usd_per_year,1,,"estimate","Pheromone traps, DE, occasional moisture/FM check."
-operating_variable,bags_and_labels,0.025,0.03,0.02,usd_per_lb,1,,"estimate, verify (printed 40-lb poly-woven bag ~$0.70-1.00 each; 20-lb ~$0.55)","Per lb finished birdseed; blend of 20- and 40-lb bags. Bulk-to-packer share needs no bag."
+capital,pallets_pallet_jack_misc,1500,2000,1200,usd,1,,estimate,"Pallet jack, pallets, stretch wrap, signage."
+operating_fixed,ks_commercial_feed_license,10,10,10,usd_per_year,1,,K.S.A. 2-1014 annual commercial feed license $10; KDA Dairy and Feed Safety page (2026),Required per manufacturing facility if KDA treats wild bird feed as commercial feed (not confirmed exempt); verify with KDA 785-564-6700.
+operating_fixed,ks_feed_tonnage_fee_minimum,30,30,30,usd_per_year,1,,"KDA: $0.09/ton or $15 semiannual minimum, whichever greater (2026)",~19 tons/yr x $0.09 = $2; minimum $15 x 2 = $30.
+operating_fixed,product_liability_insurance,1500,2500,1200,usd_per_year,1,,"estimate, verify with farm insurer",Rider to farm policy for packaged feed sales.
+operating_fixed,marketing_and_website,1500,2000,1500,usd_per_year,1,,estimate,"Labels design, website/online listing, samples to stores, bird-club sponsorship."
+operating_fixed,maintenance_screens_belts,800,1200,600,usd_per_year,1,,"estimate (used Clipper screens ~$50-100 each on eBay, 2026)",
+operating_fixed,pest_control_and_lab_tests,500,800,400,usd_per_year,1,,estimate,"Pheromone traps, DE, occasional moisture/FM check."
+operating_variable,bags_and_labels,0.025,0.03,0.02,usd_per_lb,1,,"estimate, verify (printed 40-lb poly-woven bag ~$0.70-1.00 each; 20-lb ~$0.55)",Per lb finished birdseed; blend of 20- and 40-lb bags. Bulk-to-packer share needs no bag.
 operating_variable,labor_clean_bag_sell,0.12,0.16,0.10,usd_per_lb,1,,"ZipRecruiter Wichita general labor avg $15.67/hr (Jul 2026), postings $18-25; BLS Wichita farm/forestry mean $17.55 (May 2025). Hours are estimate","~200 hr/yr at $20 loaded for 34,500 lb: cleaning 25 hr, bagging 16 hr, delivery and selling ~160 hr. Owner labor, but charged."
-operating_variable,electricity,0.005,0.006,0.004,usd_per_lb,1,,"KS commercial avg ~12.3 c/kWh (electricchoice.com, Oct 2026); Evergy residential 14.3-15.3 c/kWh","Cleaner 3-5 hp plus aeration; trivial per lb."
-operating_variable,delivery_fuel,0.03,0.04,0.02,usd_per_lb,1,,"estimate","Pickup deliveries within 40 mi of farm; pallet drops to stores."
-operating_variable,online_fees_and_shipping_subsidy,0.02,0.03,0.015,usd_per_lb,1,,"estimate","Marketplace/payment fees on direct share; shipping is charged to customer."
-financing,discount_rate_pct,8,,,pct,1,,"farm hurdle rate assumption; verify in knowledge/finance",""
-financing,loan_share_pct,0,,,pct,1,,"plan","Stage 1 capex (~$18-27k) funded from cash."
-financing,loan_rate_pct,8,,,pct,1,,"estimate",""
-financing,loan_term_years,7,,,years,1,,"estimate",""
-financing,depreciation_years,10,,,years,1,,"estimate (used cleaner/bagger)",""
-scenario,adverse_narrative,,,,text,1,,"plan","Drought yield 800 lb/ac; price war with big-box 40-lb bags at $16-20; slow store uptake."
-scenario,favorable_narrative,,,,text,1,,"plan","2,200 lb/ac; strong direct sales via farm brand; 30 ac."
+operating_variable,electricity,0.005,0.006,0.004,usd_per_lb,1,,"KS commercial avg ~12.3 c/kWh (electricchoice.com, Oct 2026); Evergy residential 14.3-15.3 c/kWh",Cleaner 3-5 hp plus aeration; trivial per lb.
+operating_variable,delivery_fuel,0.03,0.04,0.02,usd_per_lb,1,,estimate,Pickup deliveries within 40 mi of farm; pallet drops to stores.
+operating_variable,online_fees_and_shipping_subsidy,0.02,0.03,0.015,usd_per_lb,1,,estimate,Marketplace/payment fees on direct share; shipping is charged to customer.
+financing,discount_rate_pct,8,,,pct,1,,farm hurdle rate assumption; verify in knowledge/finance,
+financing,loan_share_pct,0,,,pct,1,,plan,Stage 1 capex (~$18-27k) funded from cash.
+financing,loan_rate_pct,8,,,pct,1,,estimate,
+financing,loan_term_years,7,,,years,1,,estimate,
+financing,depreciation_years,10,,,years,1,,estimate (used cleaner/bagger),
+scenario,adverse_narrative,,,,text,1,,plan,Drought yield 800 lb/ac; price war with big-box 40-lb bags at $16-20; slow store uptake.
+scenario,favorable_narrative,,,,text,1,,plan,"2,200 lb/ac; strong direct sales via farm brand; 30 ac."

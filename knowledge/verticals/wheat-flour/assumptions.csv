@@ -1,66 +1,66 @@
 section,item,value_base,value_adverse,value_favorable,unit,stage,year_start,source,note
-production,acres,15,10,20,acres,1,1,"Plan design; vertical-integration-options.md line 1 (stage 1 = 10-20 acres), 2026-10-31","Identity-preserved HRW acres milled in model year 1 (harvest before the first milling season)"
-production,acres,20,15,30,acres,1,2,"Plan design, 2026-10-31","Year 2 acres"
-production,acres,30,20,40,acres,2,3,"Plan design; options.md stage 2 = 30-50 acres, 2026-10-31","Year 3 acres (stage 2 begins)"
-production,acres,40,25,50,acres,2,4,"Plan design, 2026-10-31","Year 4 acres"
-production,acres,50,30,50,acres,2,5,"Plan design, 2026-10-31","Year 5 acres; cap at 50 until bakery/regional distribution proven"
+production,acres,15,10,20,acres,1,1,"Plan design; vertical-integration-options.md line 1 (stage 1 = 10-20 acres), 2026-10-31",Identity-preserved HRW acres milled in model year 1 (harvest before the first milling season)
+production,acres,20,15,30,acres,1,2,"Plan design, 2026-10-31",Year 2 acres
+production,acres,30,20,40,acres,2,3,"Plan design; options.md stage 2 = 30-50 acres, 2026-10-31",Year 3 acres (stage 2 begins)
+production,acres,40,25,50,acres,2,4,"Plan design, 2026-10-31",Year 4 acres
+production,acres,40,30,50,acres,2,5,"Plan design, 2026-10-31",market-checked 2026-10-31 per competitor-analysis.md; Year 5 acres; cap at 50 until bakery/regional distribution proven
 production,stage_year_1,1,1,1,stage,,1,"Plan design, 2026-10-31","Stage 1: cleaner + mill + sifter + bagging, wholesale flour"
-production,stage_year_2,1,1,1,stage,,2,"Plan design, 2026-10-31",""
-production,stage_year_3,2,1,2,stage,,3,"Plan design, 2026-10-31","Stage 2 (added products + e-commerce) in year 3; adverse case never leaves stage 1"
-production,stage_year_4,2,1,2,stage,,4,"Plan design, 2026-10-31",""
-production,stage_year_5,2,2,2,stage,,5,"Plan design, 2026-10-31","Stage 3 (bakery) is a year 5-6 decision and is modeled outside the 5-year sheet; see business-plan.md section 8"
-production,yield_per_acre,50,35,60,bu,,,"knowledge/crops/wheat-hard-red-winter.md yield table (dryland trend 50-60 bu on good soils; Kansas 2022-2026 state average 34-51 bu), reviewed 2026-10-31","Dryland; irrigated branch not modeled until water rights confirmed"
-production,yield_unit_lb,60,,,lb,,,"Standard US bushel weight for wheat (60 lb), USDA","Test weight 2026 Kansas crop 60.3 lb/bu"
-production,conversion_pct,85,80,88,pct,,,"America's Test Kitchen stone-ground flour survey (sifted 80-85% extraction; whole wheat 100%), accessed 2026-10-31; cleaning loss 2-3% estimate, verify","Blended product mix: ~50% whole wheat (~97% after cleaning) and ~50% sifted/bolted (~80%); finished flour lb per 100 lb cleaned grain"
-production,byproduct_pct,12,15,9,pct,,,"Mass balance: 100 - conversion - ~3% cleaning/moisture loss; estimate, verify","Bran and screenings sold as feed or bagged bran"
-price,product_price_per_lb,1.50,1.15,1.85,usd_per_lb,,,"Blended 50-lb wholesale and 5-lb retail. Benchmarks: Ground Up Grain (MA) 50 lb stone-milled whole wheat $74 = $1.48/lb; Deep Roots Milling local stone-milled bread flour 50 lb $97.50 = $1.95/lb; Farmer Direct Foods (KS) 5 lb retail $7.99 = $1.59/lb (Good Eggs); commodity stone-ground 50 lb $0.64/lb (Bakers Authority). All accessed 2026-10-31, undated listings; verify with Wichita bakery quotes","Base assumes ~80% of volume in 50-lb wholesale at ~$1.35/lb and ~20% in 5-lb retail at ~$2.10/lb"
-price,byproduct_price_per_lb,0.10,0.05,0.15,usd_per_lb,,,"Wheat midds/bran feed value roughly $150-200/short ton (estimate, verify against AMS Kansas City feedstuff report); bagged bran retail higher","Base = feed value; favorable includes some bagged bran sales"
-price,grain_price_per_lb,0.1075,0.125,0.0958,usd_per_lb,,,"knowledge/crops/wheat-hard-red-winter.md: Sedgwick County cash $6.10-6.80/bu Oct 2026 (AMS south Kansas terminal less basis); base $6.45/bu, adverse $7.50/bu, favorable $5.75/bu, divided by 60 lb","Opportunity cost of grain sold to the mill at farm-gate cash price; adverse = high grain price makes milling less attractive"
+production,stage_year_2,1,1,1,stage,,2,"Plan design, 2026-10-31",
+production,stage_year_3,2,1,2,stage,,3,"Plan design, 2026-10-31",Stage 2 (added products + e-commerce) in year 3; adverse case never leaves stage 1
+production,stage_year_4,2,1,2,stage,,4,"Plan design, 2026-10-31",
+production,stage_year_5,2,2,2,stage,,5,"Plan design, 2026-10-31",Stage 3 (bakery) is a year 5-6 decision and is modeled outside the 5-year sheet; see business-plan.md section 8
+production,yield_per_acre,50,35,60,bu,,,"knowledge/crops/wheat-hard-red-winter.md yield table (dryland trend 50-60 bu on good soils; Kansas 2022-2026 state average 34-51 bu), reviewed 2026-10-31",Dryland; irrigated branch not modeled until water rights confirmed
+production,yield_unit_lb,60,,,lb,,,"Standard US bushel weight for wheat (60 lb), USDA",Test weight 2026 Kansas crop 60.3 lb/bu
+production,conversion_pct,85,80,88,pct,,,"America's Test Kitchen stone-ground flour survey (sifted 80-85% extraction; whole wheat 100%), accessed 2026-10-31; cleaning loss 2-3% estimate, verify",Blended product mix: ~50% whole wheat (~97% after cleaning) and ~50% sifted/bolted (~80%); finished flour lb per 100 lb cleaned grain
+production,byproduct_pct,12,15,9,pct,,,"Mass balance: 100 - conversion - ~3% cleaning/moisture loss; estimate, verify",Bran and screenings sold as feed or bagged bran
+price,product_price_per_lb,1.50,1.15,1.85,usd_per_lb,,,"Blended 50-lb wholesale and 5-lb retail. Benchmarks: Ground Up Grain (MA) 50 lb stone-milled whole wheat $74 = $1.48/lb; Deep Roots Milling local stone-milled bread flour 50 lb $97.50 = $1.95/lb; Farmer Direct Foods (KS) 5 lb retail $7.99 = $1.59/lb (Good Eggs); commodity stone-ground 50 lb $0.64/lb (Bakers Authority). All accessed 2026-10-31, undated listings; verify with Wichita bakery quotes",Base assumes ~80% of volume in 50-lb wholesale at ~$1.35/lb and ~20% in 5-lb retail at ~$2.10/lb
+price,byproduct_price_per_lb,0.10,0.05,0.15,usd_per_lb,,,"Wheat midds/bran feed value roughly $150-200/short ton (estimate, verify against AMS Kansas City feedstuff report); bagged bran retail higher",Base = feed value; favorable includes some bagged bran sales
+price,grain_price_per_lb,0.1075,0.125,0.0958,usd_per_lb,,,"knowledge/crops/wheat-hard-red-winter.md: Sedgwick County cash $6.10-6.80/bu Oct 2026 (AMS south Kansas terminal less basis); base $6.45/bu, adverse $7.50/bu, favorable $5.75/bu, divided by 60 lb",Opportunity cost of grain sold to the mill at farm-gate cash price; adverse = high grain price makes milling less attractive
 volume,sales_pct_of_output,50,35,65,pct,,1,"Plan design; options.md year-1 target 20,000-40,000 lb sold, 2026-10-31","Share of flour produced that is actually sold; unmilled wheat is sold as grain in practice, but the model conservatively charges milling cost on all output"
-volume,sales_pct_of_output,70,50,85,pct,,2,"Plan design, 2026-10-31","Year 2"
-volume,sales_pct_of_output,80,60,90,pct,,3,"Plan design, 2026-10-31","Year 3 (e-commerce and added products)"
-volume,sales_pct_of_output,85,70,95,pct,,4,"Plan design, 2026-10-31","Year 4"
-volume,sales_pct_of_output,90,75,95,pct,,5,"Plan design, 2026-10-31","Year 5"
-capital,grain_cleaner_air_screen,9000,15000,6000,usd,1,,"Clipper Eclipse 324 class: new $14,000-16,745 (Hoffman Mfg, Seedburo listings), used $2,500-6,500 (EquipNet, eBay listings); accessed 2026-10-31","Base = good used/refurbished unit with wheat screens; adverse = new"
+volume,sales_pct_of_output,70,50,85,pct,,2,"Plan design, 2026-10-31",Year 2
+volume,sales_pct_of_output,80,60,90,pct,,3,"Plan design, 2026-10-31",Year 3 (e-commerce and added products)
+volume,sales_pct_of_output,75,70,95,pct,,4,"Plan design, 2026-10-31",market-checked 2026-10-31 per competitor-analysis.md; Year 4
+volume,sales_pct_of_output,75,75,95,pct,,5,"Plan design, 2026-10-31",market-checked 2026-10-31 per competitor-analysis.md; Year 5
+capital,grain_cleaner_air_screen,9000,15000,6000,usd,1,,"Clipper Eclipse 324 class: new $14,000-16,745 (Hoffman Mfg, Seedburo listings), used $2,500-6,500 (EquipNet, eBay listings); accessed 2026-10-31",Base = good used/refurbished unit with wheat screens; adverse = new
 capital,stone_mill_20in,16000,21700,16000,usd,1,,"Meadows Mills 20 in stone burr mill, 400 lb/hr rated (meadowsmills.com); dealer price $16,000 (Cincinnati Restaurant Equipment Resource) to $15,862-21,655 for 20-30 in range (Plant Based Pros); accessed 2026-10-31","20 in sized for 150,000 lb/yr in under 400 run hours; adverse = 30 in or options. Alternatives: New American Stone Mills 26 in $12,750-25,000 range (Seven Days, 2025; business fire Nov 2025, verify availability); Osttiroler A700 quote only"
-capital,sifter_eccentric,7000,8500,5500,usd,1,,"Meadows eccentric sifter $3,645-4,976 base plus screens $319-364 each and 2-bu hopper $945 (Pleasant Hill Grain, Plant Based Pros listings, accessed 2026-10-31, undated)","Base = sifter + 3 screens + hopper + crating"
-capital,bagging_scale_sealer,6000,10000,3500,usd,1,,"estimate, verify (semi-automatic gross-weigh bagging scale, bag closer/sewer for 50 lb, impulse heat sealer for 5 lb)","No priced listing found in this review; get quotes"
+capital,sifter_eccentric,7000,8500,5500,usd,1,,"Meadows eccentric sifter $3,645-4,976 base plus screens $319-364 each and 2-bu hopper $945 (Pleasant Hill Grain, Plant Based Pros listings, accessed 2026-10-31, undated)",Base = sifter + 3 screens + hopper + crating
+capital,bagging_scale_sealer,6000,10000,3500,usd,1,,"estimate, verify (semi-automatic gross-weigh bagging scale, bag closer/sewer for 50 lb, impulse heat sealer for 5 lb)",No priced listing found in this review; get quotes
 capital,conveying_hoppers_dust,8000,12000,5000,usd,1,,"estimate, verify (bucket elevator or pneumatic transfer, surge hoppers, dust collection, magnets)","Food-grade transfer between cleaner, mill, sifter and bagging"
-capital,ip_grain_bin_aeration,15000,22000,10000,usd,1,,"estimate, verify (new 3,000 bu hopper bin with aeration fan; farm-profile has no bin inventory)","Dedicated identity-preserved storage; may be zero if an existing clean bin can be dedicated"
-capital,facility_fitout,25000,45000,15000,usd,1,,"estimate, verify (sealed floor, washable walls, pest exclusion, 3-phase or VFD power, lighting, handwash sink, restroom access in an existing farm building)","Assumes an existing building; new construction would be far higher"
-capital,testing_equipment,3000,4000,2000,usd,1,,"Moisture meter and DON lateral-flow reader; DON strips $60/20 (Tribio) to $111-543/40 (Seedburo AgraStrip, inconsistent listing); accessed 2026-10-31","Protein and falling number sent to a lab"
-capital,delivery_vehicle,15000,20000,8000,usd,1,,"estimate, verify (used cargo van); favorable uses an existing farm pickup with enclosed trailer","Wichita delivery route"
-capital,startup_permits_branding_inventory,6000,9000,4000,usd,1,,"KDA processor application fee up to $350 (K.S.A. 65-688) + FDA registration free + label/brand design, website, first bag inventory; estimate, verify","One-time soft costs"
-capital,second_mill_12in_corn_sorghum,7500,10000,7500,usd,2,,"Meadows Mills 12 in mill dealer price $7,440-7,600 (Plant Based Pros), up to $10,000 (another dealer); accessed 2026-10-31","Dedicated stones for cornmeal/grits avoid wheat carryover; shared with sorghum line later"
-capital,ecommerce_shipping_station,6000,8000,5000,usd,2,,"estimate, verify (web store, label printer, scale, shelf-stable packaging, inventory software)",""
-capital,additional_storage_bin,10000,14000,8000,usd,2,,"estimate, verify (second 3,000 bu bin for a second grain or crop-year carryover)",""
-capital,flour_cool_storage,8000,12000,6000,usd,2,,"estimate, verify (small walk-in cooler for whole-grain flour shelf life)","Whole wheat flour shelf life is limited by germ oil oxidation"
-capital,bakery_spiral_mixer,15000,22000,12000,usd,3,,"Spiral mixer 60-80 qt $5,000-18,000; 60 qt+ wholesale class $12,000-30,000 (HNH bakery equipment guide 2026, eposnow 2026); accessed 2026-10-31","Stage 3 owned-bakery option; not purchased in the 5-year sheet"
-capital,bakery_divider_rounder,8000,14000,5000,usd,3,,"Semi-automatic divider/rounder $6,000-12,000; manual $3,000-6,000 (HNH 2026); accessed 2026-10-31",""
-capital,bakery_proofer_retarder,8000,15000,4000,usd,3,,"Retarder/proofer combination $4,000-15,000 (HNH 2026); accessed 2026-10-31",""
-capital,bakery_deck_oven,25000,45000,15000,usd,3,,"2-3 deck gas/electric deck oven $15,000-45,000 (HNH 2026); used 30-50% less; accessed 2026-10-31",""
-capital,bakery_facility_buildout,60000,120000,40000,usd,3,,"estimate, verify (licensed bakery build-out: hood, gas, plumbing, floor drains, walk-in, restrooms); startup guides quote $200K-600K for a full wholesale bakery (startupcosthub 2026)","Partner/co-pack route avoids this line entirely"
-capital,bakery_smallwares_racks_cooler,18000,25000,12000,usd,3,,"estimate, verify (walk-in cooler ~$10,000, racks, sheet pans, couches, baskets, slicer, bagger)",""
-operating_fixed,kda_food_processor_license,250,325,200,usd_per_year,1,,"K.S.A. 65-688: annual license fee capped at $200 for processors under 5,000 sq ft, $400 at 5,000 sq ft or more; KDA fee table shows $325 license for 10,001-50,000 sq ft tier; accessed 2026-10-31, verify current fee schedule","Licenses expire March 31 each year"
-operating_fixed,insurance_product_liability_property,3500,5000,2500,usd_per_year,1,,"estimate, verify (small food processor general + product liability $1M/$2M plus equipment and stock cover)",""
+capital,ip_grain_bin_aeration,15000,22000,10000,usd,1,,"estimate, verify (new 3,000 bu hopper bin with aeration fan; farm-profile has no bin inventory)",Dedicated identity-preserved storage; may be zero if an existing clean bin can be dedicated
+capital,facility_fitout,25000,45000,15000,usd,1,,"estimate, verify (sealed floor, washable walls, pest exclusion, 3-phase or VFD power, lighting, handwash sink, restroom access in an existing farm building)",Assumes an existing building; new construction would be far higher
+capital,testing_equipment,3000,4000,2000,usd,1,,"Moisture meter and DON lateral-flow reader; DON strips $60/20 (Tribio) to $111-543/40 (Seedburo AgraStrip, inconsistent listing); accessed 2026-10-31",Protein and falling number sent to a lab
+capital,delivery_vehicle,15000,20000,8000,usd,1,,"estimate, verify (used cargo van); favorable uses an existing farm pickup with enclosed trailer",Wichita delivery route
+capital,startup_permits_branding_inventory,6000,9000,4000,usd,1,,"KDA processor application fee up to $350 (K.S.A. 65-688) + FDA registration free + label/brand design, website, first bag inventory; estimate, verify",One-time soft costs
+capital,second_mill_12in_corn_sorghum,7500,10000,7500,usd,2,,"Meadows Mills 12 in mill dealer price $7,440-7,600 (Plant Based Pros), up to $10,000 (another dealer); accessed 2026-10-31",Dedicated stones for cornmeal/grits avoid wheat carryover; shared with sorghum line later
+capital,ecommerce_shipping_station,6000,8000,5000,usd,2,,"estimate, verify (web store, label printer, scale, shelf-stable packaging, inventory software)",
+capital,additional_storage_bin,10000,14000,8000,usd,2,,"estimate, verify (second 3,000 bu bin for a second grain or crop-year carryover)",
+capital,flour_cool_storage,8000,12000,6000,usd,2,,"estimate, verify (small walk-in cooler for whole-grain flour shelf life)",Whole wheat flour shelf life is limited by germ oil oxidation
+capital,bakery_spiral_mixer,15000,22000,12000,usd,3,,"Spiral mixer 60-80 qt $5,000-18,000; 60 qt+ wholesale class $12,000-30,000 (HNH bakery equipment guide 2026, eposnow 2026); accessed 2026-10-31",Stage 3 owned-bakery option; not purchased in the 5-year sheet
+capital,bakery_divider_rounder,8000,14000,5000,usd,3,,"Semi-automatic divider/rounder $6,000-12,000; manual $3,000-6,000 (HNH 2026); accessed 2026-10-31",
+capital,bakery_proofer_retarder,8000,15000,4000,usd,3,,"Retarder/proofer combination $4,000-15,000 (HNH 2026); accessed 2026-10-31",
+capital,bakery_deck_oven,25000,45000,15000,usd,3,,"2-3 deck gas/electric deck oven $15,000-45,000 (HNH 2026); used 30-50% less; accessed 2026-10-31",
+capital,bakery_facility_buildout,60000,120000,40000,usd,3,,"estimate, verify (licensed bakery build-out: hood, gas, plumbing, floor drains, walk-in, restrooms); startup guides quote $200K-600K for a full wholesale bakery (startupcosthub 2026)",Partner/co-pack route avoids this line entirely
+capital,bakery_smallwares_racks_cooler,18000,25000,12000,usd,3,,"estimate, verify (walk-in cooler ~$10,000, racks, sheet pans, couches, baskets, slicer, bagger)",
+operating_fixed,kda_food_processor_license,250,325,200,usd_per_year,1,,"K.S.A. 65-688: annual license fee capped at $200 for processors under 5,000 sq ft, $400 at 5,000 sq ft or more; KDA fee table shows $325 license for 10,001-50,000 sq ft tier; accessed 2026-10-31, verify current fee schedule",Licenses expire March 31 each year
+operating_fixed,insurance_product_liability_property,3500,5000,2500,usd_per_year,1,,"estimate, verify (small food processor general + product liability $1M/$2M plus equipment and stock cover)",
 operating_fixed,facility_utilities_pest_maintenance,4000,6000,3000,usd_per_year,1,,"estimate, verify (base-load electricity and heat, pest control contract, stone dressing, belts, screens)","Kansas commercial electricity about 12.3 cents/kWh (electricchoice.com Oct 2026, verify against Evergy Kansas Central tariff)"
-operating_fixed,marketing_sales_markets,5000,7000,4000,usd_per_year,1,,"estimate, verify (samples, farmers market fees, trade show, website hosting, printed materials)",""
-operating_fixed,lab_testing_annual,1500,2500,1000,usd_per_year,1,,"estimate, verify (protein, falling number, flour micro and DON confirmation at a commercial lab, several lots per year)",""
+operating_fixed,marketing_sales_markets,5000,7000,4000,usd_per_year,1,,"estimate, verify (samples, farmers market fees, trade show, website hosting, printed materials)",
+operating_fixed,lab_testing_annual,1500,2500,1000,usd_per_year,1,,"estimate, verify (protein, falling number, flour micro and DON confirmation at a commercial lab, several lots per year)",
 operating_fixed,labor_fixed_operator_sales,12000,15000,10000,usd_per_year,1,,"About 12 h/week x 50 weeks x $20/h loaded. BLS OEWS Wichita bakers mean $15.34/h (May 2024); food batchmaker wage not found, verify; $20 loaded is an estimate","Sales calls, deliveries, records, ordering; milling labor is in variable cost"
-operating_fixed,labor_fixed_stage2_increment,12000,15000,10000,usd_per_year,2,,"Additional ~12 h/week at $20/h loaded for e-commerce fulfilment, added products and account management; estimate, verify","Applies from the year stage 2 starts"
-operating_fixed,ecommerce_platform_fees,2000,2500,1500,usd_per_year,2,,"estimate, verify (web store subscription, payment gateway fixed fees)",""
-operating_variable,packaging_bags_labels,0.05,0.07,0.04,usd_per_lb,1,,"estimate, verify: 50-lb multiwall paper bag ~$1.20 = $0.024/lb; 5-lb printed paper bag ~$0.45 = $0.09/lb; blended at 80/20 volume mix","Verify with bag supplier quotes"
-operating_variable,electricity_milling,0.01,0.015,0.008,usd_per_lb,1,,"20 in mill ~7.5 hp (5.6 kW) at ~400 lb/hr plus cleaner, sifter, conveying and aeration ~0.05 kWh/lb total x 12.3 cents/kWh (Kansas commercial average, electricchoice.com Oct 2026) = ~$0.006/lb; rounded up; verify",""
+operating_fixed,labor_fixed_stage2_increment,12000,15000,10000,usd_per_year,2,,"Additional ~12 h/week at $20/h loaded for e-commerce fulfilment, added products and account management; estimate, verify",Applies from the year stage 2 starts
+operating_fixed,ecommerce_platform_fees,2000,2500,1500,usd_per_year,2,,"estimate, verify (web store subscription, payment gateway fixed fees)",
+operating_variable,packaging_bags_labels,0.05,0.07,0.04,usd_per_lb,1,,"estimate, verify: 50-lb multiwall paper bag ~$1.20 = $0.024/lb; 5-lb printed paper bag ~$0.45 = $0.09/lb; blended at 80/20 volume mix",Verify with bag supplier quotes
+operating_variable,electricity_milling,0.01,0.015,0.008,usd_per_lb,1,,"20 in mill ~7.5 hp (5.6 kW) at ~400 lb/hr plus cleaner, sifter, conveying and aeration ~0.05 kWh/lb total x 12.3 cents/kWh (Kansas commercial average, electricchoice.com Oct 2026) = ~$0.006/lb; rounded up; verify",
 operating_variable,labor_milling_bagging,0.13,0.18,0.10,usd_per_lb,1,,"~150 lb finished flour per operator hour including cleaning, milling, sifting, bagging, cleanup at $20/h loaded (estimate; Wichita bakers mean $15.34/h BLS May 2024)","Automation (gravity flow, semi-auto bagging) is what moves this toward the favorable value"
-operating_variable,testing_per_lot,0.005,0.01,0.003,usd_per_lb,1,,"DON lateral-flow strips ~$3-14 per test (Tribio $60/20; Seedburo AgraStrip listing inconsistent), 1-2 tests per ~5,000 lb lot plus moisture; accessed 2026-10-31",""
-operating_variable,delivery_fuel_vehicle,0.04,0.06,0.03,usd_per_lb,1,,"estimate, verify (Wichita route ~60 mi round trip, ~1,500-2,000 lb per trip, fuel + maintenance ~$0.60/mi)",""
-operating_variable,market_fees_payment_processing,0.02,0.03,0.015,usd_per_lb,1,,"estimate, verify (card fees ~3% on retail share, farmers market stall fees, spoilage/returns)",""
-operating_variable,ecommerce_packaging_increment,0.02,0.03,0.015,usd_per_lb,2,,"estimate, verify (shipping cartons and fill for the e-commerce share, averaged across all output)","Shipping charged to customer"
-financing,discount_rate_pct,8,10,7,pct,,,"Farm cost of capital assumption; estimate, verify with finance-controller","Real-dollar cash flows"
-financing,loan_share_pct,50,50,50,pct,,,"Plan design: half of capex financed (FSA/farm credit equipment or microloan), 2026-10-31",""
-financing,loan_rate_pct,7.5,9,6.5,pct,,,"Farm Credit / FSA equipment loan rates 2026; estimate, verify with lender",""
-financing,loan_term_years,7,,,years,,,"Typical equipment term; estimate, verify",""
-financing,depreciation_years,10,,,years,,,"Straight-line economic life for mill and facility; estimate",""
+operating_variable,testing_per_lot,0.005,0.01,0.003,usd_per_lb,1,,"DON lateral-flow strips ~$3-14 per test (Tribio $60/20; Seedburo AgraStrip listing inconsistent), 1-2 tests per ~5,000 lb lot plus moisture; accessed 2026-10-31",
+operating_variable,delivery_fuel_vehicle,0.04,0.06,0.03,usd_per_lb,1,,"estimate, verify (Wichita route ~60 mi round trip, ~1,500-2,000 lb per trip, fuel + maintenance ~$0.60/mi)",
+operating_variable,market_fees_payment_processing,0.02,0.03,0.015,usd_per_lb,1,,"estimate, verify (card fees ~3% on retail share, farmers market stall fees, spoilage/returns)",
+operating_variable,ecommerce_packaging_increment,0.02,0.03,0.015,usd_per_lb,2,,"estimate, verify (shipping cartons and fill for the e-commerce share, averaged across all output)",Shipping charged to customer
+financing,discount_rate_pct,8,10,7,pct,,,"Farm cost of capital assumption; estimate, verify with finance-controller",Real-dollar cash flows
+financing,loan_share_pct,50,50,50,pct,,,"Plan design: half of capex financed (FSA/farm credit equipment or microloan), 2026-10-31",
+financing,loan_rate_pct,7.5,9,6.5,pct,,,"Farm Credit / FSA equipment loan rates 2026; estimate, verify with lender",
+financing,loan_term_years,7,,,years,,,"Typical equipment term; estimate, verify",
+financing,depreciation_years,10,,,years,,,Straight-line economic life for mill and facility; estimate,
 scenario,adverse_description,0,,,text,,,"Plan design, 2026-10-31","Drought year 35 bu, protein or DON forces buying grain in, grain price $7.50/bu, slow account growth, price pressure from Farmer Direct Foods/Hudson Cream at $1.15/lb, stays stage 1 through year 4"
 scenario,favorable_description,0,,,text,,,"Plan design, 2026-10-31","60 bu, two anchor bakery accounts in year 1, 20% retail mix at $2+/lb, e-commerce in year 3, 50 acres by year 4"
-scenario,unmodeled_bakery_stage,0,,,text,,,"Plan design, 2026-10-31","Stage 3 bakery capital rows are listed with stage 3 but no scenario reaches stage 3 inside the 5-year sheet; see business-plan.md section 8 for the bakery side-calculation"
+scenario,unmodeled_bakery_stage,0,,,text,,,"Plan design, 2026-10-31",Stage 3 bakery capital rows are listed with stage 3 but no scenario reaches stage 3 inside the 5-year sheet; see business-plan.md section 8 for the bakery side-calculation
