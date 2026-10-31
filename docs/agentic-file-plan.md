@@ -143,7 +143,9 @@ Mexico as the top buyer of Kansas wheat and corn.
 - `[ ] sorghum-export-markets.md` — China demand and tariff swings as the key driver.
 - `[ ] corn-and-soybean-markets.md` — Kansas basis, ethanol, crush, Mexico export.
 - `[ ] kansas-ethanol-and-feed-demand.md` — local ethanol plants, feedlot belt demand.
-- `[ ] local-elevators-and-basis.md` — buyers within hauling distance, basis history.
+- `[~] marketing-channels-and-coops.md` — buyer types, how co-ops work, contract types,
+  pricing and discount differences, storage charges, counterparty law, bid worksheet.
+- `[~] local-elevators-and-basis.md` — catalog of buyers within ~75 miles, basis history.
 - `[ ] futures-and-hedging.md` — contracts, options, HTA, basis contracts.
 - `[ ] hay-and-forage-markets.md`
 - `[ ] marketing-plan-framework.md` — incremental sales targets, triggers.
