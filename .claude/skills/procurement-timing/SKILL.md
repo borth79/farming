@@ -10,7 +10,11 @@ before each seasonal buying window (summer N fill, late-spring fuel contracting,
 pre-harvest fuel fill, propane summer fill).
 
 ## Steps
-1. Read `knowledge/inputs/input-procurement-strategy.md` and the relevant input file.
+0. Run `python3 scripts/procurement_signal.py`; the call (BUY-SHOCK, BUY-TRANCHE, HOLD, DEFER)
+   and recommended quantity per input come from `knowledge/inputs/procurement-early-warning-system.md`.
+   A BUY-SHOCK is executed within 48 hours up to the caps; the remaining steps confirm sizing.
+1. Read `knowledge/inputs/input-procurement-strategy.md`, `procurement-early-warning-system.md`
+   and the relevant input file.
 2. Read the latest `plans/<season>/input-price-forecast.md`; if older than 30 days or a
    shock has occurred since, run `forecast-input-costs` first.
 3. Determine requirement: quantity needed for the current draft crop plan, less

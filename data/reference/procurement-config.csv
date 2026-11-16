@@ -1,0 +1,8 @@
+input,unit,annual_requirement,on_farm_storage_capacity,contracted_storage,max_prepaid_pct,counterparty_limit_usd,default_tranche_pct,shelf_life_months,seasonal_window_months,drivers,note
+anhydrous,ton,0,0,0,70,0,30,24,"6,7,8","natural_gas",fill from crop plan; storage TBD
+urea,ton,0,0,0,70,0,30,18,"6,7,8","natural_gas",
+uan32,ton,0,0,0,70,0,30,12,"6,7,8","natural_gas",
+dap,ton,0,0,0,100,0,50,36,"6,7,8,9","",soil-test driven
+potash,ton,0,0,0,100,0,50,36,"6,7,8,9","",usually not needed; soil test
+diesel_offroad,gal,0,0,0,100,0,40,12,"2,3,6,7","wti",fill storage on shock
+propane,gal,0,0,0,100,0,100,24,"6,7,8","natural_gas",only if corn planned

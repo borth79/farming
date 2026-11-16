@@ -1,0 +1,6 @@
+scenario_id,scenario,probability_6mo,inputs_affected,impact_pct,as_of,source
+S1,Hormuz re-closure or sustained attacks,0.45,"urea;uan32;anhydrous;diesel_offroad;dap",50,2026-11-16,watchlist W-001 (high) — verify weekly
+S2,Hormuz durable reopening,0.30,"urea;uan32;diesel_offroad",-20,2026-11-16,watchlist
+S5,Russia/Belarus fertilizer sanctions tightened,0.25,"potash;urea",25,2026-11-16,watchlist W-006
+S6,China urea/phosphate export restriction,0.30,"urea;dap",20,2026-11-16,watchlist W-007
+S8,Gulf hurricane or Mississippi low water,0.20,"urea;dap;uan32",10,2026-11-16,seasonal (Aug–Oct)

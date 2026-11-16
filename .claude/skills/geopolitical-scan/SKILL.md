@@ -22,9 +22,12 @@ Run weekly (Monday) and immediately when a major event breaks.
 5. **Update files.** Edit `watchlist.md` rows (status, probability, last update); add or
    retire rows. Update probabilities in `scenario-playbook.md`. Append events to
    `data/processed/geopolitical_events.csv` per `data/reference/geopolitical-event-schema.md`.
-6. **Trigger handoffs.** For any scenario whose trigger fired, write the pre-committed
+6. **Update scenario probabilities** in `data/processed/scenario_probabilities.csv` (id,
+   probability, inputs affected, impact %), then run `python3 scripts/procurement_signal.py`
+   so the procurement call reflects this week's scan.
+7. **Trigger handoffs.** For any scenario whose trigger fired, write the pre-committed
    action and invoke `procurement-timing` or notify the market analyst.
-7. **Record.** Save `plans/<season>/geo-scan-YYYY-MM-DD.md` with headline risks,
+8. **Record.** Save `plans/<season>/geo-scan-YYYY-MM-DD.md` with headline risks,
    changes, actions, and sources.
 
 ## Output

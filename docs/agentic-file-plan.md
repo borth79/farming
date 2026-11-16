@@ -104,6 +104,10 @@ Mexico as the top buyer of Kansas wheat and corn.
 - `[ ] crop-insurance-kansas.md` — RP/YP products, county yields, wheat and sorghum
   price discovery periods, hail coverage, key dates.
 - `[~] input-procurement-strategy.md` — prepay, forward contracts, supplier diversity.
+- `[~] procurement-early-warning-system.md` — lag chain, indicator ladder by lead time,
+  thresholds, BUY-SHOCK/TRANCHE/HOLD/DEFER calls, sizing caps, storage as strategy;
+  paired with `scripts/procurement_signal.py`, `data/reference/procurement-config.csv`,
+  `data/processed/scenario_probabilities.csv` and `procurement_signals.csv`.
 
 ### 1.6 Machinery and equipment (`knowledge/machinery/`)
 - `[~] equipment-inventory.md` — register of every machine: combines, headers, tractors,
