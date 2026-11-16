@@ -162,6 +162,9 @@ Mexico as the top buyer of Kansas wheat and corn.
 - `[ ] futures-and-hedging.md` — contracts, options, HTA, basis contracts.
 - `[ ] hay-and-forage-markets.md`
 - `[ ] marketing-plan-framework.md` — incremental sales targets, triggers.
+- `[~] specialty-buyer-network.md` — buyer segments for non-commodity crops and products,
+  Kansas programs, materials, twelve-month plan, metrics, decision rules; paired with
+  `data/processed/buyers.csv` and `buyer_contacts.csv`.
 
 ### 1.9 Geopolitics and policy (`knowledge/geopolitics/`)
 - `[~] monitoring-framework.md` — exposure channels, event categories, watch regions,
@@ -234,6 +237,7 @@ Mexico as the top buyer of Kansas wheat and corn.
 - `[ ] build-seasonal-plan/`, `[ ] forecast-input-costs/`, `[ ] weather-scenario-build/`
 - `[ ] market-outlook-refresh/`, `[~] geopolitical-scan/` (weekly)
 - `[ ] enterprise-budget/`, `[~] field-level-recommendation/`
+- `[~] buyer-network-development/` — pipeline, materials, outreach, LOIs, account review.
 - `[~] field-water-analysis/` — DEM to water zones to capture practices per field.
 - `[ ] in-season-replan/`, `[ ] hail-and-storm-response/` — damage assessment, claims,
   replant or double-crop decision.
@@ -251,6 +255,7 @@ Mexico as the top buyer of Kansas wheat and corn.
 - `scripts/fetch_gdelt_events.py` — news volume and headlines per watch topic (GDELT, no key).
 - `[~] reference/soil-test-schema.md` with `processed/soil_tests.csv` and `field_trials.csv`;
   `scripts/soil_test_recommend.py` writes per-field N, P, K, lime, S, Cl, Zn and cost.
+- `[~] reference/buyers-schema.md` with `processed/buyers.csv` and `buyer_contacts.csv`.
 - `[~] reference/field-water-zones-schema.md` with `processed/field_water_zones.csv`;
   `scripts/terrain_water_analysis.py` computes slope, flow accumulation, TWI, zones and
   concentrated-flow candidates from a DEM.
