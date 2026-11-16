@@ -34,6 +34,13 @@ building. Anything built on trust land needs trustee approval, a lease clause co
 improvements, and a check on agricultural-use and §2032A status. See
 `knowledge/operations/family-trust-constraints.md`.
 
+## Produce crop ranking (2026-11-16)
+Ten produce crops costed at the family wage: see `knowledge/crops/produce/RANKING.md`.
+Per acre: cut flowers, tomatoes, peppers lead but are capped by channel and picking hours.
+Per labor hour: pumpkins and squash, melons, sweet corn lead and suit a tractor farm with
+no dedicated labor. Hardneck garlic is the best storable. A 3.5-acre stage-1 portfolio
+returns roughly $50–65k of family income versus about $1,000 as grain.
+
 ## Common disqualifiers
 - Letters of intent below the stated floor volume and price after sampling ~20 accounts.
 - Licensed or allergen-free space cannot be built under the stated cap.

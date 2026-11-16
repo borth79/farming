@@ -1,1 +1,61 @@
 crop,channel,labor_rate_code,acres_stage1,yield_lb_per_acre,price_per_lb,sellthrough_pct,revenue_per_acre,variable_cost_per_acre_excl_labor,labor_hours_per_acre,labor_cost_per_acre,fixed_share_per_acre,net_per_acre,net_per_labor_hour,family_income_per_acre,breakeven_price_per_lb,capital_crop_specific,mechanizable,storable_months,source_file,confidence
+cut_flowers,chef_direct,FAMILY,0.25,10000,12.00,85,102000,15500,1600,17600,4300,64600,40.38,82200,4.40,18000,no,0,knowledge/crops/produce/cut-flowers.md,low-medium (lb = 10-stem bunch equivalent; channel = florists and event designers; florist volume ceiling ~0.3-0.4 ac in Wichita)
+cut_flowers,chef_direct,HIRED_SEASONAL,0.25,10000,12.00,85,102000,15500,1600,28800,4300,53400,33.38,,5.72,18000,no,0,knowledge/crops/produce/cut-flowers.md,low-medium (lb = 10-stem bunch equivalent; channel = florists and event designers)
+cut_flowers,grocery_wholesale,FAMILY,0.25,10000,7.00,85,59500,16400,1550,17050,4300,21750,14.03,38800,4.44,18000,no,0,knowledge/crops/produce/cut-flowers.md,low (lb = 10-stem bunch equivalent; channel = grocers and wholesale florists; no Wichita grocer quote)
+cut_flowers,grocery_wholesale,HIRED_SEASONAL,0.25,10000,7.00,85,59500,16400,1550,27900,4300,10900,7.03,,5.72,18000,no,0,knowledge/crops/produce/cut-flowers.md,low (lb = 10-stem bunch equivalent; channel = grocers and wholesale florists)
+cut_flowers,market_csa,FAMILY,0.25,10000,11.00,70,77000,19200,1850,20350,4300,33150,17.92,53500,6.26,18000,no,0,knowledge/crops/produce/cut-flowers.md,"low-medium (lb = 10-stem bunch equivalent; channel = farmers market bouquets,subscriptions,DIY wedding buckets)"
+cut_flowers,market_csa,HIRED_SEASONAL,0.25,10000,11.00,70,77000,19200,1850,33300,4300,20200,10.92,,8.11,18000,no,0,knowledge/crops/produce/cut-flowers.md,"low-medium (lb = 10-stem bunch equivalent; channel = farmers market bouquets,subscriptions,DIY wedding buckets)"
+green_beans,chef_direct,FAMILY,0.25,5000,2.25,90,10125,1530,440,4840,1050,2705,6.15,7545,1.65,1500,partial,0,knowledge/crops/produce/green-beans.md,low-medium (hand-picked 3 pickings; machine-picked scenario in file section 8; no Wichita chef quote)
+green_beans,chef_direct,HIRED_SEASONAL,0.25,5000,2.25,90,10125,1530,440,7920,1050,-375,-0.85,,2.33,1500,partial,0,knowledge/crops/produce/green-beans.md,low-medium (hand-picked 3 pickings)
+green_beans,grocery_wholesale,FAMILY,0.25,5000,1.10,90,4950,1580,425,4675,1050,-2355,-5.54,2320,1.62,1500,partial,0,knowledge/crops/produce/green-beans.md,low-medium (hand-picked; USDA terminal and retail proxies; machine-picked at this price still negative)
+green_beans,grocery_wholesale,HIRED_SEASONAL,0.25,5000,1.10,90,4950,1580,425,7650,1050,-5330,-12.54,,2.28,1500,partial,0,knowledge/crops/produce/green-beans.md,low-medium (hand-picked)
+green_beans,market_csa,FAMILY,0.25,5000,3.00,80,12000,1830,500,5500,1050,3620,7.24,9120,2.10,1500,partial,0,knowledge/crops/produce/green-beans.md,"low-medium (hand-picked; VA/MO farmers market 2025 averages,no Wichita observation)"
+green_beans,market_csa,HIRED_SEASONAL,0.25,5000,3.00,80,12000,1830,500,9000,1050,120,0.24,,2.97,1500,partial,0,knowledge/crops/produce/green-beans.md,low-medium (hand-picked)
+melons,chef_direct,FAMILY,0.5,21000,0.95,90,17955,2290,205,2255,450,12960,74.2,15215,0.264,8000,no,0,knowledge/crops/produce/melons.md,low
+melons,chef_direct,HIRED_SEASONAL,0.5,21000,0.95,90,17955,2290,205,3690,450,11525,74.2,,0.340,8000,no,0,knowledge/crops/produce/melons.md,low
+melons,grocery_wholesale,FAMILY,0.5,21000,0.33,95,6584,2430,200,2200,450,1504,18.5,3704,0.255,8000,no,0,knowledge/crops/produce/melons.md,low
+melons,grocery_wholesale,HIRED_SEASONAL,0.5,21000,0.33,95,6584,2430,200,3600,450,104,18.5,,0.325,8000,no,0,knowledge/crops/produce/melons.md,low
+melons,market_csa,FAMILY,0.5,21000,0.70,80,11760,2380,230,2530,450,6400,38.8,8930,0.319,8000,no,0,knowledge/crops/produce/melons.md,low
+melons,market_csa,HIRED_SEASONAL,0.5,21000,0.70,80,11760,2380,230,4140,450,4790,38.8,,0.415,8000,no,0,knowledge/crops/produce/melons.md,low
+onions-and-garlic,chef_direct,FAMILY,0.75,18667,1.8,66,22033,7793,300,3304,3679,7258,35.17,10561,1.21,7500,partial,7,knowledge/crops/produce/onions-and-garlic.md,low-medium
+onions-and-garlic,chef_direct,HIRED_SEASONAL,0.75,18667,1.8,66,22033,7793,300,5406,3679,5155,35.17,,1.38,7500,partial,7,knowledge/crops/produce/onions-and-garlic.md,low-medium
+onions-and-garlic,grocery_wholesale,FAMILY,0.75,18667,1.07,75,15000,8187,280,3084,3679,51,11.18,3135,1.07,7500,partial,7,knowledge/crops/produce/onions-and-garlic.md,low-medium
+onions-and-garlic,grocery_wholesale,HIRED_SEASONAL,0.75,18667,1.07,75,15000,8187,280,5046,3679,-1911,11.18,,1.21,7500,partial,7,knowledge/crops/produce/onions-and-garlic.md,low-medium
+onions-and-garlic,market_csa,FAMILY,0.75,18667,2.96,46,25125,8993,404,4440,3679,8013,30.85,12453,2.01,7500,partial,7,knowledge/crops/produce/onions-and-garlic.md,low-medium
+onions-and-garlic,market_csa,HIRED_SEASONAL,0.75,18667,2.96,46,25125,8993,404,7266,3679,5187,30.85,,2.35,7500,partial,7,knowledge/crops/produce/onions-and-garlic.md,low-medium
+peppers,chef_direct,FAMILY,0.25,15000,2.40,85,30600,7350,485,5335,1200,16715,45.46,22050,1.09,6000,no,0,knowledge/crops/produce/peppers.md,low-medium
+peppers,chef_direct,HIRED_SEASONAL,0.25,15000,2.40,85,30600,7350,485,8730,1200,13320,45.46,,1.36,6000,no,0,knowledge/crops/produce/peppers.md,low-medium
+peppers,grocery_wholesale,FAMILY,0.25,15000,1.55,90,20925,7800,455,5005,1200,6920,26.21,11925,1.04,6000,no,0,knowledge/crops/produce/peppers.md,low-medium
+peppers,grocery_wholesale,HIRED_SEASONAL,0.25,15000,1.55,90,20925,7800,455,8190,1200,3735,26.21,,1.27,6000,no,0,knowledge/crops/produce/peppers.md,low-medium
+peppers,market_csa,FAMILY,0.25,15000,3.20,70,33600,7800,585,6435,1200,18165,42.05,24600,1.47,6000,no,0,knowledge/crops/produce/peppers.md,low-medium
+peppers,market_csa,HIRED_SEASONAL,0.25,15000,3.20,70,33600,7800,585,10530,1200,14070,42.05,,1.86,6000,no,0,knowledge/crops/produce/peppers.md,low-medium
+potatoes,chef_direct,FAMILY,0.75,15000,1.5,65,14625,4910,212,2332,3679,3704,28.47,6036,1.12,7500,partial,6,knowledge/crops/produce/potatoes.md,low-medium
+potatoes,chef_direct,HIRED_SEASONAL,0.75,15000,1.5,65,14625,4910,212,3816,3679,2220,28.47,,1.27,7500,partial,6,knowledge/crops/produce/potatoes.md,low-medium
+potatoes,grocery_wholesale,FAMILY,0.75,15000,0.7,75,7875,5210,187,2057,3679,-3071,-5.42,-1014,0.97,7500,partial,6,knowledge/crops/produce/potatoes.md,low-medium
+potatoes,grocery_wholesale,HIRED_SEASONAL,0.75,15000,0.7,75,7875,5210,187,3366,3679,-4380,-5.42,,1.09,7500,partial,6,knowledge/crops/produce/potatoes.md,low-medium
+potatoes,market_csa,FAMILY,0.75,15000,2.0,45,13500,5960,322,3542,3679,319,11.99,3861,1.95,7500,partial,6,knowledge/crops/produce/potatoes.md,low-medium
+potatoes,market_csa,HIRED_SEASONAL,0.75,15000,2.0,45,13500,5960,322,5796,3679,-1935,11.99,,2.29,7500,partial,6,knowledge/crops/produce/potatoes.md,low-medium
+pumpkins-and-winter-squash,chef_direct,FAMILY,2.0,14000,1.00,90,12600,1050,85,935,400,10215,131.2,11150,0.189,1500,partial,3,knowledge/crops/produce/pumpkins-and-winter-squash.md,medium
+pumpkins-and-winter-squash,chef_direct,HIRED_SEASONAL,2.0,14000,1.00,90,12600,1050,85,1530,400,9620,131.2,,0.237,1500,partial,3,knowledge/crops/produce/pumpkins-and-winter-squash.md,medium
+pumpkins-and-winter-squash,grocery_wholesale,FAMILY,2.0,20000,0.35,95,6650,1210,86,946,400,4094,58.6,5040,0.135,1500,partial,3,knowledge/crops/produce/pumpkins-and-winter-squash.md,medium
+pumpkins-and-winter-squash,grocery_wholesale,HIRED_SEASONAL,2.0,20000,0.35,95,6650,1210,86,1548,400,3492,58.6,,0.166,1500,partial,3,knowledge/crops/produce/pumpkins-and-winter-squash.md,medium
+pumpkins-and-winter-squash,market_csa,FAMILY,2.0,20000,0.75,80,12000,1140,110,1210,400,9250,95.1,10460,0.172,1500,partial,3,knowledge/crops/produce/pumpkins-and-winter-squash.md,medium
+pumpkins-and-winter-squash,market_csa,HIRED_SEASONAL,2.0,20000,0.75,80,12000,1140,110,1980,400,8480,95.1,,0.220,1500,partial,3,knowledge/crops/produce/pumpkins-and-winter-squash.md,medium
+sweet-corn,chef_direct,FAMILY,1.5,8500,0.78,95,6298,865,96,1056,400,3978,52.4,5034,0.287,1200,partial,0,knowledge/crops/produce/sweet-corn.md,medium-low
+sweet-corn,chef_direct,HIRED_SEASONAL,1.5,8500,0.78,95,6298,865,96,1728,400,3306,52.4,,0.371,1200,partial,0,knowledge/crops/produce/sweet-corn.md,medium-low
+sweet-corn,grocery_wholesale,FAMILY,1.5,8500,0.47,95,3795,915,89,979,400,1501,27.9,2480,0.284,1200,partial,0,knowledge/crops/produce/sweet-corn.md,medium-low
+sweet-corn,grocery_wholesale,HIRED_SEASONAL,1.5,8500,0.47,95,3795,915,89,1602,400,878,27.9,,0.361,1200,partial,0,knowledge/crops/produce/sweet-corn.md,medium-low
+sweet-corn,market_csa,FAMILY,1.5,8500,0.82,85,5924,1125,121,1331,400,3068,36.4,4400,0.395,1200,partial,0,knowledge/crops/produce/sweet-corn.md,medium-low
+sweet-corn,market_csa,HIRED_SEASONAL,1.5,8500,0.82,85,5924,1125,121,2178,400,2222,36.4,,0.513,1200,partial,0,knowledge/crops/produce/sweet-corn.md,medium-low
+sweet-potatoes,chef_direct,FAMILY,0.5,15000,1.5,65,14625,4430,225,2475,3679,4041,28.96,6516,1.09,5000,partial,8,knowledge/crops/produce/sweet-potatoes.md,low-medium
+sweet-potatoes,chef_direct,HIRED_SEASONAL,0.5,15000,1.5,65,14625,4430,225,4050,3679,2466,28.96,,1.25,5000,partial,8,knowledge/crops/produce/sweet-potatoes.md,low-medium
+sweet-potatoes,grocery_wholesale,FAMILY,0.5,15000,0.8,75,9000,4730,202,2222,3679,-1631,2.93,591,0.94,5000,partial,8,knowledge/crops/produce/sweet-potatoes.md,low-medium
+sweet-potatoes,grocery_wholesale,HIRED_SEASONAL,0.5,15000,0.8,75,9000,4730,202,3636,3679,-3045,2.93,,1.07,5000,partial,8,knowledge/crops/produce/sweet-potatoes.md,low-medium
+sweet-potatoes,market_csa,FAMILY,0.5,15000,2.0,45,13500,5480,340,3740,3679,601,12.77,4341,1.91,5000,partial,8,knowledge/crops/produce/sweet-potatoes.md,low-medium
+sweet-potatoes,market_csa,HIRED_SEASONAL,0.5,15000,2.0,45,13500,5480,340,6120,3679,-1779,12.77,,2.26,5000,partial,8,knowledge/crops/produce/sweet-potatoes.md,low-medium
+tomatoes,chef_direct,FAMILY,0.25,18000,2.70,85,41310,7390,715,7865,1200,24855,45.76,32720,1.08,12000,no,0,knowledge/crops/produce/tomatoes.md,low-medium
+tomatoes,chef_direct,HIRED_SEASONAL,0.25,18000,2.70,85,41310,7390,715,12870,1200,19850,45.76,,1.40,12000,no,0,knowledge/crops/produce/tomatoes.md,low-medium
+tomatoes,grocery_wholesale,FAMILY,0.25,18000,1.80,90,29160,7910,685,7535,1200,12515,29.27,20050,1.03,12000,no,0,knowledge/crops/produce/tomatoes.md,low-medium
+tomatoes,grocery_wholesale,HIRED_SEASONAL,0.25,18000,1.80,90,29160,7910,685,12330,1200,7720,29.27,,1.32,12000,no,0,knowledge/crops/produce/tomatoes.md,low-medium
+tomatoes,market_csa,FAMILY,0.25,18000,3.50,70,44100,7750,805,8855,1200,26295,43.66,35150,1.41,12000,no,0,knowledge/crops/produce/tomatoes.md,low-medium
+tomatoes,market_csa,HIRED_SEASONAL,0.25,18000,3.50,70,44100,7750,805,14490,1200,20660,43.66,,1.86,12000,no,0,knowledge/crops/produce/tomatoes.md,low-medium
