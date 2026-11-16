@@ -73,6 +73,12 @@ See `knowledge/machinery/equipment-inventory.md` and `equipment-financing.md`.
   `knowledge/operations/family-trust-constraints.md` and treat unknown terms as
   prohibitions until read. Operating entity: TBD.
 
+## Stakeholders
+| Name | Role | Involvement | Notes |
+|---|---|---|---|
+| Tony | TBD (operator, trustee, family member?) | to be pitched; see `docs/pitch-to-tony.md` | key question: what help is needed outside physical labor |
+| Project owner (user) | planning and systems | exploratory | |
+
 ## Project stage (2026-11-16)
 - Exploratory. Commodity crops (wheat, sorghum, corn, soybeans) are the operating base.
 - No specialty crop or vertical has been chosen; the verticals and specialty-crop files
