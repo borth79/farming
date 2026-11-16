@@ -1,0 +1,56 @@
+section,item,value_base,value_adverse,value_favorable,unit,stage,year_start,source,note
+production,acres,3,2,4,rooms,1,1,"scale-up case: 'acres' = fruiting rooms (40 ft containers, ~320 sq ft each), NOT farmland","year 1: 3 containers while sales are built"
+production,acres,6,3,7,rooms,2,2,"plan","year 2"
+production,acres,10,4,10,rooms,3,3,"user request: 10 containers","year 3 onward"
+production,stage_year_1,1,1,1,stage,,1,"",
+production,stage_year_2,2,1,2,stage,,2,"",
+production,stage_year_3,3,2,3,stage,,3,"",
+production,stage_year_4,3,2,3,stage,,4,"",
+production,stage_year_5,3,2,3,stage,,5,"",
+production,yield_per_acre,5000,3500,6000,lb_per_room_per_year,,,"base plan: ~100 lb/room/week; Cornell and Penn State small-farm yields, verify","10 rooms = ~50,000 lb/yr ≈ 960 lb/week"
+production,yield_unit_lb,1,,,lb,,,"",
+production,conversion_pct,100,,,pct,,,"",
+production,byproduct_pct,0,0,400,pct,,,"spent substrate; favorable sells as compost at $0.02/lb",
+price,product_price_per_lb,7.00,5.00,9.50,usd_per_lb,,,"at ~1,000 lb/week the Wichita specialty pool (~600 lb/wk est.) is exceeded; most volume goes to distributors (NASS Aug 2026 grower avg $4.56; shiitake $5.65; oyster $3.43) and regional chefs ($7–14); blended down from $12.50 in the base plan","price falls with scale: verify with distributor quotes"
+price,byproduct_price_per_lb,0,0,0.02,usd_per_lb,,,"",
+price,grain_price_per_lb,0,,,usd_per_lb,,,"","site rent in operating_fixed"
+volume,sales_pct_of_output,75,55,85,pct,,1,"estimate, verify","perishable: unsold is lost within days"
+volume,sales_pct_of_output,80,60,88,pct,,2,"estimate, verify","regional route (KC, OKC, Tulsa) required"
+volume,sales_pct_of_output,85,60,90,pct,,3,"estimate, verify","distributor contract absorbs volume"
+volume,sales_pct_of_output,88,60,92,pct,,4,"estimate, verify",
+volume,sales_pct_of_output,88,60,92,pct,,5,"estimate, verify",
+capital,containers_3_fitted_fruiting_rooms,51000,72000,42000,usd,1,,"base plan room build $9k + climate $6.3k + racks $1.4k ≈ $17k/room; verify","3 rooms"
+capital,lab_incubation_sterilizer_mixer_stage1,20000,30000,15000,usd,1,,"base plan stage-2 lab items pulled to stage 1: making own blocks is required at this scale",
+capital,cold_storage_walk_in,12000,18000,9000,usd,1,,"estimate, verify",
+capital,electrical_service_3phase_backup_power,15000,25000,10000,usd,1,,"estimate, verify: 10-container site needs service upgrade",
+capital,site_prep_pad_water_drainage,10000,18000,6000,usd,1,,"estimate, verify","off-trust leased or owned site per trust default"
+capital,pack_room_scales_labels,5000,8000,3500,usd,1,,"estimate, verify",
+capital,refrigerated_van,22000,30000,16000,usd,1,,"estimate, verify","regional route from year 1"
+capital,contingency_stage_1,15000,25000,10000,usd,1,,"",
+capital,containers_3_more_stage2,51000,72000,42000,usd,2,,"",
+capital,second_lab_line_and_incubation,15000,22000,10000,usd,2,,"estimate, verify",
+capital,automation_controls_monitoring,8000,12000,5000,usd,2,,"estimate, verify",
+capital,containers_4_more_stage3,68000,96000,56000,usd,3,,"",
+capital,second_van_and_cooler_expansion,30000,40000,22000,usd,3,,"estimate, verify",
+capital,contingency_stage_3,12000,20000,8000,usd,3,,"",
+operating_fixed,site_lease_offtrust,12000,18000,8000,usd_per_year,1,,"estimate, verify: industrial lot or rural commercial site for 10 containers",
+operating_fixed,manager_salary_loaded,60000,70000,55000,usd_per_year,1,,"a grow manager is required from day one at this scale; verify local wage",
+operating_fixed,insurance_product_liability_property,6000,9000,4500,usd_per_year,1,,"estimate, verify",
+operating_fixed,marketing_distributor_onboarding,6000,9000,4000,usd_per_year,1,,"estimate, verify",
+operating_fixed,repairs_filters_consumables,6000,9000,4000,usd_per_year,1,,"estimate, verify",
+operating_fixed,repairs_stage2_addition,4000,6000,3000,usd_per_year,2,,"",
+operating_fixed,repairs_stage3_addition,5000,8000,3500,usd_per_year,3,,"",
+operating_fixed,utilities_fixed_charges,3000,4500,2000,usd_per_year,1,,"estimate, verify",
+operating_fixed,food_safety_testing_gap_records,4000,6000,2500,usd_per_year,1,,"FSMA covered at this volume; distributor audits",
+operating_fixed,bookkeeping_llc_compliance,3000,4000,2000,usd_per_year,1,,"",
+operating_fixed,route_operating_vans,15000,20000,10000,usd_per_year,1,,"estimate, verify: fuel, maintenance, driver time beyond manager",
+operating_variable,substrate_own_blocks,2.05,3.50,1.60,usd_per_lb,1,,"base plan $3.55 bought blocks less $1.50 on-farm saving",
+operating_variable,labor_grow_harvest_pack,4.50,7.00,3.60,usd_per_lb,1,,"base plan $6.30 stage 1 less $1.80 scale efficiency; ~0.25 hr/lb at $18 loaded; 10 rooms ≈ 12,500 hr/yr ≈ 6 FTE","hourly crew; manager in fixed"
+operating_variable,energy_electric_propane,0.60,1.00,0.45,usd_per_lb,1,,"estimate, verify: ~5 kWh/lb",
+operating_variable,packaging_labels,0.45,0.60,0.35,usd_per_lb,1,,"",
+operating_variable,delivery_fuel_vehicle,0.35,0.60,0.25,usd_per_lb,1,,"regional route; partly in fixed",
+financing,discount_rate_pct,8,,,pct,,,"",
+financing,loan_share_pct,50,,,pct,,,"",
+financing,loan_rate_pct,8,,,pct,,,"",
+financing,loan_term_years,7,,,years,,,"",
+financing,depreciation_years,10,,,years,,,"",

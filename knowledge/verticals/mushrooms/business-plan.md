@@ -297,6 +297,31 @@ mane share come in at or above the favorable assumptions, and (c) substrate is m
 farm from the start of year 2. They are not a better use of capital than grain on the
 numbers available today.
 
+## 8a. Ten-container scale-up case (`ten-containers/assumptions.csv`)
+Requested 2026-11-16. "Rooms" (the model's `acres` column) are 40 ft containers of about
+320 sq ft each; no farmland is used. Path 3 → 6 → 10 containers, own block production, a
+paid grow manager, refrigerated regional route, off-trust leased site.
+
+| | Value |
+|---|---|
+| Output at 10 containers | ~50,000 lb/yr, ~960 lb/week |
+| Wichita specialty mushroom pool (est.) | ~600 lb/week total, partly served |
+| Implication | most volume must sell to distributors at NASS grower prices ($3.43 oyster, $5.65 shiitake, $4.56 average, Aug 2026) and regional chefs; blended price modeled $7.00 (vs $12.50 at one room) |
+| Variable cost per lb | $7.95 (substrate $2.05, labor $4.50, energy $0.60, packaging $0.45, delivery $0.35) |
+| Contribution per lb | −$0.95 base; positive only in the favorable case ($9.50 price, $6.25 cost) |
+| Fixed costs per year | ~$115k (manager $60k, site lease $12k, route $15k, insurance, repairs, compliance) |
+| Capital, all stages | ~$334k base |
+| Labor | ~12,500 crew hours/yr (about 6 full-time equivalents) plus the manager |
+| NPV @8% | base −$1.03M; adverse −$1.31M; favorable −$114k |
+
+Reading: scale makes mushrooms worse, not better, for this farm. Price falls faster than
+cost as volume outruns the local chef market, and labor stays near half of cost because
+harvest and packing are manual. Ten containers is a 7-person perishable-food business
+selling at distributor prices against Monterey and Phillips; it would need either
+automation that cuts labor below $2.50/lb or a contracted premium buyer for 500+ lb/week
+before it could be considered. The one-room case remains the only version that pays, and
+it pays a wage, not a return.
+
 ## 9. Staged growth plan
 | Stage | Scope | Capital (base) | Trigger to enter | Trigger to advance |
 |---|---|---|---|---|
