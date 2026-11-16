@@ -3,5 +3,5 @@ green_beans,chef_direct,FAMILY,0.25,5000,2.25,90,10125,1530,440,4840,1050,2705,6
 green_beans,chef_direct,HIRED_SEASONAL,0.25,5000,2.25,90,10125,1530,440,7920,1050,-375,-0.85,,2.33,1500,partial,0,knowledge/crops/produce/green-beans.md,low-medium (hand-picked 3 pickings)
 green_beans,grocery_wholesale,FAMILY,0.25,5000,1.10,90,4950,1580,425,4675,1050,-2355,-5.54,2320,1.62,1500,partial,0,knowledge/crops/produce/green-beans.md,low-medium (hand-picked; USDA terminal and retail proxies; machine-picked at this price still negative)
 green_beans,grocery_wholesale,HIRED_SEASONAL,0.25,5000,1.10,90,4950,1580,425,7650,1050,-5330,-12.54,,2.28,1500,partial,0,knowledge/crops/produce/green-beans.md,low-medium (hand-picked)
-green_beans,market_csa,FAMILY,0.25,5000,3.00,80,12000,1830,500,5500,1050,3620,7.24,9120,2.10,1500,partial,0,knowledge/crops/produce/green-beans.md,low-medium (hand-picked; VA/MO farmers market 2025 averages, no Wichita observation)
+green_beans,market_csa,FAMILY,0.25,5000,3.00,80,12000,1830,500,5500,1050,3620,7.24,9120,2.10,1500,partial,0,knowledge/crops/produce/green-beans.md,"low-medium (hand-picked; VA/MO farmers market 2025 averages,no Wichita observation)"
 green_beans,market_csa,HIRED_SEASONAL,0.25,5000,3.00,80,12000,1830,500,9000,1050,120,0.24,,2.97,1500,partial,0,knowledge/crops/produce/green-beans.md,low-medium (hand-picked)
