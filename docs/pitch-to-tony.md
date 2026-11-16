@@ -1,6 +1,9 @@
 # Pitch to Tony
 
-Status: draft, 2026-11-16. Tony's role on the farm is not yet recorded; adjust once known.
+Status: draft, 2026-11-16. Tony manages the farming operation and has first say on
+anything that happens on the farm. The person pitching is a future trust member who is not
+a main decision maker and is offering AI and technology help; plans go to the other
+stakeholders only with Tony's approval.
 
 ## Purpose of the conversation
 Not to sell a plan. To learn what Tony is carrying that is not physical work, and to show
@@ -8,7 +11,11 @@ that this project can take some of it. The farm plan is only as good as the know
 the person running the ground, and nothing here replaces that.
 
 ## Opening (two minutes)
-We have been building a planning system for the farm: it tracks input prices and the
+You run this farm and you have the first say on everything that happens on it; nothing
+here changes that. I have been building a planning tool on the side, using AI and the
+public data that is out there, to see if it can make the farm more profitable or find
+revenue the trust is leaving on the table. It is still preparation, nothing is set up or
+committed. Here is what it does: it tracks input prices and the
 world events that move them, models which crops pay on which fields, keeps the soil test
 and water picture per field, watches the laws and programs that affect us, and costs out
 side businesses before anyone spends a dollar. It is a set of files and tools, and it
@@ -46,5 +53,6 @@ Let him answer fully before anything else. Follow-ups only if he stalls:
 
 ## Close
 Ask which one thing from his list he would want handled first, and agree on when to show
-him the first result. Record his answers in `knowledge/operations/farm-profile.md` under
+him the first result. Make clear the sequence: nothing goes to the other stakeholders
+until he has approved it, and he can stop any part of it. Record his answers in `knowledge/operations/farm-profile.md` under
 stakeholders and in `docs/decision-records/`.

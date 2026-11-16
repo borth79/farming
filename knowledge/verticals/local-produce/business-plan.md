@@ -143,6 +143,33 @@ and sweet corn lower labor per pound. The base case counts owner labor at $18/ho
 owner labor is treated as otherwise idle in summer, base NPV turns positive (sensitivity
 to run).
 
+## 8a. Channel comparison: chef-direct storables vs grocery/wholesale (independent models)
+Two independent channel models sit in subfolders, each with its own assumptions.csv and
+workbook, so they can be pitted against each other and also run in tandem on separate
+acres. Both grow mechanizable storables (specialty potatoes, garlic, alliums, sweet
+potatoes, winter squash, pumpkins, popcorn) and differ in price, volume, paperwork and
+capital.
+
+| | Chef-direct storables (`chef-direct-storables/`) | Grocery / wholesale (`grocery-wholesale/`) |
+|---|---|---|
+| Acres | 2 → 3 | 4 → 8 |
+| Price blend | $1.65/lb | $0.70/lb |
+| Labor per lb | $0.40 (route and accounts) | $0.24 (grading line) |
+| Capital stage 1 | ~$23k | ~$64k |
+| Paperwork | $1M liability, spec sheets | $3M liability, GAP audit, PTI labels for chains |
+| Volume ceiling | account count (~20–25 chef restaurants in Wichita) | wholesaler and chain acceptance |
+| Base NPV @8% | +$57k, payback year 3, breakeven 0.5 acre | −$39k, no payback in 5 years, breakeven 4.2 acres |
+| Adverse | −$77k | −$201k |
+| Favorable | +$255k | +$293k |
+
+Reading: the chef channel is profitable at small scale because price per pound is high and
+the farm's mechanized storables keep labor low; its limit is the number of accounts. The
+wholesale channel loses money until it reaches chain volume, then has the larger upside;
+its limit is acceptance and compliance cost. Run in tandem, the chef channel takes the top
+grades at $1.65 and the wholesale channel absorbs volume and seconds at $0.70, which
+raises sell-through in both models; the tandem case is the original mixed model in this
+folder plus these two, and should be re-run once Tony's acreage and labor view is known.
+
 ## 9. Staged growth plan
 - Stage 0 (this winter): attend both Wichita markets, count vendors and prices, talk to
   market managers about fees and waiting lists, visit two restaurants, confirm water

@@ -76,8 +76,12 @@ See `knowledge/machinery/equipment-inventory.md` and `equipment-financing.md`.
 ## Stakeholders
 | Name | Role | Involvement | Notes |
 |---|---|---|---|
-| Tony | TBD (operator, trustee, family member?) | to be pitched; see `docs/pitch-to-tony.md` | key question: what help is needed outside physical labor |
-| Project owner (user) | planning and systems | exploratory | |
+| Tony | family member; manages the farming operation; first say on anything that happens on the farm; formal trust title TBD | to be pitched; see `docs/pitch-to-tony.md` | key question: what help is needed outside physical labor |
+| Project owner (user) | future trust member, not a main decision maker; offers AI and technology to improve profitability and find revenue streams for the trust | prepares and presents plans; stakeholders approve with Tony's approval | |
+| Other trust stakeholders | approve plans | receive presentations | names and roles TBD |
+
+Decision flow: project prepares → Tony approves → stakeholders approve. No plan proceeds
+without Tony's agreement.
 
 ## Project stage (2026-11-16)
 - Exploratory. Commodity crops (wheat, sorghum, corn, soybeans) are the operating base.
@@ -86,6 +90,8 @@ See `knowledge/machinery/equipment-inventory.md` and `equipment-financing.md`.
 - No buyer relationships exist. No person is dedicated to any vertical, outreach or
   produce enterprise. Agents must not assume labor or sales capacity beyond the grain
   operation until this section is updated.
+- No API keys, accounts or services are set up; scripts that need keys are dormant until
+  then. The project is a preparation of a potentially useful tool, not an operating system.
 - From the Land of Kansas enrollment: not yet; opens each January; low cost, no
   commitment; recommended as the first inbound-network step when a product is chosen.
 

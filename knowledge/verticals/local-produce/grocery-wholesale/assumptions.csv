@@ -1,0 +1,41 @@
+section,item,value_base,value_adverse,value_favorable,unit,stage,year_start,source,note
+production,acres,4,3,5,acres,1,1,"competitor-analysis: independents and local wholesalers first","stage 1: potatoes, onions, sweet potatoes, winter squash, pumpkins to independents, Encore/Indian Hills-type wholesalers"
+production,acres,8,3,10,acres,2,3,"competitor-analysis: Dillons DC only at 8+ ac with GAP","stage 2 adds GAP audit and a chain program"
+production,stage_year_3,2,,,stage,,,"plan",
+production,yield_per_acre,18000,12000,22000,lb,,,"competitor-analysis: storables 15,000–25,000; pumpkins by lb high","marketable lb per acre"
+production,yield_unit_lb,1,,,lb,,,"",
+production,conversion_pct,100,,,pct,,,"",
+production,byproduct_pct,8,,,pct,,,"estimate: culls to feed",
+price,product_price_per_lb,0.70,0.50,0.95,usd_per_lb,,,"competitor-analysis: wholesale storables $0.50–1.00/lb; pumpkins $0.20–0.40; onions $0.42–0.60; red potatoes $0.35–0.80","blended wholesale price"
+price,byproduct_price_per_lb,0.05,0.03,0.08,usd_per_lb,,,"feed value",
+price,grain_price_per_lb,0,,,usd_per_lb,,,"","land charge in operating_fixed"
+volume,sales_pct_of_output,70,50,80,pct,,1,"wholesale absorbs volume once accepted; acceptance is the risk","verify"
+volume,sales_pct_of_output,80,55,90,pct,,2,"estimate, verify",
+volume,sales_pct_of_output,85,60,95,pct,,3,"estimate, verify","chain program"
+volume,sales_pct_of_output,90,60,95,pct,,4,"estimate, verify",
+volume,sales_pct_of_output,90,60,95,pct,,5,"estimate, verify",
+capital,used_two_row_digger_with_conveyor,12000,18000,8000,usd,1,,"produce-harvest-mechanization.md","volume needs loading, not hand pickup"
+capital,pumpkin_squash_conveyor_loader,12000,18000,8000,usd,1,,"produce-harvest-mechanization.md",
+capital,drip_irrigation_4ac,7000,10000,5000,usd,1,,"estimate, verify",
+capital,curing_and_cold_storage,18000,25000,12000,usd,1,,"estimate, verify: larger room, pallet racking",
+capital,wash_grade_pack_line_with_sizer,12000,18000,8000,usd,1,,"estimate, verify: wholesale wants graded, boxed, PTI-labeled",
+capital,pallet_jack_boxes_scale,3000,4000,2000,usd,1,,"estimate, verify",
+capital,expansion_storage_and_second_digger,20000,28000,14000,usd,2,,"estimate, verify",
+operating_fixed,land_charge,1200,900,1200,usd_per_year,1,,"4 ac × ~$300",
+operating_fixed,land_charge_stage2,1200,0,1800,usd_per_year,2,,"",
+operating_fixed,insurance_gl_3m,3500,4500,2500,usd_per_year,1,,"competitor-analysis: chains require $3M GL",
+operating_fixed,gap_audit_and_food_safety_plan,2000,2500,1500,usd_per_year,2,,"competitor-analysis: Harmonized GAP+ audit ~$175/hr, $1,000–2,500/yr","required for chain DC"
+operating_fixed,pti_labeling_system,800,1200,500,usd_per_year,2,,"estimate, verify",
+operating_fixed,water_testing_records,600,900,400,usd_per_year,1,,"estimate, verify",
+operating_fixed,storage_power_and_repairs,3000,4000,2000,usd_per_year,1,,"estimate, verify",
+operating_fixed,marketing_and_broker_fees,1000,1500,700,usd_per_year,1,,"estimate, verify",
+operating_variable,seed_and_inputs,0.09,0.12,0.07,usd_per_lb,1,,"estimate, verify",
+operating_variable,labor_grow_harvest_grade_pack,0.20,0.28,0.16,usd_per_lb,1,,"estimate, verify: mechanized dig and load; grading line; ~220 hr/ac at $18 over 18,000 lb",
+operating_variable,freight_to_dc_or_wholesaler,0.04,0.06,0.03,usd_per_lb,1,,"estimate, verify",
+operating_variable,packaging_boxes_bags,0.06,0.08,0.05,usd_per_lb,1,,"estimate, verify: 50 lb sacks, cartons",
+operating_variable,fuel_power,0.03,0.05,0.02,usd_per_lb,1,,"estimate, verify",
+financing,discount_rate_pct,8,,,pct,,,"",
+financing,loan_share_pct,30,,,pct,,,"",
+financing,loan_rate_pct,8,,,pct,,,"",
+financing,loan_term_years,5,,,years,,,"",
+financing,depreciation_years,7,,,years,,,"",

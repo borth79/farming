@@ -14,7 +14,9 @@ cases stack every bad factor and are stress tests. All inputs carry "verify" fla
 | Spirits route A: contract grain to distilleries | $0 | ~+$3.8k/yr base (net $0.85/bu × 4,500 bu) | immediate | n/a | 3.5 (est.) | do now; winter outreach, LOIs before planting |
 | Spirits route B: contract-distilled farm brand | $37k + aging inventory | −$205k (−$95k crediting inventory) | none in 5 yr | 12 acres / 8,400 bottles | 2.5 | only as a ≤$55k brand test with co-packer and distributor letters |
 | Spirits route C: own distillery | $689k | −$979k | none in 5 yr | 22 acres / 15,400 bottles | 1.8 | deferred to 2029+; craft spirits in contraction |
-| Local produce plots | $23k | −$27k | none in 5 yr | 3 | 3.0 (est.) | pays only if owner summer labor is otherwise idle and stage 2–3 volumes sell; best as retail face for the other verticals |
+| Produce: chef-direct storables | $23k | +$57k | year 3 | 0.5 | 3.8 | profitable small; limited by account count |
+| Produce: grocery/wholesale storables | $64k | −$39k | none in 5 yr | 4.2 | 2.6 | loses until chain volume; larger upside; GAP and $3M GL required |
+| Local produce plots (mixed, original) | $23k | −$27k | none in 5 yr | 3 | 3.0 (est.) | pays only if owner summer labor is otherwise idle and stage 2–3 volumes sell; best as retail face for the other verticals |
 
 ## What changed from the first-pass models
 - Wheat: year-5 base acres cut 50 → 40 and sell-through 90 → 75 % (Wichita specialty pool ~300k lb/yr; prior plan took 28 %).
