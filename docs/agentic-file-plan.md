@@ -42,8 +42,10 @@ Mexico as the top buyer of Kansas wheat and corn.
 ### 1.2 Agronomy (`knowledge/agronomy/`)
 - `[ ] soils-of-south-central-kansas.md` — sandy Arkansas River corridor soils versus
   heavier soils east and north; productivity by series.
-- `[ ] soils-and-fertility.md` — soil testing, pH, nutrient removal per crop, build and
-  maintain strategies.
+- `[~] soils-and-fertility.md` — sampling protocol, K-State interpretation formulas, build,
+  maintain and drawdown rules; paired with `scripts/soil_test_recommend.py`.
+- `[~] yield-enhancement-and-input-efficiency.md` — ranked practices that raise yield and
+  cut inputs per bushel, with adoption rules and on-farm trial protocol.
 - `[ ] rotation-principles.md` — wheat/sorghum/soybean/corn sequences, fallow, nitrogen
   credits, herbicide carryover (atrazine, sulfonylureas).
 - `[ ] wheat-stubble-and-no-till-systems.md` — moisture conservation in dryland systems.
@@ -208,7 +210,7 @@ Mexico as the top buyer of Kansas wheat and corn.
 
 ## 2. Agent definitions (`.claude/agents/`)
 - `[ ] orchestrator-planner.md` — runs the seasonal loop, assembles the plan.
-- `[ ] agronomist.md`, `[ ] weather-forecaster.md`, `[ ] input-cost-analyst.md`
+- `[~] agronomist.md`, `[ ] weather-forecaster.md`, `[ ] input-cost-analyst.md`
 - `[~] geopolitical-analyst.md`, `[ ] market-analyst.md`
 - `[ ] water-rights-and-irrigation.md` — allocation as a hard planning constraint.
 - `[ ] machinery-and-logistics.md`, `[ ] finance-controller.md`
@@ -219,7 +221,7 @@ Mexico as the top buyer of Kansas wheat and corn.
 ## 3. Skills / workflows (`.claude/skills/`)
 - `[ ] build-seasonal-plan/`, `[ ] forecast-input-costs/`, `[ ] weather-scenario-build/`
 - `[ ] market-outlook-refresh/`, `[~] geopolitical-scan/` (weekly)
-- `[ ] enterprise-budget/`, `[ ] field-level-recommendation/`
+- `[ ] enterprise-budget/`, `[~] field-level-recommendation/`
 - `[ ] in-season-replan/`, `[ ] hail-and-storm-response/` — damage assessment, claims,
   replant or double-crop decision.
 - `[ ] double-crop-decision/` — go/no-go after wheat harvest based on moisture and date.
@@ -234,6 +236,8 @@ Mexico as the top buyer of Kansas wheat and corn.
 - `[~] reference/units-and-conversions.md`
 - `scripts/fetch_eia_prices.py` — pulls EIA diesel, WTI and Henry Hub weekly series.
 - `scripts/fetch_gdelt_events.py` — news volume and headlines per watch topic (GDELT, no key).
+- `[~] reference/soil-test-schema.md` with `processed/soil_tests.csv` and `field_trials.csv`;
+  `scripts/soil_test_recommend.py` writes per-field N, P, K, lime, S, Cl, Zn and cost.
 - `[~] reference/geopolitical-event-schema.md` and `processed/geopolitical_events.csv`.
 - `[~] reference/free-apis.md` — survey of free data feeds and where free data is weak.
 - `raw/` immutable dated downloads · `processed/` cleaned tables with schema.
