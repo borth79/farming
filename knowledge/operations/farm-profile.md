@@ -73,6 +73,16 @@ See `knowledge/machinery/equipment-inventory.md` and `equipment-financing.md`.
   `knowledge/operations/family-trust-constraints.md` and treat unknown terms as
   prohibitions until read. Operating entity: TBD.
 
+## Project stage (2026-11-16)
+- Exploratory. Commodity crops (wheat, sorghum, corn, soybeans) are the operating base.
+- No specialty crop or vertical has been chosen; the verticals and specialty-crop files
+  are a costed menu, not a plan.
+- No buyer relationships exist. No person is dedicated to any vertical, outreach or
+  produce enterprise. Agents must not assume labor or sales capacity beyond the grain
+  operation until this section is updated.
+- From the Land of Kansas enrollment: not yet; opens each January; low cost, no
+  commitment; recommended as the first inbound-network step when a product is chosen.
+
 ## Constraints and goals
 - Must-haves (contracts, landlord requirements, rotation commitments):
 - Goals for the planning horizon (profit, debt reduction, growth, soil health):
