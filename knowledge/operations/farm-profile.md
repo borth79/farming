@@ -92,6 +92,7 @@ without Tony's agreement.
   operation until this section is updated.
 - No API keys, accounts or services are set up; scripts that need keys are dormant until
   then. The project is a preparation of a potentially useful tool, not an operating system.
+- Shelved explorations: mushrooms (2026-11-16).
 - From the Land of Kansas enrollment: not yet; opens each January; low cost, no
   commitment; recommended as the first inbound-network step when a product is chosen.
 

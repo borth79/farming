@@ -296,7 +296,7 @@ generated Excel model (`scripts/build_vertical_model.py`).
 - `[~] sunflower-oil-and-birdseed/` — cold-pressed high-oleic oil; `birdseed-only/` stage 1.
 - `[~] local-produce/` — 1–8 acre direct-market vegetables, melons, pumpkins, flowers for Wichita
   markets, CSA, restaurants; retail face for the other verticals.
-- `[~] mushrooms/` — indoor oyster, shiitake, lion's mane in fruiting rooms; straw substrate option.
+- `[x] mushrooms/` — SHELVED 2026-11-16; analysis complete, not pursued.
 - `[~] spirits-and-beverages/` — contract grain, contract distilling under farm brand, own distillery.
 - `[ ] popcorn/`, `[ ] heritage-wheat/` — candidates from `knowledge/finance/vertical-integration-options.md`.
 

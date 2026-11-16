@@ -10,11 +10,11 @@ cases stack every bad factor and are stress tests. All inputs carry "verify" fla
 | Wheat flour | $110k | −$43k | none in 5 yr | 14 | 3.2 | marginal without bakery stage; pursue only through stage-0 market test |
 | Sunflower oil | $70k (after $19k birdseed stage) | −$100k | none in 5 yr | 38 | 2.6 | only line with real upside but capital and slow cash drag it; restaurant price test first |
 | Birdseed only | $19k | −$36k | none | 126 | 3.0 | learning stage at a loss; justified only as entry to oil |
-| Mushrooms (indoor specialty) | $34k | −$46k | none in 5 yr | 3 rooms | 3.0 (est.) | a labor business paying a farm wage ($7–25/hr); justified only if a family member wants a year-round job; Myers Mushrooms in Haysville already supplies Wichita chefs |
+| Mushrooms (indoor specialty) — SHELVED 2026-11-16 | $34k | −$46k | none in 5 yr | 3 rooms | 3.0 (est.) | a labor business paying a farm wage ($7–25/hr); justified only if a family member wants a year-round job; Myers Mushrooms in Haysville already supplies Wichita chefs |
 | Spirits route A: contract grain to distilleries | $0 | ~+$3.8k/yr base (net $0.85/bu × 4,500 bu) | immediate | n/a | 3.5 (est.) | do now; winter outreach, LOIs before planting |
 | Spirits route B: contract-distilled farm brand | $37k + aging inventory | −$205k (−$95k crediting inventory) | none in 5 yr | 12 acres / 8,400 bottles | 2.5 | only as a ≤$55k brand test with co-packer and distributor letters |
 | Spirits route C: own distillery | $689k | −$979k | none in 5 yr | 22 acres / 15,400 bottles | 1.8 | deferred to 2029+; craft spirits in contraction |
-| Mushrooms, 10 containers | $334k | −$1.03M | none | none (negative contribution) | 1.5 | scale drives price to distributor level while labor stays manual; not viable without automation or a contracted premium buyer |
+| Mushrooms, 10 containers — SHELVED | $334k | −$1.03M | none | none (negative contribution) | 1.5 | scale drives price to distributor level while labor stays manual; not viable without automation or a contracted premium buyer |
 | Produce: chef-direct storables | $23k | +$57k | year 3 | 0.5 | 3.8 | profitable small; limited by account count |
 | Produce: grocery/wholesale storables | $64k | −$39k | none in 5 yr | 4.2 | 2.6 | loses until chain volume; larger upside; GAP and $3M GL required |
 | Local produce plots (mixed, original) | $23k | −$27k | none in 5 yr | 3 | 3.0 (est.) | pays only if owner summer labor is otherwise idle and stage 2–3 volumes sell; best as retail face for the other verticals |
