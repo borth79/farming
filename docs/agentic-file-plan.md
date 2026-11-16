@@ -83,6 +83,9 @@ Mexico as the top buyer of Kansas wheat and corn.
   irrigation pays versus dryland.
 - `[ ] irrigation-scheduling.md` — crop water use curves, evapotranspiration data from
   Kansas Mesonet.
+- `[~] in-field-water-capture-and-moisture-conservation.md` — landscape positions, ranked
+  capture practices with NRCS codes and cost share, terrain analysis method, Kansas
+  permit rules, drought playbook; paired with `scripts/terrain_water_analysis.py`.
 
 ### 1.5 Inputs (`knowledge/inputs/`)
 - `[ ] seed.md` — wheat variety selection, sorghum and corn hybrids, trait packages,
@@ -212,7 +215,8 @@ Mexico as the top buyer of Kansas wheat and corn.
 - `[ ] orchestrator-planner.md` — runs the seasonal loop, assembles the plan.
 - `[~] agronomist.md`, `[ ] weather-forecaster.md`, `[ ] input-cost-analyst.md`
 - `[~] geopolitical-analyst.md`, `[ ] market-analyst.md`
-- `[ ] water-rights-and-irrigation.md` — allocation as a hard planning constraint.
+- `[~] water-management.md` — in-field water capture by terrain and yield analysis, water
+  zones, structures, plus water rights and irrigation allocation as planning constraints.
 - `[ ] machinery-and-logistics.md`, `[ ] finance-controller.md`
 - `[ ] insurance-and-risk.md`, `[ ] compliance-officer.md`, `[ ] sustainability-analyst.md`
 - `[ ] data-ingestion.md` — fetches, validates, files external data.
@@ -222,6 +226,7 @@ Mexico as the top buyer of Kansas wheat and corn.
 - `[ ] build-seasonal-plan/`, `[ ] forecast-input-costs/`, `[ ] weather-scenario-build/`
 - `[ ] market-outlook-refresh/`, `[~] geopolitical-scan/` (weekly)
 - `[ ] enterprise-budget/`, `[~] field-level-recommendation/`
+- `[~] field-water-analysis/` — DEM to water zones to capture practices per field.
 - `[ ] in-season-replan/`, `[ ] hail-and-storm-response/` — damage assessment, claims,
   replant or double-crop decision.
 - `[ ] double-crop-decision/` — go/no-go after wheat harvest based on moisture and date.
@@ -238,7 +243,10 @@ Mexico as the top buyer of Kansas wheat and corn.
 - `scripts/fetch_gdelt_events.py` — news volume and headlines per watch topic (GDELT, no key).
 - `[~] reference/soil-test-schema.md` with `processed/soil_tests.csv` and `field_trials.csv`;
   `scripts/soil_test_recommend.py` writes per-field N, P, K, lime, S, Cl, Zn and cost.
-- `[~] reference/geopolitical-event-schema.md` and `processed/geopolitical_events.csv`.
+- `[~] reference/field-water-zones-schema.md` with `processed/field_water_zones.csv`;
+  `scripts/terrain_water_analysis.py` computes slope, flow accumulation, TWI, zones and
+  concentrated-flow candidates from a DEM.
+- `[~] reference/geopolitical-event-schema.md and `processed/geopolitical_events.csv`.
 - `[~] reference/free-apis.md` — survey of free data feeds and where free data is weak.
 - `raw/` immutable dated downloads · `processed/` cleaned tables with schema.
 

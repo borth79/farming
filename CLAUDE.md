@@ -7,6 +7,9 @@ agronomic knowledge, weather projection, input cost forecasting (including
 geopolitical drivers), market/export outlook, machinery and labor constraints,
 financing, and regulatory requirements.
 
+## Setup
+`pip install -r requirements.txt` (openpyxl for spreadsheet models, rasterio and numpy for terrain analysis).
+
 ## Repository layout
 - `knowledge/` — curated domain knowledge, one markdown file per topic. These are the
   files agents read before reasoning. Keep them factual, cited, and dated.
