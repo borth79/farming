@@ -1,0 +1,7 @@
+crop,channel,labor_rate_code,acres_stage1,yield_lb_per_acre,price_per_lb,sellthrough_pct,revenue_per_acre,variable_cost_per_acre_excl_labor,labor_hours_per_acre,labor_cost_per_acre,fixed_share_per_acre,net_per_acre,net_per_labor_hour,family_income_per_acre,breakeven_price_per_lb,capital_crop_specific,mechanizable,storable_months,source_file,confidence
+tomatoes,chef_direct,FAMILY,0.25,18000,2.70,85,41310,7390,715,7865,1200,24855,45.76,32720,1.08,12000,no,0,knowledge/crops/produce/tomatoes.md,low-medium
+tomatoes,chef_direct,HIRED_SEASONAL,0.25,18000,2.70,85,41310,7390,715,12870,1200,19850,45.76,,1.40,12000,no,0,knowledge/crops/produce/tomatoes.md,low-medium
+tomatoes,grocery_wholesale,FAMILY,0.25,18000,1.80,90,29160,7910,685,7535,1200,12515,29.27,20050,1.03,12000,no,0,knowledge/crops/produce/tomatoes.md,low-medium
+tomatoes,grocery_wholesale,HIRED_SEASONAL,0.25,18000,1.80,90,29160,7910,685,12330,1200,7720,29.27,,1.32,12000,no,0,knowledge/crops/produce/tomatoes.md,low-medium
+tomatoes,market_csa,FAMILY,0.25,18000,3.50,70,44100,7750,805,8855,1200,26295,43.66,35150,1.41,12000,no,0,knowledge/crops/produce/tomatoes.md,low-medium
+tomatoes,market_csa,HIRED_SEASONAL,0.25,18000,3.50,70,44100,7750,805,14490,1200,20660,43.66,,1.86,12000,no,0,knowledge/crops/produce/tomatoes.md,low-medium
