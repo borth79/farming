@@ -205,6 +205,9 @@ Mexico as the top buyer of Kansas wheat and corn.
 - `[ ] expansion-and-acquisition.md` — land market, rental opportunities, criteria.
 
 ### 1.12 Regulatory and compliance (`knowledge/regulatory/`)
+- `[~] policy-and-legislation-watch.md` — federal and Kansas status snapshot, transmission to
+  profit, calendar, tools (Federal Register, Congress.gov, Kansas Legislature APIs), rules;
+  paired with `scripts/fetch_federal_register.py` and `data/processed/policy_watch.csv`.
 - `[ ] kansas-pesticide-licensing.md` — KDA applicator rules, restricted use, dicamba,
   recordkeeping, drift.
 - `[ ] kansas-water-law-compliance.md` — water right reporting, meters, penalties.
@@ -232,6 +235,8 @@ Mexico as the top buyer of Kansas wheat and corn.
   zones, structures, plus water rights and irrigation allocation as planning constraints.
 - `[ ] machinery-and-logistics.md`, `[ ] finance-controller.md`
 - `[ ] insurance-and-risk.md`, `[~] compliance-officer.md`, `[ ] sustainability-analyst.md`
+- `[~] policy-analyst.md` — tracks laws, bills, rules and program notices; converts each to
+  dollar effect, deadline and plan assumption.
 - `[ ] data-ingestion.md` — fetches, validates, files external data.
 - `[ ] red-team-reviewer.md` — challenges hidden assumptions and correlated risks.
 
@@ -239,6 +244,7 @@ Mexico as the top buyer of Kansas wheat and corn.
 - `[ ] build-seasonal-plan/`, `[ ] forecast-input-costs/`, `[ ] weather-scenario-build/`
 - `[ ] market-outlook-refresh/`, `[~] geopolitical-scan/` (weekly)
 - `[ ] enterprise-budget/`, `[~] field-level-recommendation/`
+- `[~] legislative-scan/` — monthly federal and Kansas scan; weekly in session.
 - `[~] buyer-network-development/` — pipeline, materials, outreach, LOIs, account review.
 - `[~] field-water-analysis/` — DEM to water zones to capture practices per field.
 - `[ ] in-season-replan/`, `[ ] hail-and-storm-response/` — damage assessment, claims,

@@ -33,6 +33,16 @@ improvements, and a check on agricultural-use and §2032A status. See
 - An established competitor already serving Wichita at or below the plan's price.
 - Crop quality (protein, mycotoxin, popping yield, oil recovery) fails spec two seasons.
 
+## Local produce channel analysis (2026-11-16)
+Competitor analysis scores: grocery 2.6, mainstream restaurants 3.0, chef-driven 3.8.
+Lead channel is chef-driven restaurants buying cured storables (specialty potatoes,
+alliums, hardneck garlic, sweet potatoes, winter squash, popcorn) in the October–April
+window when local supply is thin. Grocery chains need GAP/GFSI audits and $3M liability
+cover and pay $0.50–1.00/lb for storables; off the table until 8+ acres. The produce
+model's $1.60/lb blend holds only for chef-direct sales; its 9,000 lb/acre is low for
+storables (15,000–25,000). First verification: 20 chef visits Jan–Feb 2027 with a winter
+price sheet, needing six letters of intent at $60/week or more.
+
 ## Local produce note
 Three acres of sweet corn, pumpkins, melons, tomatoes and flowers sold at the two Wichita
 markets. Gross per acre is 10–50× grain, but labor is 40–50% of revenue. Its strategic

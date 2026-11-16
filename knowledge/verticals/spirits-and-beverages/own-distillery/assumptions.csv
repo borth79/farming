@@ -1,0 +1,67 @@
+section,item,value_base,value_adverse,value_favorable,unit,stage,year_start,source,note
+production,acres,20,15,25,acres,1,1,"Plan design 2026-11-16; one ~1,000-lb mash per week on a 300-gal still = ~900 bu/yr = 20 ac at 45 bu","ROUTE C (own farm distillery: Kansas microdistillery license + federal TTB DSP, with tasting room). Model unit mapping identical to Route B: product 'lb' = 750 ml bottles"
+production,acres,25,15,25,acres,1,2,"Plan design 2026-11-16",
+production,acres,30,20,30,acres,2,3,"Plan design 2026-11-16",Stage 2 = second shift / larger fermenters
+production,acres,35,20,35,acres,2,4,"Plan design 2026-11-16",
+production,acres,40,25,40,acres,2,5,"Plan design 2026-11-16","Well under the 50,000 gal/yr Kansas microdistillery cap (40 ac = ~1,800 bu = ~4,500 PG = ~2,800 wine gallons at 80 proof); market-checked: yr-5 base sales ~22k bottles = ~2% of the Kansas craft-spirits pool (see plan section 3)"
+production,stage_year_1,1,1,1,stage,,1,"Plan design 2026-11-16","Stage 1: DSP + tasting room; unaged wheat vodka, gin and white whiskey for cash; whiskey laid down"
+production,stage_year_2,1,1,1,stage,,2,"Plan design 2026-11-16",
+production,stage_year_3,2,1,2,stage,,3,"Plan design 2026-11-16",Stage 2 in year 3 (first 2-yr aged release; capacity add); adverse stays stage 1
+production,stage_year_4,2,1,2,stage,,4,"Plan design 2026-11-16",
+production,stage_year_5,2,2,2,stage,,5,"Plan design 2026-11-16",
+production,yield_per_acre,45,35,55,bu,,,"knowledge/crops/wheat-hard-red-winter.md yield table; distilling wheat managed for starch - estimate, verify",
+production,yield_unit_lb,60,,,lb,,,"Standard US bushel weight for wheat (60 lb), USDA",
+production,conversion_pct,26,21,32,pct,,,"Same derivation as Route B: 2.5 PG bottled per bushel base (theoretical wheat ~5.9 PG/bu, Reich 1933; corn 5.0-5.2 PG/bu, EPA AP-42) x 6.31 bottles per PG at 80 proof / 1.667 bu per 100 lb = 26 bottles per 100 lb grain - estimate, verify","'lb' = bottles"
+production,byproduct_pct,80,80,80,pct,,,"Wet stillage: roughly 0.8 lb wet spent grain per lb grain mashed after alcohol and CO2 leave (mass balance, estimate, verify)",Fed to a neighbouring cattle operation; near-zero cash value but disposal cost avoided
+price,product_price_per_lb,25,19,30,usd_per_lb,,,"Blend of ~30% tasting-room/off-premise direct sales at ~$40 retail (farm keeps ~$38 after card fees; 8% liquor enforcement tax is charged to the consumer) and ~70% through a Kansas distributor at ~$20 net (same benchmarks as Route B: Boot Hill 750 ml $37-50 retail, accessed 2026-11-16). Base $25; adverse $19 (glut pricing, 20% direct); favorable $30 (40% direct, premium aged releases)","'lb' = bottle. K.S.A. 41-354 allows sale to spirits distributors, sale of unopened containers to consumers on the licensed premises, and samples/by-the-drink on premises where a drinking establishment may sell (verify current text at ksrevisor.gov)"
+price,byproduct_price_per_lb,0.005,0,0.01,usd_per_lb,,,"Wet distillers grains to a local feeder ~$10/wet ton at farm gate = $0.005/lb - estimate, verify",
+price,grain_price_per_lb,0.1075,0.125,0.0958,usd_per_lb,,,"knowledge/crops/wheat-hard-red-winter.md: base $6.45/bu, adverse $7.50, favorable $5.75, divided by 60 lb",Opportunity cost of grain
+volume,sales_pct_of_output,35,20,50,pct,,1,"Plan design 2026-11-16; year 1 sales = unaged vodka/gin/white whiskey plus tasting room; whiskey barreled (valued at zero by the model)","Unsold share = aging inventory; see business-plan.md section 8"
+volume,sales_pct_of_output,50,30,65,pct,,2,"Plan design 2026-11-16",
+volume,sales_pct_of_output,65,40,80,pct,,3,"Plan design 2026-11-16",First 2-yr straight whiskey release
+volume,sales_pct_of_output,75,50,90,pct,,4,"Plan design 2026-11-16",
+volume,sales_pct_of_output,80,55,100,pct,,5,"Plan design 2026-11-16",
+capital,still_300gal_pot_with_column,70000,110000,42000,usd,1,,"300-gal pot still ~$39,790 and 300-gal mash tun/stripping still ~$33,374 list (distillery-equipment.com, accessed 2026-11-16); financing guide range $50-150k for 100-300 gal pot stills (Axiant 2026); Vendome/Kothe copper hybrid 300 gal commonly $120-200k (verify quotes)",Base = stainless/copper hybrid with 4-plate column from a US fabricator incl. freight and install; favorable = used
+capital,mash_tun_300gal,22000,30000,15000,usd,1,,"300-gal Pro Series stainless mash tun list $21,212 (sale $19,732), distillery-equipment.com accessed 2026-11-16",Steam-jacketed with agitator
+capital,fermenters_4x300gal,16000,24000,10000,usd,1,,"300-gal fermenter ~$3,169-3,600 (distillery-equipment.com) to $4,399 jacketed conical (Olympic Distillers), accessed 2026-11-16; 4 units plus glycol jackets",
+capital,boiler_steam_and_piping,28000,40000,18000,usd,1,,"estimate, verify (low-pressure steam boiler ~500k-1M BTU, feedwater, piping, gas service)",Kansas boiler inspection applies
+capital,chiller_glycol_cooling,15000,22000,10000,usd,1,,"estimate, verify (glycol chiller, condenser water loop or cooling tower)",
+capital,grain_mill_handling_bins,10000,15000,6000,usd,1,,"estimate, verify (hammer or roller mill, auger, grain bin or tote system; farm may already own a mill)",
+capital,tanks_pumps_hoses_receivers,15000,22000,10000,usd,1,,"estimate, verify (spirit receivers, blending/proofing tank, filters, pumps, hoses, CIP)",
+capital,bottling_line_semi_auto,20000,30000,8000,usd,1,,"estimate, verify (4-head gravity filler, corker, labeler; manual favorable)",
+capital,barrels_initial_40,18000,24000,12000,usd,1,,"40 new 53-gal barrels at ~$350-600 (cost-guide ranges accessed 2026-11-16; verify cooperage quotes)",
+capital,building_distillery_3000sqft,300000,450000,150000,usd,1,,"estimate, verify (new ~3,000 sq ft pre-engineered steel building on slab with sealed floor, trench drains, explosion-proof electrical in still room, fire separation; distilleries are high-hazard occupancies under IBC/IFC - sprinklers and spill containment often required). Favorable = retrofit of an existing farm building that passes fire marshal review","On trust land only with trustee approval and a commercial lease clause (family-trust-constraints.md); otherwise a leased commercial site in Sedgwick County"
+capital,tasting_room_fitout,60000,90000,30000,usd,1,,"estimate, verify (~800 sq ft bar, restrooms to ADA, HVAC, furnishings, POS, signage, parking surface)",Requires drinking-establishment status or on-premise sampling authority under K.S.A. 41-354 (verify) plus Sedgwick County zoning/conditional use
+capital,utilities_3phase_water_septic,40000,60000,20000,usd,1,,"estimate, verify (3-phase power extension, well/rural water upgrade for process and fire flow, septic sized for tasting room, natural gas or propane)",Rural site costs vary widely
+capital,permits_architect_engineering,25000,40000,15000,usd,1,,"estimate, verify (architect/engineer stamps, fire-protection design, Sedgwick County conditional-use permit, state fire marshal review)",
+capital,ttb_kansas_licensing_legal_brand,15000,22000,10000,usd,1,,"TTB DSP permit free (Form 5110.41, 60-180 days; bond exemption for <=$50k annual excise liability under 27 CFR 19.151(d), verify); Kansas microdistillery license $500 per 2-yr term + $30 application + $20 modernization (KDOR fee table accessed 2026-11-16); plus attorney, trademark, label design, LLC",
+capital,lab_proofing_testing,5000,7000,3000,usd,1,,"estimate, verify (hydrometers, density meter or precision thermometer/hydrometer kit, pH, scale, sample library)",TTB proofing accuracy requirements
+capital,working_capital_glass_inventory,30000,40000,20000,usd,1,,"estimate, verify (glass/closure MOQs, first-year yeast/enzymes, cash reserve for the 12-24 month gap before aged sales)",
+capital,capacity_add_fermenters_rickhouse,80000,100000,60000,usd,2,,"estimate, verify (4 more fermenters, second shift tooling, 1,500 sq ft barrel storage building)",Stage 2 only
+operating_fixed,head_distiller_salary,55000,65000,45000,usd_per_year,1,,"estimate, verify (full-time head distiller/production manager, loaded; BLS has no local series; craft industry postings $45-70k outside metro)","The farm has no dedicated labor today; this is a new hire or an owner who leaves farming hours - key-person risk"
+operating_fixed,tasting_room_staff_parttime,20000,26000,15000,usd_per_year,1,,"~25 h/week x 50 weeks x $16/h loaded - estimate, verify (Kansas servers must be 21+ to serve; ABC server training optional)",
+operating_fixed,insurance_property_liquor_product,9000,13000,7000,usd_per_year,1,,"estimate, verify (property on building and equipment, general liability, product liability, liquor liability for tasting room, business interruption)",
+operating_fixed,utilities_maintenance_base,12000,16000,9000,usd_per_year,1,,"estimate, verify (base gas/electric/water, boiler inspection, still maintenance, pest control, waste)",Process energy per bottle is in operating_variable
+operating_fixed,licenses_local_state,1500,2000,1200,usd_per_year,1,,"Kansas microdistillery $500/2 yrs (= $250/yr) + Sedgwick County/city occupation licenses + drinking-establishment license if required (~$250-1,000/yr, verify) + KDA food/ingredient registrations",
+operating_fixed,compliance_accounting_ttb_reporting,8000,11000,6000,usd_per_year,1,,"estimate, verify (monthly TTB operations reports 5110.40/5110.28/5110.11 and excise returns, Kansas ABC-1041 monthly return, gallonage/enforcement/drink tax returns, CPA, inventory software)",
+operating_fixed,marketing_fixed_events,10000,14000,7000,usd_per_year,1,,"estimate, verify (events, festivals, website, PR, signage, photography)",
+operating_fixed,site_rent_or_trust_lease,6000,8000,4000,usd_per_year,1,,"Documented market rent to the trust for a commercial building site (or commercial lease elsewhere) - estimate, verify (family-trust-constraints.md requires arm's-length rent)",
+operating_fixed,labor_stage2_increment,30000,36000,25000,usd_per_year,2,,"Part-time production assistant for second shift - estimate, verify",
+operating_variable,glass_closure_label_case,3.25,4.00,2.50,usd_per_lb,1,,"Packaging $1.50-4.00/bottle (financialmodelslab.com 2026) to $3-8 incl. boxes (ohbev.com); same basis as Route B - estimate, verify",
+operating_variable,federal_excise_tax,0.43,0.43,0.43,usd_per_lb,1,,"TTB CBMA $2.70/PG first 100,000 PG x 0.1585 PG per 750 ml at 80 proof (ttb.gov accessed 2026-11-16)",Paid by the farm's DSP on removal from bond
+operating_variable,kansas_gallonage_tax,0.50,0.50,0.50,usd_per_lb,1,,"Kansas spirits gallonage tax $2.50/gal (K.S.A. 41-501) x 0.198 gal; distributor remits on wholesale sales, microdistillery remits on its own retail sales - verify",
+operating_variable,energy_water_yeast_enzymes,0.80,1.10,0.60,usd_per_lb,1,,"estimate, verify (steam ~1.5 lb grain per bottle at ~0.15 therm/lb mash equivalent, cooling water, yeast ~$0.05, enzymes ~$0.05, CIP chemicals)",
+operating_variable,production_bottling_labor,3.00,4.00,2.20,usd_per_lb,1,,"estimate, verify (~6 bottles per labor hour across milling, mashing, distilling, barrel work, bottling at $18/h loaded, beyond the salaried distiller)",
+operating_variable,barrel_and_aging_storage,2.00,3.00,1.50,usd_per_lb,1,,"~60% of output barreled; ~$450 barrel / ~190 bottles = $2.40 for the aged share plus own-building storage; blended ~$2.00 (initial 40 barrels are capital) - estimate, verify",
+operating_variable,freight_distribution,0.40,0.60,0.30,usd_per_lb,1,,"estimate, verify (pallet freight to distributor; direct sales have none)",
+operating_variable,marketing_samples_incentives,2.50,3.50,1.80,usd_per_lb,1,,"estimate, verify (distributor incentives, tasting-room samples, retailer tastings)",Lower than Route B because 30% is direct
+operating_variable,card_fees_tasting_room_cogs,0.50,0.70,0.40,usd_per_lb,1,,"estimate, verify (card processing ~3% on direct sales, mixers, glassware breakage, averaged over all bottles)",
+operating_variable,regional_compliance_stage2,0.30,0.40,0.20,usd_per_lb,2,,"estimate, verify (out-of-state registrations and freight averaged over all output)",
+financing,discount_rate_pct,8,10,7,pct,,,"Farm cost of capital assumption; estimate, verify with finance-controller",
+financing,loan_share_pct,50,50,50,pct,,,"Plan design 2026-11-16: half of building and equipment financed (SBA 7(a)/504 or Farm Credit on the operating LLC; no pledge of trust land)",
+financing,loan_rate_pct,8.5,10,7.5,pct,,,"SBA 7(a)/bank term rates 2026; estimate, verify",
+financing,loan_term_years,10,,,years,,,"Equipment/building blended term; estimate, verify",
+financing,depreciation_years,15,,,years,,,"Blended building (39) and equipment (7-10); estimate",
+scenario,adverse_description,0,,,text,,,"Plan design 2026-11-16","Building $450k, still $110k, 35 bu, 2.0 PG/bu, $19 net/bottle, 20% direct, sell-through 20-55%, no stage 2, distiller salary $65k"
+scenario,favorable_description,0,,,text,,,"Plan design 2026-11-16","Retrofit building $150k, used still, 55 bu, 3.0 PG/bu, 40% direct at $40, sorghum spirit earns premium, sell-through 100% by year 5"
+scenario,inventory_note,0,,,text,,,"Plan design 2026-11-16","Unsold output is valued at zero by the model; it is aging whiskey. See business-plan.md section 8"
