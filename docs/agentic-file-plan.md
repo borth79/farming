@@ -29,6 +29,8 @@ Mexico as the top buyer of Kansas wheat and corn.
 ### 1.1 Operations (`knowledge/operations/`)
 - `[~] farm-profile.md` — location, fields, acreage, soils, drainage, water rights,
   storage, buyers in reach, labor.
+- `[~] family-trust-constraints.md` — trust facts to extract, binding constraints, mapping of
+  every plan element to them, recommended operating structure, tax items, decision rules.
 - `[ ] field-history.md` — per-field rotation, yields, weed and disease pressure,
   fertility trends, tile, water right if any.
 - `[~] equipment-inventory.md` — see section 1.6; the full machinery register lives there.
@@ -224,7 +226,7 @@ Mexico as the top buyer of Kansas wheat and corn.
 - `[~] water-management.md` — in-field water capture by terrain and yield analysis, water
   zones, structures, plus water rights and irrigation allocation as planning constraints.
 - `[ ] machinery-and-logistics.md`, `[ ] finance-controller.md`
-- `[ ] insurance-and-risk.md`, `[ ] compliance-officer.md`, `[ ] sustainability-analyst.md`
+- `[ ] insurance-and-risk.md`, `[~] compliance-officer.md`, `[ ] sustainability-analyst.md`
 - `[ ] data-ingestion.md` — fetches, validates, files external data.
 - `[ ] red-team-reviewer.md` — challenges hidden assumptions and correlated risks.
 

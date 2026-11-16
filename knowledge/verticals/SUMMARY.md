@@ -18,6 +18,12 @@ cases stack every bad factor and are stress tests. All inputs carry "verify" fla
 - Oil: blend price $4.75 → $4.25/lb; years 3–5 sell-through capped 80–90 % (Wichita premium oil pool ~8–15k gal/yr; regional distribution needed beyond).
 - Birdseed: price $0.50 → $0.46/lb; bulk floor $0.195 → $0.21/lb (AMS Jamestown KS bid 2026-10-23).
 
+## Trust constraint (applies to all)
+The land is in a family trust. Processing and retail must run through the operating LLC,
+and any mill room, press, tunnel or stand on trust land needs trustee approval, a lease
+clause covering improvements, and a check on agricultural-use and §2032A status. See
+`knowledge/operations/family-trust-constraints.md`.
+
 ## Common disqualifiers
 - Letters of intent below the stated floor volume and price after sampling ~20 accounts.
 - Licensed or allergen-free space cannot be built under the stated cap.

@@ -68,6 +68,11 @@ See `knowledge/machinery/equipment-inventory.md` and `equipment-financing.md`.
 - Operating lender and line size:
 - Risk tolerance statement (see `knowledge/finance/risk-management-framework.md`):
 
+## Ownership structure
+- Land held in a family trust. Trust terms not yet summarized; see
+  `knowledge/operations/family-trust-constraints.md` and treat unknown terms as
+  prohibitions until read. Operating entity: TBD.
+
 ## Constraints and goals
 - Must-haves (contracts, landlord requirements, rotation commitments):
 - Goals for the planning horizon (profit, debt reduction, growth, soil health):
