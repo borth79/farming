@@ -322,6 +322,26 @@ automation that cuts labor below $2.50/lb or a contracted premium buyer for 500+
 before it could be considered. The one-room case remains the only version that pays, and
 it pays a wage, not a return.
 
+## 8b. Vertical density sensitivity (`high-density/assumptions.csv`)
+Both models already assume racked (vertical) production; the base figure of ~100 lb/week
+per container is conservative. This case uses 5-tier dense racking at ~300 lb/week per
+40 ft container (vendor claims 200–400; verify in a pilot), so 3 containers deliver the
+same ~45,000 lb/yr as 10 low-density containers.
+
+| Case | Capital | Base NPV @8% |
+|---|---|---|
+| 10 containers, low density, $7.00/lb | ~$334k | −$1.03M |
+| 3 containers, high density, $7.00/lb | ~$185k | −$0.90M |
+| 3 containers, high density, price held at $12.50/lb (hypothetical) | ~$185k | −$0.26M |
+
+Reading: density cuts capital per pound roughly in half but does not change the two
+numbers that decide the business, price per pound (set by how much the market absorbs)
+and labor plus substrate per pound (set by manual harvest and packing). Even if 900 lb a
+week could be sold at chef prices, which the Wichita market cannot do, the case stays
+negative because fixed costs (manager, route, site, compliance) sit on a margin of a few
+dollars a pound. Density is worth using in a one- or two-room operation to cut capital;
+it does not make a ten-container operation viable.
+
 ## 9. Staged growth plan
 | Stage | Scope | Capital (base) | Trigger to enter | Trigger to advance |
 |---|---|---|---|---|
