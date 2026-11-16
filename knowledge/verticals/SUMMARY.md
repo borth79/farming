@@ -19,9 +19,12 @@ cases stack every bad factor and are stress tests. All inputs carry "verify" fla
 - Birdseed: price $0.50 → $0.46/lb; bulk floor $0.195 → $0.21/lb (AMS Jamestown KS bid 2026-10-23).
 
 ## Trust constraint (applies to all)
-The land is in a family trust. Processing and retail must run through the operating LLC,
-and any mill room, press, tunnel or stand on trust land needs trustee approval, a lease
-clause covering improvements, and a check on agricultural-use and §2032A status. See
+The land is in a family trust. Default structure for every finished-goods vertical: a
+separate LLC outside the trust buys raw crop from the trust farm at documented market
+prices and processes it in leased or owned space off trust land. Each business plan's
+capital should therefore include facility rent or purchase rather than assume a free farm
+building. Anything built on trust land needs trustee approval, a lease clause covering
+improvements, and a check on agricultural-use and §2032A status. See
 `knowledge/operations/family-trust-constraints.md`.
 
 ## Common disqualifiers

@@ -78,6 +78,40 @@ Record answers here with page references; until filled, treat every item as unkn
 | Procurement prepay and storage contracts | allowed | operator's cash and credit, not the trust's |
 | Selling, buying or exchanging land | depends | trust terms; Kansas corporate farming law for an LLC buyer |
 
+## Default structure for finished goods: an outside processing entity that buys from the trust farm
+Because the trust's terms may prohibit or penalize non-agricultural use of the land, every
+vertical that turns a crop into a finished good (flour, popped sorghum, oil, birdseed
+bagging, mushrooms if grown in a purpose-built facility, spirits, produce retail) is
+planned by default as a separate entity outside the trust that purchases raw crop from the
+trust farm and processes it elsewhere.
+
+| Element | Default | Why |
+|---|---|---|
+| Entity | a separate LLC (family-owned, or with outside partners or investors) that owns no trust land | keeps processing liability, licenses, employees and debt off the land; allows partners without touching the trust |
+| Location | leased commercial or industrial space, an owned non-trust parcel, or a co-packer; trust land only if the trust expressly permits and counsel confirms no §2032A or ag-use valuation harm | preserves the land's agricultural-use status |
+| Transaction | the LLC buys grain, seed, straw or produce from the trust farm at a documented market price plus any quality premium, under a written supply agreement | arm's length; trust income stays agricultural; fair to all beneficiaries |
+| Pricing evidence | local elevator bids or contract benchmarks on the sale date, plus the premium schedule from the crop's spec sheet | defends related-party pricing to the trustee, IRS and beneficiaries |
+| Cash flow | the LLC funds its own capital and working capital; the trust farm is paid on normal terms | no trust capital at risk in processing |
+| Brand | the LLC owns the brand, labels, website and buyer network; it may license the farm name under agreement | the network asset survives changes in the trust |
+| Data | the LLC keeps processing and sales records; the farm keeps field records; both feed this project | audit trail for the post-harvest review |
+
+Advantages: the trust farm gains a reliable premium buyer for identity-preserved crops;
+the processing business can grow, take partners, borrow and fail without touching the
+land; the family keeps the option to sell or spin off the processing business.
+
+Costs and pitfalls: two sets of books and tax returns; related-party pricing must be
+documented every transaction; the LLC pays rent for space the farm might otherwise have
+supplied free; sales between the entities may be taxable events that affect the
+operator's farm-program and insurance reporting; the LLC owning no land means Kansas
+corporate farming law is not triggered, but any later land purchase by it must qualify.
+
+Applies to the verticals as follows: flour, sorghum products, oil and birdseed (processing
+in leased space or an off-trust building, buying grain and seed from the farm); mushrooms
+(grow facility and sales in the LLC, straw bought from the farm); spirits (route A sells
+grain to third-party distilleries; routes B and C sit in the LLC off trust land); produce
+(growing is agriculture and can stay with the farm, retail and value-added through the
+LLC).
+
 ## Recommended structure (to confirm with counsel)
 1. **Operating entity**: a family-owned LLC (or the existing operating entity) farms the
    land under a written lease from the trust. The LLC owns equipment, inventory, prepaid
@@ -88,10 +122,9 @@ Record answers here with page references; until filled, treat every item as unkn
    named structures, a rent basis that a trustee can defend as fair (cash, flexible, or
    crop share benchmarked to Kansas State and KFMA rent surveys), assignment rules, and
    who holds and reports government program payments.
-3. **Verticals**: processing and retail in a second LLC if the trust or §2032A status makes
-   non-agricultural use on trust land risky; site the mill room or press on an owned
-   non-trust parcel, a leased commercial space, or a corner of trust land under a
-   separate commercial lease if permitted.
+3. **Verticals**: processing and retail in a separate LLC that buys from the trust farm and
+   operates off trust land by default (see the section above); on trust land only with
+   express permission and counsel's confirmation.
 4. **Documentation**: trustee resolutions for each lease, improvement and program
    enrollment; annual accounting to beneficiaries; appraisal or survey support for rent.
 5. **Review triggers**: any new structure, lease change, borrowing, program enrollment,
@@ -116,7 +149,8 @@ Record answers here with page references; until filled, treat every item as unkn
    that cites the trust power relied on.
 2. Every transaction between the operator and the trust is priced at a documented market
    rate.
-3. Verticals operate through the LLC, never directly through the trust.
+3. Finished-goods verticals operate through a separate LLC that purchases raw crop from the
+   trust farm at documented market prices and processes off trust land by default.
 4. The compliance officer runs this file's checklist on every new plan element; the
    finance controller confirms capital ownership and payback against the lease term.
 5. Unknown trust terms are treated as prohibitions until read.

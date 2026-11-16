@@ -28,7 +28,9 @@ first accounts are won, sales volume ramp by year.
 Acres required by stage, variety or hybrid requirements, quality specs (protein, oil,
 moisture, mycotoxin), identity preservation, storage, what happens to off-spec grain.
 
-## 5. Process and equipment
+## 5. Process, equipment and location
+Default: processing happens in a separate LLC off trust land (leased or owned space);
+state the facility assumption and its cost. Then: 
 Flow from field to finished product. Equipment list with capacity, price range, new vs
 used, supplier examples, utilities. Automation plan and labor hours per unit output.
 Facility needs (space, floor, power, pest control, food-safety design).
