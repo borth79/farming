@@ -1,0 +1,48 @@
+section,item,value_base,value_adverse,value_favorable,unit,stage,year_start,source,note
+production,acres,3,2,3,acres,1,1,"plan sec. 9","stage 1"
+production,acres,5,2,6,acres,2,2,"plan sec. 9","stage 2 with high tunnel"
+production,acres,8,2,10,acres,3,4,"plan sec. 9","stage 3"
+production,stage_year_2,2,,,stage,,,"plan",
+production,stage_year_4,3,,,stage,,,"plan",
+production,yield_per_acre,9000,6000,12000,lb,,,"estimate, verify: mixed sweet corn, pumpkins, melons, tomatoes, flowers (flowers converted to lb-equivalent)","blended marketable yield"
+production,yield_unit_lb,1,,,lb,,,"",
+production,conversion_pct,100,,,pct,,,"","sold as grown"
+production,byproduct_pct,0,,,pct,,,"",
+price,product_price_per_lb,1.60,1.20,2.00,usd_per_lb,,,"estimate, verify: blended direct price (sweet corn ~$0.75/lb, pumpkins ~$0.50, melons ~$0.60, tomatoes ~$3.00, flowers high)","blend weighted to volume crops"
+price,byproduct_price_per_lb,0,,,usd_per_lb,,,"",
+price,grain_price_per_lb,0,,,usd_per_lb,,,"","land charge entered in operating_fixed instead"
+volume,sales_pct_of_output,65,50,75,pct,,1,"estimate, verify","unsold/spoiled share high in year 1"
+volume,sales_pct_of_output,75,55,85,pct,,2,"estimate, verify",
+volume,sales_pct_of_output,80,60,90,pct,,3,"estimate, verify","CSA and restaurants reduce waste"
+volume,sales_pct_of_output,85,60,90,pct,,4,"estimate, verify",
+volume,sales_pct_of_output,85,60,92,pct,,5,"estimate, verify",
+capital,drip_irrigation_and_pump,6000,9000,4500,usd,1,,"estimate, verify","3 acres"
+capital,plastic_mulch_layer_used,2500,3500,1500,usd,1,,"estimate, verify",
+capital,wash_station_and_totes,3000,4500,2000,usd,1,,"estimate, verify",
+capital,cold_storage_coolbot_room,6000,8000,4000,usd,1,,"estimate, verify",
+capital,market_tent_tables_scales_pos,2500,3000,2000,usd,1,,"estimate, verify",
+capital,small_cultivation_tools,3000,4000,2000,usd,1,,"estimate, verify",
+capital,high_tunnel_30x96,13000,16000,4000,usd,2,,"estimate, verify; favorable assumes NRCS EQIP cost share",
+capital,transplanter_and_bed_shaper_used,5000,7000,3500,usd,2,,"estimate, verify",
+capital,potato_digger_small_used,3500,5000,2500,usd,2,,"estimate, verify",
+capital,delivery_van_share,5000,8000,3000,usd,3,,"estimate, verify; shared with flour vertical",
+capital,additional_drip_and_tunnel,12000,16000,8000,usd,3,,"estimate, verify",
+operating_fixed,market_fees_two_markets,2400,3000,1800,usd_per_year,1,,"estimate, verify: ~$40/Saturday x 30 weeks x 2","verify with market managers"
+operating_fixed,insurance_product_liability_and_wfrp,1800,2500,1200,usd_per_year,1,,"estimate, verify",
+operating_fixed,water_testing_gap_records,600,900,400,usd_per_year,1,,"estimate, verify",
+operating_fixed,land_charge_grain_margin_forgone,900,600,900,usd_per_year,1,,"3 acres x ~$300/acre grain margin; verify from enterprise budgets","replaces grain opportunity cost"
+operating_fixed,land_charge_additional_acres,600,0,900,usd_per_year,2,,"2 more acres x $300",
+operating_fixed,land_charge_stage3,900,0,1500,usd_per_year,3,,"3 more acres x $300",
+operating_fixed,marketing_website_preorder,1200,1500,900,usd_per_year,1,,"estimate, verify",
+operating_fixed,repairs_and_supplies,1500,2000,1000,usd_per_year,1,,"estimate, verify",
+operating_variable,seed_transplants_mulch_drip_tape,0.12,0.15,0.10,usd_per_lb,1,,"estimate, verify","per lb marketable"
+operating_variable,fertilizer_compost_pest_control,0.06,0.08,0.05,usd_per_lb,1,,"estimate, verify",
+operating_variable,labor_grow_harvest_wash,0.55,0.75,0.45,usd_per_lb,1,,"estimate, verify: ~1,200 hr/acre at $18 loaded over 9,000 lb marketable; owner labor counted","dominant cost"
+operating_variable,labor_market_days_and_delivery,0.15,0.20,0.12,usd_per_lb,1,,"estimate, verify",
+operating_variable,packaging_bags_boxes,0.05,0.07,0.04,usd_per_lb,1,,"estimate, verify",
+operating_variable,fuel_and_irrigation_power,0.04,0.06,0.03,usd_per_lb,1,,"estimate, verify",
+financing,discount_rate_pct,8,,,pct,,,"project standard",
+financing,loan_share_pct,0,,,pct,,,"self-funded at this scale",
+financing,loan_rate_pct,8,,,pct,,,"",
+financing,loan_term_years,5,,,years,,,"",
+financing,depreciation_years,7,,,years,,,"",

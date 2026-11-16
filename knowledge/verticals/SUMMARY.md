@@ -10,6 +10,7 @@ cases stack every bad factor and are stress tests. All inputs carry "verify" fla
 | Wheat flour | $110k | −$43k | none in 5 yr | 14 | 3.2 | marginal without bakery stage; pursue only through stage-0 market test |
 | Sunflower oil | $70k (after $19k birdseed stage) | −$100k | none in 5 yr | 38 | 2.6 | only line with real upside but capital and slow cash drag it; restaurant price test first |
 | Birdseed only | $19k | −$36k | none | 126 | 3.0 | learning stage at a loss; justified only as entry to oil |
+| Local produce plots | $23k | −$27k | none in 5 yr | 3 | 3.0 (est.) | pays only if owner summer labor is otherwise idle and stage 2–3 volumes sell; best as retail face for the other verticals |
 
 ## What changed from the first-pass models
 - Wheat: year-5 base acres cut 50 → 40 and sell-through 90 → 75 % (Wichita specialty pool ~300k lb/yr; prior plan took 28 %).
@@ -22,6 +23,12 @@ cases stack every bad factor and are stress tests. All inputs carry "verify" fla
 - Licensed or allergen-free space cannot be built under the stated cap.
 - An established competitor already serving Wichita at or below the plan's price.
 - Crop quality (protein, mycotoxin, popping yield, oil recovery) fails spec two seasons.
+
+## Local produce note
+Three acres of sweet corn, pumpkins, melons, tomatoes and flowers sold at the two Wichita
+markets. Gross per acre is 10–50× grain, but labor is 40–50% of revenue. Its strategic
+value is the customer list and market table that sells flour, popped sorghum, oil and
+birdseed. Stage 0 is attending both markets this winter to count vendors and prices.
 
 ## Order of attack
 1. Sorghum flour pilot (highest score on economics, lowest breakeven acres) — gated on

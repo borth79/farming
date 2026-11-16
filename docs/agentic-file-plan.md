@@ -279,6 +279,8 @@ generated Excel model (`scripts/build_vertical_model.py`).
 - `[~] wheat-flour/` — stone-ground flour, later bakery.
 - `[~] sorghum-flour-and-popped/` — gluten-free sorghum flour and popped sorghum.
 - `[~] sunflower-oil-and-birdseed/` — cold-pressed high-oleic oil; `birdseed-only/` stage 1.
+- `[~] local-produce/` — 1–8 acre direct-market vegetables, melons, pumpkins, flowers for Wichita
+  markets, CSA, restaurants; retail face for the other verticals.
 - `[ ] popcorn/`, `[ ] heritage-wheat/` — candidates from `knowledge/finance/vertical-integration-options.md`.
 
 ---
