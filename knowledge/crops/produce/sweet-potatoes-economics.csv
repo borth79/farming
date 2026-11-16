@@ -1,0 +1,7 @@
+crop,channel,labor_rate_code,acres_stage1,yield_lb_per_acre,price_per_lb,sellthrough_pct,revenue_per_acre,variable_cost_per_acre_excl_labor,labor_hours_per_acre,labor_cost_per_acre,fixed_share_per_acre,net_per_acre,net_per_labor_hour,family_income_per_acre,breakeven_price_per_lb,capital_crop_specific,mechanizable,storable_months,source_file,confidence
+sweet-potatoes,chef_direct,FAMILY,0.5,15000,1.5,65,14625,4430,225,2475,3679,4041,28.96,6516,1.09,5000,partial,8,knowledge/crops/produce/sweet-potatoes.md,low-medium
+sweet-potatoes,chef_direct,HIRED_SEASONAL,0.5,15000,1.5,65,14625,4430,225,4050,3679,2466,28.96,,1.25,5000,partial,8,knowledge/crops/produce/sweet-potatoes.md,low-medium
+sweet-potatoes,grocery_wholesale,FAMILY,0.5,15000,0.8,75,9000,4730,202,2222,3679,-1631,2.93,591,0.94,5000,partial,8,knowledge/crops/produce/sweet-potatoes.md,low-medium
+sweet-potatoes,grocery_wholesale,HIRED_SEASONAL,0.5,15000,0.8,75,9000,4730,202,3636,3679,-3045,2.93,,1.07,5000,partial,8,knowledge/crops/produce/sweet-potatoes.md,low-medium
+sweet-potatoes,market_csa,FAMILY,0.5,15000,2.0,45,13500,5480,340,3740,3679,601,12.77,4341,1.91,5000,partial,8,knowledge/crops/produce/sweet-potatoes.md,low-medium
+sweet-potatoes,market_csa,HIRED_SEASONAL,0.5,15000,2.0,45,13500,5480,340,6120,3679,-1779,12.77,,2.26,5000,partial,8,knowledge/crops/produce/sweet-potatoes.md,low-medium

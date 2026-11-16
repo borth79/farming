@@ -1,0 +1,7 @@
+crop,channel,labor_rate_code,acres_stage1,yield_lb_per_acre,price_per_lb,sellthrough_pct,revenue_per_acre,variable_cost_per_acre_excl_labor,labor_hours_per_acre,labor_cost_per_acre,fixed_share_per_acre,net_per_acre,net_per_labor_hour,family_income_per_acre,breakeven_price_per_lb,capital_crop_specific,mechanizable,storable_months,source_file,confidence
+sweet-corn,chef_direct,FAMILY,1.5,8500,0.78,95,6298,865,96,1056,400,3978,52.4,5034,0.287,1200,partial,0,knowledge/crops/produce/sweet-corn.md,medium-low
+sweet-corn,chef_direct,HIRED_SEASONAL,1.5,8500,0.78,95,6298,865,96,1728,400,3306,52.4,,0.371,1200,partial,0,knowledge/crops/produce/sweet-corn.md,medium-low
+sweet-corn,grocery_wholesale,FAMILY,1.5,8500,0.47,95,3795,915,89,979,400,1501,27.9,2480,0.284,1200,partial,0,knowledge/crops/produce/sweet-corn.md,medium-low
+sweet-corn,grocery_wholesale,HIRED_SEASONAL,1.5,8500,0.47,95,3795,915,89,1602,400,878,27.9,,0.361,1200,partial,0,knowledge/crops/produce/sweet-corn.md,medium-low
+sweet-corn,market_csa,FAMILY,1.5,8500,0.82,85,5924,1125,121,1331,400,3068,36.4,4400,0.395,1200,partial,0,knowledge/crops/produce/sweet-corn.md,medium-low
+sweet-corn,market_csa,HIRED_SEASONAL,1.5,8500,0.82,85,5924,1125,121,2178,400,2222,36.4,,0.513,1200,partial,0,knowledge/crops/produce/sweet-corn.md,medium-low

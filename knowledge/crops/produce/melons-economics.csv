@@ -1,0 +1,7 @@
+crop,channel,labor_rate_code,acres_stage1,yield_lb_per_acre,price_per_lb,sellthrough_pct,revenue_per_acre,variable_cost_per_acre_excl_labor,labor_hours_per_acre,labor_cost_per_acre,fixed_share_per_acre,net_per_acre,net_per_labor_hour,family_income_per_acre,breakeven_price_per_lb,capital_crop_specific,mechanizable,storable_months,source_file,confidence
+melons,chef_direct,FAMILY,0.5,21000,0.95,90,17955,2290,205,2255,450,12960,74.2,15215,0.264,8000,no,0,knowledge/crops/produce/melons.md,low
+melons,chef_direct,HIRED_SEASONAL,0.5,21000,0.95,90,17955,2290,205,3690,450,11525,74.2,,0.340,8000,no,0,knowledge/crops/produce/melons.md,low
+melons,grocery_wholesale,FAMILY,0.5,21000,0.33,95,6584,2430,200,2200,450,1504,18.5,3704,0.255,8000,no,0,knowledge/crops/produce/melons.md,low
+melons,grocery_wholesale,HIRED_SEASONAL,0.5,21000,0.33,95,6584,2430,200,3600,450,104,18.5,,0.325,8000,no,0,knowledge/crops/produce/melons.md,low
+melons,market_csa,FAMILY,0.5,21000,0.70,80,11760,2380,230,2530,450,6400,38.8,8930,0.319,8000,no,0,knowledge/crops/produce/melons.md,low
+melons,market_csa,HIRED_SEASONAL,0.5,21000,0.70,80,11760,2380,230,4140,450,4790,38.8,,0.415,8000,no,0,knowledge/crops/produce/melons.md,low

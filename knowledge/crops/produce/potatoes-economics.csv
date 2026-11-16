@@ -1,0 +1,7 @@
+crop,channel,labor_rate_code,acres_stage1,yield_lb_per_acre,price_per_lb,sellthrough_pct,revenue_per_acre,variable_cost_per_acre_excl_labor,labor_hours_per_acre,labor_cost_per_acre,fixed_share_per_acre,net_per_acre,net_per_labor_hour,family_income_per_acre,breakeven_price_per_lb,capital_crop_specific,mechanizable,storable_months,source_file,confidence
+potatoes,chef_direct,FAMILY,0.75,15000,1.5,65,14625,4910,212,2332,3679,3704,28.47,6036,1.12,7500,partial,6,knowledge/crops/produce/potatoes.md,low-medium
+potatoes,chef_direct,HIRED_SEASONAL,0.75,15000,1.5,65,14625,4910,212,3816,3679,2220,28.47,,1.27,7500,partial,6,knowledge/crops/produce/potatoes.md,low-medium
+potatoes,grocery_wholesale,FAMILY,0.75,15000,0.7,75,7875,5210,187,2057,3679,-3071,-5.42,-1014,0.97,7500,partial,6,knowledge/crops/produce/potatoes.md,low-medium
+potatoes,grocery_wholesale,HIRED_SEASONAL,0.75,15000,0.7,75,7875,5210,187,3366,3679,-4380,-5.42,,1.09,7500,partial,6,knowledge/crops/produce/potatoes.md,low-medium
+potatoes,market_csa,FAMILY,0.75,15000,2.0,45,13500,5960,322,3542,3679,319,11.99,3861,1.95,7500,partial,6,knowledge/crops/produce/potatoes.md,low-medium
+potatoes,market_csa,HIRED_SEASONAL,0.75,15000,2.0,45,13500,5960,322,5796,3679,-1935,11.99,,2.29,7500,partial,6,knowledge/crops/produce/potatoes.md,low-medium

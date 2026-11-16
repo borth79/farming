@@ -1,0 +1,7 @@
+crop,channel,labor_rate_code,acres_stage1,yield_lb_per_acre,price_per_lb,sellthrough_pct,revenue_per_acre,variable_cost_per_acre_excl_labor,labor_hours_per_acre,labor_cost_per_acre,fixed_share_per_acre,net_per_acre,net_per_labor_hour,family_income_per_acre,breakeven_price_per_lb,capital_crop_specific,mechanizable,storable_months,source_file,confidence
+onions-and-garlic,chef_direct,FAMILY,0.75,18667,1.8,66,22033,7793,300,3304,3679,7258,35.17,10561,1.21,7500,partial,7,knowledge/crops/produce/onions-and-garlic.md,low-medium
+onions-and-garlic,chef_direct,HIRED_SEASONAL,0.75,18667,1.8,66,22033,7793,300,5406,3679,5155,35.17,,1.38,7500,partial,7,knowledge/crops/produce/onions-and-garlic.md,low-medium
+onions-and-garlic,grocery_wholesale,FAMILY,0.75,18667,1.07,75,15000,8187,280,3084,3679,51,11.18,3135,1.07,7500,partial,7,knowledge/crops/produce/onions-and-garlic.md,low-medium
+onions-and-garlic,grocery_wholesale,HIRED_SEASONAL,0.75,18667,1.07,75,15000,8187,280,5046,3679,-1911,11.18,,1.21,7500,partial,7,knowledge/crops/produce/onions-and-garlic.md,low-medium
+onions-and-garlic,market_csa,FAMILY,0.75,18667,2.96,46,25125,8993,404,4440,3679,8013,30.85,12453,2.01,7500,partial,7,knowledge/crops/produce/onions-and-garlic.md,low-medium
+onions-and-garlic,market_csa,HIRED_SEASONAL,0.75,18667,2.96,46,25125,8993,404,7266,3679,5187,30.85,,2.35,7500,partial,7,knowledge/crops/produce/onions-and-garlic.md,low-medium

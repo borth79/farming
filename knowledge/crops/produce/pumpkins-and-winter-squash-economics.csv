@@ -1,0 +1,7 @@
+crop,channel,labor_rate_code,acres_stage1,yield_lb_per_acre,price_per_lb,sellthrough_pct,revenue_per_acre,variable_cost_per_acre_excl_labor,labor_hours_per_acre,labor_cost_per_acre,fixed_share_per_acre,net_per_acre,net_per_labor_hour,family_income_per_acre,breakeven_price_per_lb,capital_crop_specific,mechanizable,storable_months,source_file,confidence
+pumpkins-and-winter-squash,chef_direct,FAMILY,2.0,14000,1.00,90,12600,1050,85,935,400,10215,131.2,11150,0.189,1500,partial,3,knowledge/crops/produce/pumpkins-and-winter-squash.md,medium
+pumpkins-and-winter-squash,chef_direct,HIRED_SEASONAL,2.0,14000,1.00,90,12600,1050,85,1530,400,9620,131.2,,0.237,1500,partial,3,knowledge/crops/produce/pumpkins-and-winter-squash.md,medium
+pumpkins-and-winter-squash,grocery_wholesale,FAMILY,2.0,20000,0.35,95,6650,1210,86,946,400,4094,58.6,5040,0.135,1500,partial,3,knowledge/crops/produce/pumpkins-and-winter-squash.md,medium
+pumpkins-and-winter-squash,grocery_wholesale,HIRED_SEASONAL,2.0,20000,0.35,95,6650,1210,86,1548,400,3492,58.6,,0.166,1500,partial,3,knowledge/crops/produce/pumpkins-and-winter-squash.md,medium
+pumpkins-and-winter-squash,market_csa,FAMILY,2.0,20000,0.75,80,12000,1140,110,1210,400,9250,95.1,10460,0.172,1500,partial,3,knowledge/crops/produce/pumpkins-and-winter-squash.md,medium
+pumpkins-and-winter-squash,market_csa,HIRED_SEASONAL,2.0,20000,0.75,80,12000,1140,110,1980,400,8480,95.1,,0.220,1500,partial,3,knowledge/crops/produce/pumpkins-and-winter-squash.md,medium
