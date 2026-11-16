@@ -136,6 +136,8 @@ Mexico as the top buyer of Kansas wheat and corn.
 - `[ ] replacement-and-capital-plan.md` — age and hours triggers, trade cycle, expected
   replacement cost, tax (Section 179 / bonus depreciation) timing.
 - `[ ] precision-ag-and-automation.md` — payback assumptions at 1,000 acres.
+- `[~] produce-harvest-mechanization.md` — which specialty crops tractors and the combine
+  can harvest, implements and used prices, harvest aids, implications for crop choice.
 - `[~] open-source-equipment-software.md` — AgOpenGPS, AgIsoStack++ ISOBUS, farmOS, open
   data formats, right-to-repair status, RTK options; economics and decision rules.
 - `[ ] parts-and-service-supply.md` — dealer access, lead times, tariff exposure.
