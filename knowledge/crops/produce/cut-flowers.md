@@ -364,3 +364,16 @@ adverse case at grocer prices.
 - 2026-11-16: created from web-search summaries; k-state.edu, nass.usda.gov and ccd.uky.edu
   direct fetches blocked; economics rows written to
   `knowledge/crops/produce/cut-flowers-economics.csv`.
+
+## Japanese beetle management note (added 2026-11-18)
+Companion-plant repellents (garlic, chives, rue, tansy, catnip) lack trial evidence of
+protecting adjacent crops; treat as folklore. Geranium (Pelargonium) petals paralyze
+feeding beetles (USDA-ARS) and can serve as a trap-and-kill border; four o'clocks and
+larkspur are toxic to beetles but also to livestock and people. Beetles prefer zinnias,
+sunflowers, roses, grapes, raspberries and silking sweet corn, so a sacrificial zinnia or
+sunflower block 50+ ft from dahlias and premium blooms, hand-collected into soapy water
+in the cool morning, is the practical cultural control; avoid pheromone bag traps near the
+crop. Dependable tools: fine netting over high-value beds during the late June–August
+flight, kaolin clay as a feeding deterrent, neem or azadirachtin for light pressure, Bt
+galleriae for adults and grubs, milky spore or nematodes for grubs in nearby turf;
+pyrethroids only as a last resort and never on open blooms. Verify Kansas labels.
