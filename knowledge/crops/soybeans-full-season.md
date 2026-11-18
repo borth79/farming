@@ -554,3 +554,18 @@ costs (farm build, class B).
 - 2026-10-31: Initial version written from web-search excerpts (PDF access blocked);
   K-State 2026 SC Kansas budget line items recorded; county yield history and several
   threshold values marked verify.
+
+## Japanese beetle (added 2026-11-18)
+Adults emerge from sod late June and fly through August, overlapping R1–R4; they aggregate
+on field edges. Manage by defoliation threshold, not beetle counts: treat at ~30%
+defoliation before bloom and ~20% bloom through pod fill (K-State), counting all
+defoliators together and confirming beetles are still present. Estimate defoliation from
+leaves across the whole canopy and field; growers overestimate skeletonized damage.
+Chemical options: pyrethroids (lambda-cyhalothrin, bifenthrin, zeta-cypermethrin, premixes)
+or carbaryl; border or spot treatment of infested edges is often sufficient; expect
+re-infestation and re-scout in 7–10 days; pyrethroids can flare spider mites in hot dry
+weather. Neonicotinoid seed treatments do not control adults; pheromone traps attract
+beetles into the field; grub control in the soybean field is irrelevant (larvae are in
+nearby turf). Natural enemies (Ovavesicula popilliae, Tiphia wasps) suppress populations
+in long-established areas; Kansas is still expanding, so pressure may rise for several
+years. Verify current thresholds and labels in K-State MF743.
