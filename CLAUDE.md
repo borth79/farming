@@ -34,7 +34,8 @@ Sedgwick County, Kansas (Wichita area), approximately 1,000 owned acres across m
 fields. Irrigation status is undetermined; plans carry dryland and irrigated branches
 until water rights are confirmed per field. Crops in scope: hard red winter wheat, grain
 sorghum, corn, soybeans (full-season and double-crop), alfalfa/forage, sunflower, wheat
-grazing. Cotton and canola are excluded. The land is held in a family trust; any structure,
+grazing. Canola is excluded. Cotton was reopened 2026-11-23 as a commodity candidate (see
+`knowledge/crops/cotton.md`). The land is held in a family trust; any structure,
 lease, loan, water change or new business line passes the checklist in
 `knowledge/operations/family-trust-constraints.md` before commitment. Details and open items live in
 `knowledge/operations/farm-profile.md`; agents must ask rather than assume anything

@@ -37,7 +37,8 @@ Crops grown in the last 3 years and acres of each: TBD.
 
 Crops in scope for planning: hard red winter wheat, grain sorghum, corn, soybeans
 (full-season and double-crop), alfalfa/forage, sunflower, wheat grazing.
-Excluded by operator decision: cotton, canola.
+Excluded by operator decision: canola. Cotton reopened 2026-11-23 as a commodity
+candidate; harvest equipment and gin contract are the gating items.
 
 ## Storage and handling
 - On-farm bin capacity (bu):

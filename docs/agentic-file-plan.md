@@ -13,8 +13,8 @@ Status key: `[ ]` not started · `[~]` drafted (populated but contains items mar
 - Irrigation: undetermined. First task is to establish water-right status per field
   (see `knowledge/water/`). Plans carry dryland and irrigated branches until resolved.
 - Crops in scope: hard red winter wheat, grain sorghum, corn, soybeans (full season and
-  double-crop after wheat), alfalfa/forage, sunflower, wheat grazing. Cotton and canola
-  are excluded.
+  double-crop after wheat), alfalfa/forage, sunflower, wheat grazing. Canola is excluded;
+  cotton reopened 2026-11-23.
 
 Regional drivers that shape every file: hard red winter wheat as the anchor crop, hail
 and severe-storm exposure, recurring drought tied to ENSO state, the Equus Beds aquifer
@@ -74,6 +74,7 @@ Mexico as the top buyer of Kansas wheat and corn.
 - `[~] corn-irrigated.md` — only if water rights confirmed.
 - `[~] soybeans-full-season.md`
 - `[~] soybeans-double-crop.md` — after wheat; separate economics and risk.
+- `[ ] cotton.md` — reopened 2026-11-23: dryland cotton vs sorghum, gins, custom harvest.
 - `[~] sunflower.md`
 - `[~] alfalfa-and-forage.md` — including forage sorghum and hay markets.
 - `[ ] specialty-and-contract-crops.md` — seed wheat, food-grade, identity-preserved.
