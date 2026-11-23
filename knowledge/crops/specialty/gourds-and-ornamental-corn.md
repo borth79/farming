@@ -151,7 +151,7 @@ there rather than a second event.
 | Fall-décor agritourism add-on | in pumpkin file | in pumpkin file | — | retail | Agritourism Act; trustee consent | see pumpkin file |
 
 At the market ceilings (≈ 1.5 ac gourds, 1 ac corn) the whole line could net roughly
-$6,000–8,000/yr at FAMILY rate (sum of a, d, e with raw) — **verify** every price first.
+$9,000/yr at FAMILY rate (bags on 1.5 ac of gourds ≈ $3,300; 1 ac corn with retail bunches and stalk bundles ≈ $5,900) — **verify** every price first.
 
 ## 6. Risks and disqualifiers
 - **Hand labor in September–October**, the farm's busiest months, with no dedicated labor —
