@@ -18,10 +18,13 @@ One row per crop × finished product (include a `raw` row per crop for the basel
 | labor_cost_per_acre_equiv | at FAMILY rate |
 | stage1_capital | USD |
 | fixed_cost_per_year | USD |
-| net_per_acre_equiv | product revenue − variable − labor − raw crop at market value − fixed share; per acre of crop processed |
-| uplift_per_acre_over_raw | net_per_acre_equiv − raw_net_per_acre |
+| net_per_acre_equiv | whole-chain net per acre: raw_net_per_acre + uplift_per_acre_over_raw (farm net from growing plus processing LLC margin) |
+| uplift_per_acre_over_raw | processing LLC margin per acre of crop processed: product revenue − variable − labor − raw crop bought at market value − fixed share |
 | max_acres_by_market | acres the reachable market can absorb |
 | regulatory | license/permit needed |
 | verdict | pursue / test / skip |
 | confidence | high / medium / low |
 | source_file | knowledge/crops/specialty/<crop>.md |
+
+
+Clarified 2026-11-23: uplift is the processing margin after buying the crop at market value; net_per_acre_equiv = raw_net + uplift. Earlier wording double-counted the raw crop.
