@@ -41,6 +41,12 @@ Per labor hour: pumpkins and squash, melons, sweet corn lead and suit a tractor 
 no dedicated labor. Hardneck garlic is the best storable. A 3.5-acre stage-1 portfolio
 returns roughly $50–65k of family income versus about $1,000 as grain.
 
+## Specialty crops and finished products (2026-11-23)
+41 additional crops and 146 finished products ranked in
+`knowledge/crops/specialty/RANKING.md`. Best scalable capital: the planned flour mill and
+one seed cleaning and bagging line. Best perennial: thornless blackberry. Contract crops to
+price first: cowpeas and mung beans. Cotton loses to sorghum on a typical dryland acre.
+
 ## Common disqualifiers
 - Letters of intent below the stated floor volume and price after sampling ~20 accounts.
 - Licensed or allergen-free space cannot be built under the stated cap.
