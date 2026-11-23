@@ -74,7 +74,7 @@ Mexico as the top buyer of Kansas wheat and corn.
 - `[~] corn-irrigated.md` — only if water rights confirmed.
 - `[~] soybeans-full-season.md`
 - `[~] soybeans-double-crop.md` — after wheat; separate economics and risk.
-- `[ ] cotton.md` — reopened 2026-11-23: dryland cotton vs sorghum, gins, custom harvest.
+- `[~] cotton.md` — reopened 2026-11-23: dryland cotton vs sorghum, gins, custom harvest.
 - `[~] sunflower.md`
 - `[~] alfalfa-and-forage.md` — including forage sorghum and hay markets.
 - `[ ] specialty-and-contract-crops.md` — seed wheat, food-grade, identity-preserved.

@@ -16,3 +16,4 @@ Central budget line items, NASS Sedgwick County yield series, RMA dates and pric
 | soybeans-double-crop.md | low |
 | sunflower.md | medium-low |
 | alfalfa-and-forage.md | medium-low |
+| cotton.md (+ cotton-vs-sorghum.csv) | low (added 2026-11-23; cotton reopened as candidate) |
