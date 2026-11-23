@@ -112,6 +112,16 @@ grain to third-party distilleries; routes B and C sit in the LLC off trust land)
 (growing is agriculture and can stay with the farm, retail and value-added through the
 LLC).
 
+## Supply agreement with an independent business (direction set 2026-11-23)
+The trust will not run any finished-goods business. It grows crops under a written supply
+agreement and sells directly to an independently owned business (Aaron's), with no
+middleman. The trust's price must give it at least its best common crop's net per acre
+plus a margin (floor in `knowledge/verticals/aaron-business-and-trust-supply.md`). Price
+options: acreage contract, market plus premium with a floor, or cost plus. The business
+owns equipment, buildings, licenses, liability and debt; the trust extends no credit and
+takes no equity. Because the buyer is a family member or related party, every agreement
+documents market-rate pricing for the trustee's duty of impartiality.
+
 ## Recommended structure (to confirm with counsel)
 1. **Operating entity**: a family-owned LLC (or the existing operating entity) farms the
    land under a written lease from the trust. The LLC owns equipment, inventory, prepaid

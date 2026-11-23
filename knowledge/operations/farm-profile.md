@@ -79,6 +79,7 @@ See `knowledge/machinery/equipment-inventory.md` and `equipment-financing.md`.
 |---|---|---|---|
 | Tony | family member; manages the farming operation; first say on anything that happens on the farm; formal trust title TBD | to be pitched; see `docs/pitch-to-tony.md` | key question: what help is needed outside physical labor |
 | Project owner (user) | future trust member, not a main decision maker; offers AI and technology to improve profitability and find revenue streams for the trust | prepares and presents plans; stakeholders approve with Tony's approval | |
+| Aaron | prospective owner of a finished-goods business that buys directly from the trust farm under a supply agreement | to be confirmed; see `knowledge/verticals/aaron-business-and-trust-supply.md` | relationship to the trust TBD |
 | Other trust stakeholders | approve plans | receive presentations | names and roles TBD |
 
 Decision flow: project prepares → Tony approves → stakeholders approve. No plan proceeds

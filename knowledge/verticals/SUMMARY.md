@@ -47,6 +47,13 @@ returns roughly $50–65k of family income versus about $1,000 as grain.
 one seed cleaning and bagging line. Best perennial: thornless blackberry. Contract crops to
 price first: cowpeas and mung beans. Cotton loses to sorghum on a typical dryland acre.
 
+## Business ownership model (2026-11-23)
+The trust grows and sells directly to Aaron's independently owned business under a supply
+agreement; the trust must earn at least $183/acre (soybeans + 15%). Best concepts: a
+Kansas stone mill (~$71k/yr business net at market ceiling, ~39 trust acres) and a seed and
+feed bagging line (~$53k/yr, ~105 acres, lowest capital). See
+`knowledge/verticals/aaron-business-and-trust-supply.md`.
+
 ## Common disqualifiers
 - Letters of intent below the stated floor volume and price after sampling ~20 accounts.
 - Licensed or allergen-free space cannot be built under the stated cap.
